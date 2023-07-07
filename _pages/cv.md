@@ -13,7 +13,7 @@ Education
 ======
 * M.Eng. in Computer Engineering, King Mongkut’s University of Technology Thonburi, Thailand, 2023
 * B.Eng. in Robotics and Automation Engineering, Institute of Field Robotics, King Mongkut’s University of Technology Thonburi, Thailand, 2020
-  * Completed with 1st Class Honors (CGPA: 3.60/4.00)
+  * Completed with 1st Class Honors
 
 Work experience
 ======
