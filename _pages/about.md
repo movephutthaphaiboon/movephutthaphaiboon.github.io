@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Thunchanok Phutthaphaiboon is a freshly graduated master's degree student from the Department of Computer Engineering at King Mongkut's University of Technology Thonburi (KMUTT), Thailand. With a strong interest in social and environmental issues, she uses her skills in programming and data science to advocate for causes such as climate change. Her master's thesis is focused on developing forecasting techniques for Arctic sea ice, a topic that is particularly meaningful to her as she is dedicated to protecting the environment. She is determined to continue her personal and professional growth in order to make a positive impact on the global community.
+My name is Thunchanok Phutthaphaiboon; People call me Move. I am freshly graduated master's degree student from the Department of Computer Engineering at King Mongkut's University of Technology Thonburi (KMUTT), Thailand. With a strong interest in social and environmental issues, I use my skills in programming and data science to advocate for causes such as climate change. My master's thesis is focused on developing forecasting techniques for Arctic sea ice, a topic that is particularly meaningful to me as I am dedicated to protecting the environment and determined to continue my personal and professional growth in order to make a positive impact on the global community.
 
 A data-driven personal website
 ======
