@@ -16,4 +16,4 @@ Due to global warming, Arctic sea ice is now declining, and this loss is a self-
 
 [Download paper here](https://doi.org/10.1145/3589883.3589901)
 
-Recommended citation: Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. &quot;Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks&quot;. <i>In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT '23)</i>. Association for Computing Machinery, New York, NY, USA, 121–126. https://doi.org/10.1145/3589883.3589901
+Recommended citation: Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. &quot;Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks&quot;. <i>In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT '23)</i>. Association for Computing Machinery, New York, NY, USA, 121–126. [https://doi.org/10.1145/3589883.3589901](https://doi.org/10.1145/3589883.3589901)
