@@ -1,13 +1,12 @@
 ---
 title: "Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks"
 collection: publications
-permalink: /publication/2023-06-27-forecasting-arctic-sea-ice-concentration-icmlt
+permalink: /publication/2023-06-27-forecasting-arctic-sea-ice-concentration-icmlt2023
 excerpt: 'This study proposes two Long short-term memory (LSTM) networks for sea ice concentration (SIC) forecasting in the arctic area over 1-, 3-, 6-, and 9-month forecast horizons. The first network forecasts the SIC of each grid in a single output with the grid coordinate must be supplied as an additional input, while the second network forecasts the SIC of all grids at once in a single output.'
 date: 2023-06-27
-venue: 'Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT '23)'
+venue: 'Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT 2023)'
 paperurl: 'https://doi.org/10.1145/3589883.3589901'
-citation: 'Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. &quot;Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks&quot;. <i>In Proceedings of the 2023 8th 
-International Conference on Machine Learning Technologies (ICMLT '23)</i>. Association for Computing Machinery, New York, NY, USA, 121–126. https://doi.org/10.1145/3589883.3589901'
+citation: 'Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks. In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT 2023). Association for Computing Machinery, New York, NY, USA, 121–126. https://doi.org/10.1145/3589883.3589901'
 
 ---
 
