@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.Eng. in Computer Engineering, King Mongkut’s University of Technology Thonburi, Thailand, 2023
+* B.Eng. in Robotics and Automation Engineering, Institute of Field Robotics, King Mongkut’s University of Technology Thonburi, Thailand, 2020
 
 Work experience
 ======
