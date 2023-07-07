@@ -52,6 +52,19 @@ Work experience
   * TEDxKMUTT, Thailand
   * Duties included: Designing the main stage for TEDxKMUTT talks under the concept 'Man in the Mirror'; Curating the content for a speaker on the topic of bio-inspired robotics and artificial intelligence.
 
+Awards and Achievements
+======
+* Awarded full tuition fee waiver and 240,000 THB for costs of living during the 2-year master’s program from Junior Science Talent Project Scholarship, 2020-2022
+* Awarded 144,000 THB for cost of living from Junior Science Talent Project Scholarship, 2017-2020
+* Awarded full tuition fee waiver and 192,000 THB for costs of living during the 4-year bachelor’s program from Petchra Pra Jom Klao Scholarship – the highest scholarship given by King Mongkut’s University of Technology Thonburi to the student with excellent academic performance, 2016-2020
+* Awarded 2019 Thai University Students to Exchange to Taiwanese Universities Scholarship given by Thailand Friends of Taiwan Charity Foundation, 2019
+* Awarded Taiwan Experience Education Program Scholarship given by the International Affairs Office of National Formosa University, Taiwan, 2019
+* Awarded Enhancing Student Mobility Scholarship given by the International Affairs office of King Mongkut’s University of Technology Thonburi to the student who does research aboard, 2019
+* Selected as a long-term scholarship student in the Junior Science Talent Project organized by the National Science and Technology Development Agency, Thailand, from outstandingly completing the 1-year research on the topic “The Development of Artificial Emotion for Adaptable Robots”, 2017
+* Awarded full tuition and accommodation fee waiver during the 3-year boarding high school program from Science Classrooms in University-Affiliated School Project Scholarship given by the Ministry of Higher Education, Science, Research, and Innovation, Thailand, 2012-2015
+* Won the 2nd Prize for Oral Presentation in the field of Technology and Computers in 5th Science Classrooms in University-Affiliated School Forum, Thailand, on the topic “Mobile Robot Control using Leap Motion and Head Tracking”, 2014
+* Selected as a participant in the 2nd round of the Computer Olympiad Camp set up by the Promotion of Academic Olympiad and Development of Science Education Foundation, Thailand, 2012
+
 Skills
 ======
 * Languages: Thai (Native), English (Proficient; IELTS Academic - 7.5/9.0)
