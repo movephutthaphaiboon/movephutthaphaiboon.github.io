@@ -15,6 +15,14 @@ Education
 * B.Eng. in <span style="color: #8b2130;">Robotics and Automation Engineering</span>, Institute of Field Robotics, King Mongkut’s University of Technology Thonburi, Thailand, 2020
   * Completed with 1st Class Honors
 
+Skills
+======
+* Languages: Thai (Native), English (Proficient; IELTS Academic - 7.5/9.0)
+* Programming: C, Python
+* Data science: Data preparation, data visualization, statistical analysis, data modeling, optimization, time series analysis, machine learning, pattern recognition, image processing, object detection
+* Tools: MS Office, Power BI, Tableau, Google Colaboratory, Jupyter, Rapid Miner, MATLAB, V-REP, Solidworks, Fusion 360, Adobe Xd
+* Other skills: Self-learning, project management, collaboration, service design, participatory design, digital prototyping, usability testing
+
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -64,14 +72,6 @@ Awards and Achievements
 * Awarded full tuition and accommodation fee waiver during the 3-year boarding high school program from <span style="color: #8b2130;">Science Classrooms in University-Affiliated School Project Scholarship</span> given by the Ministry of Higher Education, Science, Research, and Innovation, Thailand, 2012-2015
 * Won the 2nd Prize for Oral Presentation in the field of Technology and Computers in <span style="color: #8b2130;">5th Science Classrooms in University-Affiliated School Forum</span>, Thailand, on the topic “Mobile Robot Control using Leap Motion and Head Tracking”, 2014
 * Selected as a participant in the <span style="color: #8b2130;">2nd regional round of the Computer Olympiad Camp</span> set up by the Promotion of Academic Olympiad and Development of Science Education Foundation, Thailand, 2012
-
-Skills
-======
-* Languages: Thai (Native), English (Proficient; IELTS Academic - 7.5/9.0)
-* Programming: C, Python
-* Data science: Data preparation, data visualization, statistical analysis, data modeling, optimization, time series analysis, machine learning, pattern recognition, image processing, object detection
-* Tools: MS Office, Power BI, Tableau, Google Colaboratory, Jupyter, Rapid Miner, MATLAB, V-REP, Solidworks, Fusion 360, Adobe Xd
-* Other skills: Self-learning, project management, collaboration, service design, participatory design, digital prototyping, usability testing
 
 Service and leadership
 ======
