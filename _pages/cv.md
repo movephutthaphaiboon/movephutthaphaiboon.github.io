@@ -62,13 +62,20 @@ Skills
 
 Service and leadership
 ======
-* Feb 2023: Chana Gyotaku
-  * 
+* July 2023: Workshop Instructor
+  * Workshop: Participatory Mapping and Community Database Design
+  * Duties included: Training youths from 5 communes about data literacy and community data management; Consulting final projects.
+  * Partners: Prince of Songkla University (Pattani Campus), Thailand
 
-* Oct 2022: Community Talk Event Organizer
+* Feb 2023: Event Organizer
+  * Topic: Chana Gyotaku
+  * Duties included: Planning and organizing the event that aimed to connect people from local and urban areas through arts and painting.
+  * Partners: Chana Rak Thin Community, Songkhla and Thailand Creative & Design Center, Bangkok, Thailand
+
+* Oct 2022: Event Organizer
   * Topic: How will Songkhla's people cope with the coming heavy industrail district?
-  * Duties included: Planning and bringing together people from different disciplines in the area affected from the establishing of heavy industry.
-  * Partner: Songkhla National Museum
+  * Duties included: Planning and bringing together people from different disciplines in the area affected from the establishing of heavy industry to talk about problems and possible solutions.
+  * Partner: Songkhla National Museum, Thailand
 
 
 
