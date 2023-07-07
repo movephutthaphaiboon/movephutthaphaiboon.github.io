@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* M.Eng. in Computer Engineering, King Mongkut’s University of Technology Thonburi, Thailand, 2023
-* B.Eng. in Robotics and Automation Engineering, Institute of Field Robotics, King Mongkut’s University of Technology Thonburi, Thailand, 2020
+* M.Eng. in <span style="color: #f78166;">Computer Engineering</span>, King Mongkut’s University of Technology Thonburi, Thailand, 2023
+* B.Eng. in <span style="color: #8b2130;">Robotics and Automation Engineering</span>, Institute of Field Robotics, King Mongkut’s University of Technology Thonburi, Thailand, 2020
   * Completed with 1st Class Honors
 
 Publications
