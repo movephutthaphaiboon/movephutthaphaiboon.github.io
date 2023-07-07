@@ -6,7 +6,7 @@ excerpt: 'This study proposes two Long short-term memory (LSTM) networks for sea
 date: 2023-06-27
 venue: 'Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT 2023)'
 paperurl: 'https://doi.org/10.1145/3589883.3589901'
-citation: 'Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks. In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT 2023). Association for Computing Machinery, New York, NY, USA, 121–126.'
+citation: 'Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks. In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT 2023). Association for Computing Machinery, New York, NY, USA, 121–126. [https://doi.org/10.1145/3589883.3589901](https://doi.org/10.1145/3589883.3589901).'
 
 ---
 
@@ -16,4 +16,4 @@ Due to global warming, Arctic sea ice is now declining, and this loss is a self-
 
 [Download paper here](https://doi.org/10.1145/3589883.3589901)
 
-Recommended citation: Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. &quot;Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks&quot;. <i>In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT '23)</i>. Association for Computing Machinery, New York, NY, USA, 121–126. [https://doi.org/10.1145/3589883.3589901](https://doi.org/10.1145/3589883.3589901) .
+Recommended citation: Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. &quot;Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks&quot;. <i>In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT '23)</i>. Association for Computing Machinery, New York, NY, USA, 121–126. [https://doi.org/10.1145/3589883.3589901](https://doi.org/10.1145/3589883.3589901).
