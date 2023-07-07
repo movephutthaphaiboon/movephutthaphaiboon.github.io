@@ -6,7 +6,7 @@ excerpt: 'This study proposes two Long short-term memory (LSTM) networks for sea
 date: 2023-06-27
 venue: 'Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT 2023)'
 paperurl: 'https://doi.org/10.1145/3589883.3589901'
-citation: 'Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks. In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT 2023). Association for Computing Machinery, New York, NY, USA, 121–126.'
+citation: 'Phutthaphaiboon, T., Siripongwutikorn, P. and Pusawiro, P., 2023, "Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks", 2023 International Conference on Machine Learning Technologies, 8th, March 10–12, 2023, Stockholm, Sweden, pp. 121–126.'
 
 ---
 
@@ -17,5 +17,5 @@ Due to global warming, Arctic sea ice is now declining, and this loss is a self-
 [Download paper here](http://movephutthaphaiboon.github.io/files/icmlt2023-18.pdf)
 
 <!---
-Recommended citation: Thunchanok Phutthaphaiboon, Peerapon Siripongwutikorn, and Priyakorn Pusawiro. 2023. &quot;Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks&quot;. <i>In Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT '23)</i>. Association for Computing Machinery, New York, NY, USA, 121–126. [https://doi.org/10.1145/3589883.3589901](https://doi.org/10.1145/3589883.3589901).
+Recommended citation: Phutthaphaiboon, T., Siripongwutikorn, P. and Pusawiro, P., 2023, "Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks", 2023 International Conference on Machine Learning Technologies, 8th, March 10–12, 2023, Stockholm, Sweden, pp. 121–126. [https://doi.org/10.1145/3589883.3589901](https://doi.org/10.1145/3589883.3589901).
 --->
