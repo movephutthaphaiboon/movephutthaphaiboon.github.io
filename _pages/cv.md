@@ -23,15 +23,15 @@ Publications
 
 Work experience
 ======
-* Sep 2022 - present: <span style="color: #4e6d8a;">Data Analyst and Co-founder</span>
+* Sep 2022 - present: <span style="color: #386cb0;">Data Analyst and Co-founder</span>
   * Around the Room Studio Co., Ltd., Thailand
   * Duties included: Creating data visualization and analysis as part of local community development projects; Designing a community open data system to support transparency and good governance in Thailand.
 
-* Aug 2020 - present: <span style="color: #4e6d8a;">Technology Researcher and Content Writer</span>
+* Aug 2020 - present: <span style="color: #325793;">Technology Researcher and Content Writer</span>
   * Digital Picnic Co., Ltd., Thailand
   * Duties included: Researching trends and technology used in the creative technology industry, such as AR, VR, and motion capture; Writing articles regarding creative technology to promote the company's services.
 
-* Jun 2021 - Jun 2023: <span style="color: #4e6d8a;">Graduate Student Researcher</span>
+* Jun 2021 - Jun 2023: <span style="color: #339ecc;">Graduate Student Researcher</span>
   * King Mongkut’s University of Technology Thonburi, Thailand
   * Research topic: Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks
   * Duties included: Developing machine learning models for forecasting Arctic sea ice concentration; Analyzing and interpreting results of forecasting experiments; Writing research papers for publication.
