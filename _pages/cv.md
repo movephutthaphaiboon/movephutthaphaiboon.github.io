@@ -23,7 +23,7 @@ Publications
 
 Work experience
 ======
-* Sep 2022 - present: Data Analyst and Co-founder
+* Sep 2022 - present: <span style="color: #8b2130;">Data Analyst and Co-founder</span>
   * Around the Room Studio Co., Ltd., Thailand
   * Duties included: Creating data visualization and analysis as part of local community development projects; Designing a community open data system to support transparency and good governance in Thailand.
 
