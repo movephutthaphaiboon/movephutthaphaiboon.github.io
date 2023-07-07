@@ -82,12 +82,12 @@ Service and leadership
 
 * Feb 2023: <span style="color: #8b2130;">Workshop Organizer</span>
   * Topic: Chana Gyotaku Workshop
-  * Duties included: Planning and organizing the event that aimed to connect people from local and urban areas through arts and painting.
+  * Duties included: Planning and organizing the event that aimed to connect people from local and urban areas through arts and painting of sea life and to illustrate the importance of natural resources.
   * Partners: Chana Rak Thin Community, Songkhla and Thailand Creative & Design Center, Bangkok, Thailand
 
 * Oct 2022: <span style="color: #8b2130;">Talk Event Organizer</span>
   * Topic: How will Songkhla's people cope with the coming heavy industrial district?
-  * Duties included: Planning and bringing together people from different disciplines in the area affected from the establishing of heavy industry to talk about problems and possible solutions.
+  * Duties included: Planning and bringing together people from different disciplines in the area affected from the establishing of heavy industry to talk about problems and finding possible solutions to conserve the environment.
   * Partner: Songkhla National Museum, Thailand
 
 <!---
