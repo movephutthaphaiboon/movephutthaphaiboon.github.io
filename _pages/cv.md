@@ -73,7 +73,7 @@ Awards and Achievements
 * Won the 2nd Prize for Oral Presentation in the field of Technology and Computers in <span style="color: #8b2130;">5th Science Classrooms in University-Affiliated School Forum</span>, Thailand, on the topic “Mobile Robot Control using Leap Motion and Head Tracking”, 2014
 * Selected as a participant in the <span style="color: #8b2130;">2nd regional round of the Computer Olympiad Camp</span> set up by the Promotion of Academic Olympiad and Development of Science Education Foundation, Thailand, 2012
 
-Service and leadership
+Services and leadership
 ======
 * July 2023: <span style="color: #8b2130;">Workshop Instructor</span>
   * Topic: Participatory Mapping and Community Database Design Workshop
