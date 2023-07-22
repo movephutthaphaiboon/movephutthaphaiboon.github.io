@@ -2,7 +2,7 @@
 title: 'A Year with Around the Room Studio: Empowering Communities, Building Bridges'
 date: 2023-07-22
 permalink: /posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/
-excerpt: "<img src='/images/500x400 thumbnail - around the room logo.png' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
+excerpt: "<img src='/images/500x400 thumbnail - around the room team.jpg' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
 tags:
   - Social Enterprise
   - Community
