@@ -15,7 +15,7 @@ I still remember the day when a funding organizer approached us, encouraging us 
 
 We had our apprehensions at first because I was working on my master's thesis and a part-time job at a tech startup company, and my friends were also employed. Yet, we couldn't shake the feeling that we had an opportunity to make a meaningful difference. Empowering local communities might seem like a small idea, but the potential impact was massive. So, we took the leap, setting up our team and committing to a 600-mile commute from Bangkok to Songkhla to meet the community every month.
 
-In our journey so far, we've held one talk, one event, and three workshops, and we're gearing up for a community festival soon. With the support of our funders, Hand Socialenterprise and CG Fund, we've empowered the community through training programs and global awareness campaigns, demonstrating that this community is the front guard protecting our shared natural resources. Our works and collaborations have broadened our network, fueling our drive to create more impact in the future.
+In our journey so far, we've held one talk, one event, and three workshops, and we're gearing up for a community festival soon. With the support of our funders, Hand Social Enterprise and CG Fund, we've empowered the community through training programs and global awareness campaigns, demonstrating that this community is the front guard protecting our shared natural resources. Our works and collaborations have broadened our network, fueling our drive to create more impact in the future.
 
 (photos)
 
