@@ -7,7 +7,7 @@ tags:
   - Social Enterprise
   - Community
 ---
-<img src="/images/1920x1080 in_post - around the room team.png" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1920x1080 in_post - around the room team.jpg" width="90%" style="display: block; margin: auto;" />
 
 A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called **Around the Room Studio**. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate.
 
