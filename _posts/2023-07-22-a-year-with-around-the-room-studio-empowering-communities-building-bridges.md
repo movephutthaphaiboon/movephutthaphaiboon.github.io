@@ -17,7 +17,12 @@ We had our apprehensions at first because I was working on my master's thesis an
 
 In our journey so far, we've held one talk, one event, and three workshops, and we're gearing up for a community festival soon. With the support of our funders, Hand Social Enterprise and CG Fund, we've empowered the community through training programs and global awareness campaigns, demonstrating that this community is the front guard protecting our shared natural resources. Our works and collaborations have broadened our network, fueling our drive to create more impact in the future.
 
-(photos)
+Here are some of our works with the communities.
+<img src="/images/1920x1080 in_post - songkhla talk collage.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1920x1080 in_post - gyotaku group photo.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1920x1080 in_post - chana art street collage.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1920x1080 in_post - community database collage.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1920x1080 in_post - product development collage.jpg" width="90%" style="display: block; margin: auto;" />
 
 The first year of this journey, though full of challenges, has reaffirmed my desire to work in this field. I've seen firsthand how my skills can improve the quality of life for local communities, bridging the gap between funders and those who benefit from their support. It's rewarding to help people enhance their skills and better their villages.
 
