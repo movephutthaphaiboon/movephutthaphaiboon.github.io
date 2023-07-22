@@ -1,7 +1,7 @@
 ---
 title: 'Documentary Review: Breaking Boundaries'
 date: 2021-06-19
-permalink: /posts/2021/06/blog-post-4/
+permalink: /posts/2021/06/documentary-review-breaking-boundaries/
 excerpt: "<img src='/images/500x400 thumbnail - post04.jpg' width='200' height='160' align='right' hspace='20'>I’ve just watched a new Netflix documentary, Breaking Boundaries: The Science of Our Planet. This film is an insightful summary which answers what I have been curious about. It however made me realize my journey in the past year learning CLIMATE CHANGE. I tried to find ways to tackle climate change as an individual. I read books, watched science documentaries, and listened to climate conversations. The more I research, the more I know that an individual power is very little, ..."
 tags:
   - Documentary
