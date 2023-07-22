@@ -2,24 +2,23 @@
 title: 'A Year with Around the Room Studio: Empowering Communities, Building Bridges'
 date: 2023-07-22
 permalink: /posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/
-excerpt: "<img src='/images/500x400 thumbnail - post04.jpg' width='200' height='160' align='right' hspace='20'>I’ve just watched a new Netflix documentary, Breaking Boundaries: The Science of Our Planet. This film is an insightful summary which answers what I have been curious about. It however made me realize my journey in the past year learning CLIMATE CHANGE. I tried to find ways to tackle climate change as an individual. I read books, watched science documentaries, and listened to climate conversations. The more I research, the more I know that an individual power is very little, ..."
+excerpt: "<img src='/images/500x400 thumbnail - around the room logo.png' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
 tags:
   - Social Enterprise
   - Community
 ---
 
-<img src="/images/1920x1080 in_post - post04.jpg" width="90%" style="display: block; margin: auto;" />
+A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate.
 
-I’ve just watched a new Netflix documentary, Breaking Boundaries: The Science of Our Planet. This film is an insightful summary which answers what I have been curious about. It however made me realize my journey in the past year learning CLIMATE CHANGE.
+I still remember the day when a funding organizer approached us, encouraging us to propose an idea to empower this community. He assured us that if our proposal could promote good governance at the local level, he would be more than willing to support us financially.
 
-I tried to find ways to tackle climate change as an individual. I read books, watched science documentaries, and listened to climate conversations. The more I research, the more I know that an individual power is very little, whereas the real shift must be made collectively.
+We had our apprehensions at first. I was juggling my master's thesis and a part-time job at a tech startup company, and my friends were also employed. Yet, we couldn't shake the feeling that we had an opportunity to make a meaningful difference. Empowering local communities might seem like a small idea, but the potential impact was massive. So, we took the leap, setting up our team and committing to a 600-mile commute from Bangkok to Songkhla to meet the community every month.
 
-It has taken me many years to connect the dots as to climate change and other relevant issues, so I know how difficult it is to make a person feel responsible for environmental problems. Hence, it isn’t surprising that there are so many people who still don’t care or don’t start contributing anything to save our planet.
+In our journey so far, we've held one talk, one event, and three workshops, and we're gearing up for a community festival soon. With the support of our funders, Hand Socialenterprise and CG Fund, we've empowered the community through training programs and global awareness campaigns, demonstrating that this community is the front guard protecting our shared natural resources. Our works and collaborations have broadened our network, fueling our drive to create more impact in the future.
 
-However, I’m not going to tell you that the climate problems are hard and it’s okay if you don’t pay attention to them because your normal lifestyle without considering the impact on our earth is no longer an option. All aftereffects from our harmful activities on earth are clearly depicted in the Breaking Boundaries film. This wake up call is telling us that we’re going beyond the planetary boundaries which will result in collapsed civilization, frequent droughts and floods, food shortages, no clean air to breathe, and even no home to live in.
+(photos)
 
-Do you think we can live in such a broken world?
+The first year of this journey, though full of challenges, has reaffirmed my desire to work in this field. I've seen firsthand how my skills can improve the quality of life for local communities, bridging the gap between funders and those who benefit from their support. It's rewarding to help people enhance their skills and better their villages.
 
-I don’t think so and I’d like to encourage all my friends to start thinking about our planet and our future. You can begin your planetary steward journey by watching this film and internalizing the fact, so you’ll get some ideas about why we are at risk. I also want you to try to be open and to adopt new ways of living that help us save lives and humanity. We still have a chance.
+I've learned a lot over the past year, but there's still more to know. I want to delve deeper into sustainable development, sustainable management, and impact assessment methodologies. This knowledge will help us evaluate the work we're doing more effectively. As I reflect on our first year, I'm even more motivated to pursue this profession and contribute meaningfully to society.
 
-[Watch Breaking Boundaries on Netflix](https://www.netflix.com/th-en/title/81336476)
