@@ -20,7 +20,7 @@ Another thing I'm particularly fond of is education. I love helping people devel
 
 I'm looking forward to exploring how technology and sustainability can work together, and how they can create meaningful change.
 
-Thanks for dropping by my site. I hope you enjoy exploring my work, my passions, and my journey!
+Thanks for dropping by my site. I hope you enjoy exploring my work, my passions, and my journey [here](https://movephutthaphaiboon.github.io/year-archive/)!
 
 <!---
 A data-driven personal website
