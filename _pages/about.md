@@ -8,7 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-My name is Thunchanok Phutthaphaiboon; People call me Move. I am a freshly graduated master's degree student from the Department of Computer Engineering at King Mongkut's University of Technology Thonburi (KMUTT), Thailand. With a strong interest in social and environmental issues, I use my skills in programming and data science to advocate for causes such as climate change. My master's thesis is focused on developing forecasting techniques for Arctic sea ice, a topic that is particularly meaningful to me as I am dedicated to protecting the environment and determined to continue my personal and professional growth in order to make a positive impact on the global community.
+Hello! I'm Thunchanok Phutthaphaiboon. You can call me Move. I'm a tech enthusiast with a deep interest in sustainability and community empowerment.
+
+I started my academic journey with a bachelor's degree in Robotics and Automation Engineering, and I was lucky enough to graduate with 1st-class honors. From there, I dove into the world of Computer Engineering for my master's degree, focusing on data analytics and data science.
+
+Now, you might think I'd head straight into a typical tech career, but that's not quite my style. I'm passionate about using my tech skills to make a difference. I care a lot about environmental conservation, community development, and issues related to governance.
+
+That's why I co-founded [Around the Room Studio]([url](https://www.facebook.com/aroundtheroomstudio/)) with a couple of brilliant architect friends. We use our combined knowledge to help local communities overcome challenges with the help of technology. Our approach involves working closely with these communities, and our work has taken us to projects related to the environment, natural resource conservation, and skill development.
+
+One thing I'm particularly fond of is education. I love helping people develop their skills and knowledge through workshops and training sessions. I believe that with the right technical skills, we can strengthen our local communities in Thailand, helping them stand against injustice.
+
+Next year, I'll be starting a study program in Industrial Ecology. I'm looking forward to exploring how technology and sustainability can work together, and how they can create meaningful change.
+
+Thanks for dropping by my site. I hope you enjoy exploring my work, my passions, and my journey!
 
 <!---
 A data-driven personal website
