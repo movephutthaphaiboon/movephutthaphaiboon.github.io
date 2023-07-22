@@ -21,6 +21,7 @@ Here are some of our works with the communities.
 
 <img src="/images/1920x1080 in_post - songkhla talk collage.jpg" width="90%" style="display: block; margin: auto;" />
 ***<p style="text-align: center;">Text with basic formatting applied</p>***
+<p style="text-align: right;">Text_content</p>
 
 <img src="/images/1920x1080 in_post - gyotaku group photo.jpg" width="90%" style="display: block; margin: auto;" />
 
