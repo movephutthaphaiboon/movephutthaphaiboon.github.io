@@ -1,7 +1,7 @@
 ---
 title: 'MOOC Review: Ecosystem Dynamics and Conservation'
 date: 2021-05-30
-permalink: /posts/2021/05/blog-post-3/
+permalink: /posts/2021/05/mooc-review-ecosystem-dynamics-and-conservation/
 excerpt: "<img src='/images/500x400 thumbnail - post03.jpg' width='200' height='160' align='right' hspace='20'>“To tackle a very big problem, like climate change, we need to understand things systematically and fundamentally.” It just came into my mind after thinking about this huge problem.Today I’ve collected a dot as to ecology and learnt how it connects to other areas. My first expectation of learning ecology was that I wanted to understand the climate change problem through the lens of ecologists. I hoped to get into the roots of environmental issues and to acquire new knowledge that ..."
 tags:
   - Learning
