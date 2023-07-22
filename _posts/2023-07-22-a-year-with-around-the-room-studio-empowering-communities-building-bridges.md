@@ -1,10 +1,11 @@
 ---
-title: 'Documentary Review: Breaking Boundaries'
-date: 2021-06-19
-permalink: /posts/2021/06/documentary-review-breaking-boundaries/
+title: 'A Year with Around the Room Studio: Empowering Communities, Building Bridges'
+date: 2023-07-22
+permalink: /posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/
 excerpt: "<img src='/images/500x400 thumbnail - post04.jpg' width='200' height='160' align='right' hspace='20'>I’ve just watched a new Netflix documentary, Breaking Boundaries: The Science of Our Planet. This film is an insightful summary which answers what I have been curious about. It however made me realize my journey in the past year learning CLIMATE CHANGE. I tried to find ways to tackle climate change as an individual. I read books, watched science documentaries, and listened to climate conversations. The more I research, the more I know that an individual power is very little, ..."
 tags:
-  - Documentary
+  - Social Enterprise
+  - Community
 ---
 
 <img src="/images/1920x1080 in_post - post04.jpg" width="90%" style="display: block; margin: auto;" />
