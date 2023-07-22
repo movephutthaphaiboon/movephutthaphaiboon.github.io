@@ -20,7 +20,7 @@ In our journey so far, we've held one talk, one event, and three workshops, and 
 Here are some of our works with the communities.
 
 <img src="/images/1920x1080 in_post - songkhla talk collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Public discussion on 'How will Songkhla’s people cope with the coming heavy industrial district?' on October 23, 2022</em></p>
+<p style="text-align: center;"><em>Public discussion 'How will Songkhla’s people cope with the coming heavy industrial district?' on October 23, 2022</em></p>
 
 <img src="/images/1920x1080 in_post - gyotaku group photo.jpg" width="90%" style="display: block; margin: auto;" />
 <p style="text-align: center;"><em>Chana Gyotaku Workshop on February 5, 2023</em></p>
