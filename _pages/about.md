@@ -14,7 +14,7 @@ I started my academic journey with a bachelor's degree in Robotics and Automatio
 
 Now, you might think I'd head straight into a typical tech career, but that's not quite my style. I'm passionate about using my tech skills to make a difference. I care a lot about environmental conservation, community development, and issues related to governance.
 
-That's why I co-founded [Around the Room Studio](https://www.facebook.com/aroundtheroomstudio/) with a couple of brilliant architect friends. We use our combined knowledge to help local communities overcome challenges with the help of technology. Our approach involves working closely with these communities, and our work has taken us to projects related to the environment, natural resource conservation, and skill development.
+That's why I co-founded [Around the Room Studio](https://movephutthaphaiboon.github.io/posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/) with a couple of brilliant architect friends. We use our combined knowledge to help local communities overcome challenges with the help of technology. Our approach involves working closely with these communities, and our work has taken us to projects related to the environment, natural resource conservation, and skill development.
 
 Another thing I'm particularly fond of is education. I love helping people develop their skills and knowledge through workshops and training sessions. I believe that with the right technical skills, we can strengthen our local communities in Thailand, helping them stand against injustice.
 
