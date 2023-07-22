@@ -20,15 +20,19 @@ In our journey so far, we've held one talk, one event, and three workshops, and 
 Here are some of our works with the communities.
 
 <img src="/images/1920x1080 in_post - songkhla talk collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;">*Public discussion on 'How will Songkhla’s people cope with the coming heavy industrial district?' on October 23, 2022*</p>
+<p style="text-align: center;"><em>Public discussion on 'How will Songkhla’s people cope with the coming heavy industrial district?' on October 23, 2022</em></p>
 
 <img src="/images/1920x1080 in_post - gyotaku group photo.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Chana Gyotaku Workshop on February 5, 2023</em></p>
 
 <img src="/images/1920x1080 in_post - chana art street collage.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Chana Art Street on June 10, 2023</em></p>
 
 <img src="/images/1920x1080 in_post - community database collage.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Participatory Mapping & Community Database Design Workshop on July 15, 2023</em></p>
 
 <img src="/images/1920x1080 in_post - product development collage.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Product Development Workshop on July 16, 2023</em></p>
 
 The first year of this journey, though full of challenges, has reaffirmed my desire to work in this field. I've seen firsthand how my skills can improve the quality of life for local communities, bridging the gap between funders and those who benefit from their support. It's rewarding to help people enhance their skills and better their villages.
 
