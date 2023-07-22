@@ -16,10 +16,9 @@ Now, you might think I'd head straight into a typical tech career, but that's no
 
 That's why I co-founded [Around the Room Studio]([url](https://www.facebook.com/aroundtheroomstudio/)) with a couple of brilliant architect friends. We use our combined knowledge to help local communities overcome challenges with the help of technology. Our approach involves working closely with these communities, and our work has taken us to projects related to the environment, natural resource conservation, and skill development.
 
-One thing I'm particularly fond of is education. I love helping people develop their skills and knowledge through workshops and training sessions. I believe that with the right technical skills, we can strengthen our local communities in Thailand, helping them stand against injustice.
+Another thing I'm particularly fond of is education. I love helping people develop their skills and knowledge through workshops and training sessions. I believe that with the right technical skills, we can strengthen our local communities in Thailand, helping them stand against injustice.
 
-Next year, I'll be starting a study program in Industrial Ecology. I'm looking forward to exploring how technology and sustainability can work together, and how they can create meaningful change.
-
+I'm looking forward to exploring how technology and sustainability can work together, and how they can create meaningful change.
 Thanks for dropping by my site. I hope you enjoy exploring my work, my passions, and my journey!
 
 <!---
