@@ -7,8 +7,9 @@ tags:
   - Social Enterprise
   - Community
 ---
+<img src="/images/1920x1080 in_post - around the room team.png" width="90%" style="display: block; margin: auto;" />
 
-A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate.
+A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called **Around the Room Studio**. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate.
 
 I still remember the day when a funding organizer approached us, encouraging us to propose an idea to empower this community. He assured us that if our proposal could promote good governance at the local level, he would be more than willing to support us financially.
 
@@ -21,4 +22,6 @@ In our journey so far, we've held one talk, one event, and three workshops, and 
 The first year of this journey, though full of challenges, has reaffirmed my desire to work in this field. I've seen firsthand how my skills can improve the quality of life for local communities, bridging the gap between funders and those who benefit from their support. It's rewarding to help people enhance their skills and better their villages.
 
 I've learned a lot over the past year, but there's still more to know. I want to delve deeper into sustainable development, sustainable management, and impact assessment methodologies. This knowledge will help us evaluate the work we're doing more effectively. As I reflect on our first year, I'm even more motivated to pursue this profession and contribute meaningfully to society.
+
+Follow our team on [Facebook](https://www.facebook.com/aroundtheroomstudio)
 
