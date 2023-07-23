@@ -18,8 +18,6 @@ That's why I co-founded [Around the Room Studio](https://movephutthaphaiboon.git
 
 Another thing I'm particularly fond of is education. I love helping people develop their skills and knowledge through workshops and training sessions. I believe that with the right technical skills, we can strengthen our local communities in Thailand, helping them stand against injustice.
 
-I'm looking forward to exploring how technology and sustainability can work together, and how they can create meaningful change.
-
 Thanks for dropping by my site. I hope you enjoy exploring my work, my passions, and my journey [here](https://movephutthaphaiboon.github.io/year-archive/)!
 
 <!---
