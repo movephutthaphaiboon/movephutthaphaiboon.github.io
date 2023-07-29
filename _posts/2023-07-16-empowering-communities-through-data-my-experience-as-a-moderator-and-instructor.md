@@ -1,8 +1,8 @@
 ---
-title: 'Empowering Communities through Data: My Experience as a First-Time Moderator and Instructor'
+title: 'Empowering Communities through Data: My Experience as a Moderator and Instructor'
 date: 2023-07-16
-permalink: /posts/2023/07/empowering-communities-through-data-my-experience-as-a-first-time-moderator-and-instructor/
-excerpt: "<img src='/images/500x400 thumbnail - data workshop moderator.jpg' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
+permalink: /posts/2023/07/empowering-communities-through-data-my-experience-as-a-moderator-and-instructor/
+excerpt: "<img src='/images/500x400 thumbnail - data workshop moderator.jpg' width='200' height='160' align='right' hspace='20'>Recently, I had the privilege of acting as a moderator and instructor for a workshop titled “Participatory Mapping & Community Database Design”. The workshop was hosted by my team, Around the Room Studio, at Prince of Songkhla University - Pattani Campus. Participants represented five different communes from the provinces in southern Thailand, including Songkhla, Pattani, and Yala. The interests of the participants were varied and deeply connected to their local ..."
 tags:
   - Social Enterprise
   - Community
