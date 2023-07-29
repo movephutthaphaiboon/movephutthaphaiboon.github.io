@@ -13,7 +13,11 @@ Recently, I had the privilege of acting as a moderator and instructor for a work
 
 This was my maiden venture into hosting a discussion forum. Even though we held it in a private setting and there were only 40 participants, I found myself wrestling with nerves. This morning session was dedicated to discussing the role of data in community development and the importance of fostering data literacy at a grassroots level. We were joined by a local regional journalist from Thai PBS, representatives from the Chana-Rak-Thin community, a researcher specializing in Strategic Environmental Assessment (SEA), and one of our team members, a community architect with invaluable field experience. Our diverse group of speakers illustrated the power of data and its implications for the preservation of natural resources and community self-sustainability.
 
-<img src="/images/1920x1080 in_post - songkhla talk collage.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1920x1080 in_post - atr data workshop moderators.jpg" width="90%" style="display: block; margin: auto;" />
+
+<img src="/images/1920x1080 in_post - atr data workshop speakers.jpg" width="90%" style="display: block; margin: auto;" />
+
+<img src="/images/1920x1080 in_post - atr data workshop discussion vibes.jpg" width="90%" style="display: block; margin: auto;" />
 
 The discussion flowed smoothly with active participation from our attendees, sparking meaningful dialogue, and shedding light on the challenges they were facing. For a first-time moderator, I walked away with invaluable insights from the power of active listening and effective communication.
 
