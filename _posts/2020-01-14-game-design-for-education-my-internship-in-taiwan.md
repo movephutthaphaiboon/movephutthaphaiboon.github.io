@@ -50,7 +50,7 @@ The initial test at YLCMCC’s Annual Festival in September 2019 gave us a lot o
 Taking this into consideration, we went back to the drawing board and redesigned the game as well as the testing process. We chose to selectively test our revised prototype with a group of 50 children with a specific age range and a fair gender distribution. The refined testing process included both pre-test and post-test evaluations to effectively measure the improvement in their English vocabulary.
 
 <img src="/images/1920x1080 in_post - shapes&colors 9.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Shapes & Colors Prototype Testing II at NFU Maker Space on November 20, 2019; watch the VIDEO here</em></p>
+<p style="text-align: center;"><em>Shapes & Colors Prototype Testing II at NFU Maker Space on November 20, 2019; watch the [VIDEO](https://youtu.be/guOUznh62qU) here</em></p>
 
 The focus on user experiences was paramount. Every design decision, every iteration was grounded in how it would affect the children’s learning experience. It was this user-centric design approach that enabled us to perfect our game, making Shapes & Colors not just educational, but truly engaging for the children.
 
