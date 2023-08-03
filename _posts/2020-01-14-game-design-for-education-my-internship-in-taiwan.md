@@ -1,7 +1,7 @@
 ---
 title: 'Game Design for Education: My Internship in Taiwan'
 date: 2020-01-14
-permalink: /posts/2023/07/game-design-for-education-my-internship-in-taiwan/
+permalink: /posts/2020/01/game-design-for-education-my-internship-in-taiwan/
 excerpt: "<img src='/images/500x400 thumbnail - 1920x1080 in_post - shapes&colors.jpg' width='200' height='160' align='right' hspace='20'>In the heart of Yunlin County, Taiwan, lies a bustling hub of innovation and learning: NFU Cross-disciplinary Innovation Maker Space at National Formosa University (NFU). It was there, from June to December 2019, where I had an opportunity to develop an interactive game for the Yunlin County Magistrate’s Children Club (YLCMCC). My adventure was filled with its own set of trials, triumphs, and learning curves, all contributing to a profound experience. ..."
 tags:
   - Design Thinking
