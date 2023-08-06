@@ -100,10 +100,10 @@ Certifications
   * [Credential URL](https://drive.google.com/file/d/1ilXwW-26z5y4crq6TYRaWPGlJP0WRnIM/view?usp=sharing)
 * Jan 2022: <span style="color: #8b2130;">Data Science for Business Innovation</span>
   * Issuing organization: EIT Digital via Coursera
-  * [Credential URL](https://www.coursera.org/account/accomplishments/certificate/TYNPUCJMCQNJ)
+  * [Credential URL](https://www.coursera.org/account/accomplishments/verify/TYNPUCJMCQNJ)
 * Aug 2021: <span style="color: #8b2130;">Forecasting Skills: See the Future Before it Happens</span>
   * Issuing organization: Institute for the Future via Coursera
-  * [Credential URL](https://www.coursera.org/account/accomplishments/certificate/WU5QQDBKS4GZ)
+  * [Credential URL](https://www.coursera.org/account/accomplishments/verify/WU5QQDBKS4GZ)
 * Jun 2021: <span style="color: #8b2130;">Becoming a changemaker: Introduction to Social Innovation</span>
   * Issuing organization: University of Cape Town via Coursera
   * [Credential URL](https://www.coursera.org/account/accomplishments/verify/SPPLKKW22XWF)
