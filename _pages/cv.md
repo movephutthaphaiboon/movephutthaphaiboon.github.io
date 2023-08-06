@@ -29,7 +29,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Work experience
+Work Experience
 ======
 * Sep 2022 - present: <span style="color: #8b2130;">Data Analyst and Co-founder</span>
   * Around the Room Studio Co., Ltd., Thailand
@@ -73,9 +73,9 @@ Awards and Achievements
 * Won the 2nd Prize for Oral Presentation in the field of Technology and Computers in <span style="color: #8b2130;">5th Science Classrooms in University-Affiliated School Forum</span>, Thailand, on the topic “Mobile Robot Control using Leap Motion and Head Tracking”, 2014
 * Selected as a participant in the <span style="color: #8b2130;">2nd regional round of the Computer Olympiad Camp</span> set up by the Promotion of Academic Olympiad and Development of Science Education Foundation, Thailand, 2012
 
-Services and leadership
+Services and Leadership
 ======
-* July 2023: <span style="color: #8b2130;">Workshop Instructor</span>
+* Jul 2023: <span style="color: #8b2130;">Workshop Instructor</span>
   * Topic: Participatory Mapping and Community Database Design Workshop
   * Duties included: Training youths from 5 communes about data literacy and community data management; Consulting final projects.
   * Partners: Prince of Songkla University (Pattani Campus), Thailand
@@ -90,16 +90,16 @@ Services and leadership
   * Duties included: Planning and bringing together people from different disciplines in the area affected from the establishing of heavy industry to talk about problems and finding possible solutions to conserve the environment.
   * Partner: Songkhla National Museum, Thailand
 
-<!---
-Talks
+Certifications
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
---->
+* Jul 2022: Idea Pools for YESGI
+  * Issuing organization: School of Changemakers
+  * [Credential URL](https://drive.google.com/file/d/1prkl4GLqplenIQgOAbf8UfVbBMLJ6vru/view?usp=sharing)
+* May 2022: Community Listening in Design
+  * Issuing organization: Creative Economy Agency
+  * [Credential URL](https://drive.google.com/file/d/1ilXwW-26z5y4crq6TYRaWPGlJP0WRnIM/view?usp=sharing)
+* Jan 2022: Data Science for Business Innovation
+  * 
+
+
+
