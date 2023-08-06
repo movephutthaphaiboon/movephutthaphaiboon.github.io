@@ -92,14 +92,27 @@ Services and Leadership
 
 Certifications
 ======
-* Jul 2022: Idea Pools for YESGI
+* Jul 2022: <span style="color: #8b2130;">Idea Pools for YESGI</span>
   * Issuing organization: School of Changemakers
   * [Credential URL](https://drive.google.com/file/d/1prkl4GLqplenIQgOAbf8UfVbBMLJ6vru/view?usp=sharing)
-* May 2022: Community Listening in Design
+* May 2022: <span style="color: #8b2130;">Community Listening in Design</span>
   * Issuing organization: Creative Economy Agency
   * [Credential URL](https://drive.google.com/file/d/1ilXwW-26z5y4crq6TYRaWPGlJP0WRnIM/view?usp=sharing)
-* Jan 2022: Data Science for Business Innovation
-  * 
+* Jan 2022: <span style="color: #8b2130;">Data Science for Business Innovation</span>
+  * Issuing organization: EIT Digital via Coursera
+  * [Credential URL](https://www.coursera.org/account/accomplishments/certificate/TYNPUCJMCQNJ)
+* Aug 2021: <span style="color: #8b2130;">Forecasting Skills: See the Future Before it Happens</span>
+  * Issuing organization: Institute for the Future via Coursera
+  * [Credential URL](https://www.coursera.org/account/accomplishments/certificate/WU5QQDBKS4GZ)
+* Jun 2021: <span style="color: #8b2130;">Becoming a changemaker: Introduction to Social Innovation</span>
+  * Issuing organization: University of Cape Town via Coursera
+  * [Credential URL](https://www.coursera.org/account/accomplishments/verify/SPPLKKW22XWF)
+* May 2021: <span style="color: #8b2130;">Ecology: Ecosystem Dynamics and Conservation</span>
+  * Issuing organization: American Museum of Natural History via Coursera
+  * [Credential URL](https://coursera.org/share/efa86087a3c0974e19c44c250b20dbd9)
+* Jan 2021: <span style="color: #8b2130;">Digital Skills: Digital Marketing</span>
+  * Issuing organization: Accenture via Future Learn
+  * [Credential URL](https://www.futurelearn.com/certificates/pgk1ynq)
 
 
 
