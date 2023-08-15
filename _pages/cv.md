@@ -62,13 +62,12 @@ Work Experience
 
 Awards and Achievements
 ======
-* Awarded full tuition fee waiver and 240,000 THB for costs of living during the 2-year master’s program from <span style="color: #8b2130;">Junior Science Talent Project Scholarship</span>, 2020-2022
-* Awarded 144,000 THB for cost of living from <span style="color: #8b2130;">Junior Science Talent Project Scholarship</span>, 2017-2020
-* Awarded full tuition fee waiver and 192,000 THB for costs of living during the 4-year bachelor’s program from <span style="color: #8b2130;">Petchra Pra Jom Klao Scholarship</span> – the highest scholarship given by King Mongkut’s University of Technology Thonburi to the student with excellent academic performance, 2016-2020
+* Awarded full tuition fee waiver and costs of living during the 2-year master’s program from <span style="color: #8b2130;">Junior Science Talent Project Scholarship</span>, 2020-2022
+* Awarded full tuition fee waiver and costs of living during the 4-year bachelor’s program from <span style="color: #8b2130;">Petchra Pra Jom Klao Scholarship</span> – the highest scholarship given by King Mongkut’s University of Technology Thonburi to the student with excellent academic performance, 2016-2020
 * Awarded <span style="color: #8b2130;">2019 Thai University Students to Exchange to Taiwanese Universities Scholarship</span> given by Thailand Friends of Taiwan Charity Foundation, 2019
-* Awarded <span style="color: #8b2130;">Taiwan Experience Education Program Scholarship</span> given by the International Affairs Office of National Formosa University, Taiwan, 2019
-* Awarded <span style="color: #8b2130;">Enhancing Student Mobility Scholarship</span> given by the International Affairs office of King Mongkut’s University of Technology Thonburi to the student who does research aboard, 2019
-* Selected as a long-term scholarship student in the <span style="color: #8b2130;">Junior Science Talent Project</span> organized by the National Science and Technology Development Agency, Thailand, from outstandingly completing the 1-year research on the topic “The Development of Artificial Emotion for Adaptable Robots”, 2017
+* Awarded <span style="color: #8b2130;">Taiwan Experience Education Program Scholarship</span> given by National Formosa University, Taiwan, 2019
+* Awarded <span style="color: #8b2130;">Enhancing Student Mobility Scholarship</span> given by the International Affairs office of King Mongkut’s University of Technology Thonburi to support students doing internship aboard, 2019
+* Selected as a long-term science youth in the <span style="color: #8b2130;">Junior Science Talent Project</span> organized by the National Science and Technology Development Agency, Thailand, from outstandingly completing the 1-year research on the topic “The Development of Artificial Emotion for Adaptable Robots”, 2017
 * Awarded full tuition and accommodation fee waiver during the 3-year boarding high school program from <span style="color: #8b2130;">Science Classrooms in University-Affiliated School Project Scholarship</span> given by the Ministry of Higher Education, Science, Research, and Innovation, Thailand, 2012-2015
 * Won the 2nd Prize for Oral Presentation in the field of Technology and Computers in <span style="color: #8b2130;">5th Science Classrooms in University-Affiliated School Forum</span>, Thailand, on the topic “Mobile Robot Control using Leap Motion and Head Tracking”, 2014
 * Selected as a participant in the <span style="color: #8b2130;">2nd regional round of the Computer Olympiad Camp</span> set up by the Promotion of Academic Olympiad and Development of Science Education Foundation, Thailand, 2012
