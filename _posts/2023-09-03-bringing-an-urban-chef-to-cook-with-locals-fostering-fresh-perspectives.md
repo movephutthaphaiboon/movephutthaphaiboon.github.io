@@ -2,7 +2,7 @@
 title: 'Bringing an Urban Chef to Cook with Locals: Fostering Fresh Perspectives'
 date: 2023-09-03
 permalink: /posts/2023/09/bringing-an-urban-chef-to-cook-with-locals-fostering-fresh-perspectives/
-excerpt: "<img src='/images/500x400 thumbnail - ah boi mha.jpg' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
+excerpt: "<img src='/images/500x400 thumbnail - ah boi mha.jpg' width='200' height='160' align='right' hspace='20'>In early September, my team and I from Around the Room Studio went to Chana district in Songkhla, where we participated in and organized a cooking showcase at the annual boat racing festival known as Ah-Boi-Mha. It was the 9th edition of the festival. A one-day long event held at Suan-Gong beach. The festival's core mission was to celebrate the abundant sea ofChana through a variety of activities. One of the festival’s highlights was the fishing boat racing, a mesmerizing spectacle that demonstrates ..."
 tags:
   - Social Enterprise
   - Community
