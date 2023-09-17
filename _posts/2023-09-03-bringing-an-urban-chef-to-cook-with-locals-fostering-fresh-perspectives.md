@@ -2,14 +2,14 @@
 title: 'Bringing an Urban Chef to Cook with Locals: Fostering Fresh Perspectives'
 date: 2023-09-03
 permalink: /posts/2023/09/bringing-an-urban-chef-to-cook-with-locals-fostering-fresh-perspectives/
-excerpt: "<img src='/images/500x400 thumbnail - ah boi mha.jpg' width='200' height='160' align='right' hspace='20'>In early September, my team and I from Around the Room Studio went to Chana district in Songkhla, where we participated in and organized a cooking showcase at the annual boat racing festival known as Ah-Boi-Mha. It was the 9th edition of the festival. A one-day long event held at Suan-Gong beach. The festival's core mission was to celebrate the abundant sea ofChana through a variety of activities. One of the festival’s highlights was the fishing boat racing, a mesmerizing spectacle that demonstrates ..."
+excerpt: "<img src='/images/500x400 thumbnail - ah boi mha.jpg' width='200' height='160' align='right' hspace='20'>In early September, my team and I from Around the Room Studio went to Chana district in Songkhla, where we participated in and organized a cooking showcase at the annual boat racing festival known as Ah-Boi-Mha. It was the 9th edition of the festival. A one-day long event held at Suan-Gong beach. The festival's core mission was to celebrate the abundant sea of Chana through a variety of activities. One of the festival’s highlights was the fishing boat racing, a mesmerizing spectacle that demonstrates ..."
 tags:
   - Social Enterprise
   - Community
 ---
 <img src="/images/1920x1080 in_post - ah boi mha 1.jpg" width="90%" style="display: block; margin: auto;" />
 
-In early September, my team and I from Around the Room Studio went to Chana district in Songkhla, where we participated in and organized a cooking showcase at the annual boat racing festival known as Ah-Boi-Mha. It was the 9th edition of the festival. A one-day long event held at Suan-Gong beach. The festival's core mission was to celebrate the abundant sea ofChana through a variety of activities.
+In early September, my team and I from Around the Room Studio went to Chana district in Songkhla, where we participated in and organized a cooking showcase at the annual boat racing festival known as Ah-Boi-Mha. It was the 9th edition of the festival. A one-day long event held at Suan-Gong beach. The festival's core mission was to celebrate the abundant sea of Chana through a variety of activities.
 
 One of the festival’s highlights was the fishing boat racing, a mesmerizing spectacle that demonstrates the beauty of nature-made beaches and reflects the traditional livelihoods of fishermen. This activity showcased the perfect layers of sand that allow boat drivers to elegantly dock their boats on the beach. It’s a testament to the deep connection between the people and their coastal environment.
 
