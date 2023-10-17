@@ -20,7 +20,7 @@ As a moderator of the event, I witnessed the fruition of a journey that started 
 ## Diverse Databases, Unified Purpose
 
 <img src="/images/2023-10-community-database-showcase-08_03.png" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>11 community databases from our trained participants | Explore the databases via <a href="[url](https://openlink.co/aroundtheroomstudio)">this link</a></em></p>
+<p style="text-align: center;"><em>11 community databases from our trained participants | Explore the databases via <a href="https://openlink.co/aroundtheroomstudio">this link</a></em></p>
 
 The databases, although diverse, were united in purpose—to empower each community by harnessing the power of data. The 11 databases presented in the first session of the event were as varied as the communities themselves, from providing in-depth information on the environmental and societal impacts of megaprojects to preserving vital community-related data, falling into four distinct categories:
 
