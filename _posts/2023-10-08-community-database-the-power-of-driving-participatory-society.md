@@ -45,6 +45,24 @@ The databases, although diverse, were united in purpose—to empower each commun
 
 ## Inspiring Presentations & Forward-looking Discussions
 
+<img src="/images/2023-10-community-database-showcase-08_04.png" width="90%" style="display: block; margin: auto;" />
+<img src="/images/2023-10-community-database-showcase-08_05.png" width="90%" style="display: block; margin: auto;" />
+
+11 Communities, each allotted a 5-minute slot, articulated their community narratives and database utility with heartfelt sincerity and commendable preparation, reflecting their empowered selves.
+
+<img src="/images/2023-10-community-database-showcase-08_06.png" width="90%" style="display: block; margin: auto;" />
+
+In addition to the community database presentations, the event was further enriched by the insight of six esteemed guests—spanning a politician, an artist, a media expert, scientists, and community leaders renowned for leveraging data against injustice. Their inspirational dialogue offered our 11 teams a lens into the myriad possibilities of using their data to benefit their communities.
+
+## A Tangible Showcase
+
+<img src="/images/2023-10-community-database-showcase-08_07.png" width="90%" style="display: block; margin: auto;" />
+<img src="/images/2023-10-community-database-showcase-08_08.png" width="90%" style="display: block; margin: auto;" />
+
+Beyond the presentations and insightful discussions, we wanted attendees to immerse themselves further into the essence of each community. To achieve this, a mini exhibition was curated, allowing each team to profoundly showcase local products or notable achievements. The display was tactile, interactive, and deeply personal. For instance, the group that delved into sea salt farming didn’t just narrate their findings – they let the visitors taste it. With four distinct types of salt on display, attendees could savor the nuanced differences, providing  flavor-filled insight into the meticulousness of salt farming. Such tangible experiences enhanced the event, offering a deeper, sensory connection to each community’s pride and efforts.
+
+
+
 
 
 
