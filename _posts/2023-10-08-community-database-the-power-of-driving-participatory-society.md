@@ -1,42 +1,55 @@
 ---
-title: 'A Year with Around the Room Studio: Empowering Communities, Building Bridges'
-date: 2023-07-22
-permalink: /posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/
-excerpt: "<img src='/images/500x400 thumbnail - around the room team.jpg' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
+title: 'Community Database: The Power of Driving Participatory Society'
+date: 2023-10-08
+permalink: /posts/2023/10/community-database-the-power-of-driving-participatory-society/
+excerpt: "<img src='/images/500x400 thumbnail - around the room team.jpg' width='200' height='160' align='right' hspace='20'>On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— “Community Database: The Power of Driving Participatory Society”. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering. ..."
 tags:
   - Social Enterprise
   - Community
+  - Tech for Good
 ---
-<img src="/images/1920x1080 in_post - around the room team.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/2023-10-community-database-showcase-08_01.png" width="90%" style="display: block; margin: auto;" />
 
-A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called **Around the Room Studio**. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate.
+On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— “Community Database: The Power of Driving Participatory Society”. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering.
 
-I still remember the day when a funding organizer approached us, encouraging us to propose an idea to empower this community. He assured us that if our proposal could promote good governance at the local level, he would be more than willing to support us financially.
+<img src="/images/2023-10-community-database-showcase-08_02.png" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Watch the recorded live stream on Facebook [here](https://www.facebook.com/aroundtheroomstudio/videos/254277920502955)</em></p>
 
-We had our apprehensions at first because I was working on my master's thesis and a part-time job at a tech startup company, and my friends were also employed. Yet, we couldn't shake the feeling that we had an opportunity to make a meaningful difference. Empowering local communities might seem like a small idea, but the potential impact was massive. So, we took the leap, setting up our team and committing to a 600-mile commute from Bangkok to Songkhla to meet the community every month.
+As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled “Participatory Mapping & Community Database Design”, a journey that involved 11 communities in southern Thailand and seamlessly blended three generations of workshop participants across training sessions held on July 15th, August 20th, and September 29th-30th.
 
-In our journey so far, we've held one talk, one event, and three workshops, and we're gearing up for a community festival soon. With the support of our funders, Hand Social Enterprise and CG Fund, we've empowered the community through training programs and global awareness campaigns, demonstrating that this community is the front guard protecting our shared natural resources. Our works and collaborations have broadened our network, fueling our drive to create more impact in the future.
+## Diverse Databases, Unified Purpose
 
-Here are some of our works with the communities.
+<img src="/images/2023-10-community-database-showcase-08_03.png" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>11 community databases from our trained participants | Explore the databases via [this link](https://openlink.co/aroundtheroomstudio)</em></p>
 
-<img src="/images/1920x1080 in_post - songkhla talk collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Public discussion 'How will Songkhla’s people cope with the coming heavy industrial district?' on October 23, 2022</em></p>
+The databases, although diverse, were united in purpose—to empower each community by harnessing the power of data. The 11 databases presented in the first session of the event were as varied as the communities themselves, from providing in-depth information on the environmental and societal impacts of megaprojects to preserving vital community-related data, falling into four distinct categories:
 
-<img src="/images/1920x1080 in_post - gyotaku group photo.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Chana Gyotaku Workshop on February 5, 2023</em></p>
+  1. Databases of Investigative Studies into Governmental Megaprojects
+      * Thepha Coal-Fired Power Plant Project
+      * Pak Bara Deep Seaport Project
+      * Chumphon-Ranong Land Bridge Project
 
-<img src="/images/1920x1080 in_post - chana art street collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Chana Art Street on June 10, 2023</em></p>
+  2. Databases of Pattani Local Intellect
+      * Pattani Salt Farming
+      * Rice Farming Field Restoration
 
-<img src="/images/1920x1080 in_post - community database collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Participatory Mapping & Community Database Design Workshop on July 15, 2023</em></p>
+  3. Databases of Environmental Conservation Networks
+      * PSU Pattani’s Natural Resource Conservation Club
+      * The Patani Resource
+      * Green South Foundation
 
-<img src="/images/1920x1080 in_post - product development collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Product Development Workshop on July 16, 2023</em></p>
+  4. Databases of Local Communities
+      * Troping Village
+      * Nam Bo Village
+      * Chana District
 
-The first year of this journey, though full of challenges, has reaffirmed my desire to work in this field. I've seen firsthand how my skills can improve the quality of life for local communities, bridging the gap between funders and those who benefit from their support. It's rewarding to help people enhance their skills and better their villages.
+## Inspiring Presentations & Forward-looking Discussions
 
-I've learned a lot over the past year, but there's still more to know. I want to delve deeper into sustainable development, sustainable management, and impact assessment methodologies. This knowledge will help us evaluate the work we're doing more effectively. As I reflect on our first year, I'm even more motivated to pursue this profession and contribute meaningfully to society.
+
+
+
+
+
 
 Follow our team on [Facebook](https://www.facebook.com/aroundtheroomstudio)
 
