@@ -10,7 +10,7 @@ tags:
 ---
 <img src="/images/2023-10-community-database-showcase-08_01.png" width="90%" style="display: block; margin: auto;" />
 
-On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— “Community Database: The Power of Driving Participatory Society”. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering.
+On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— **“Community Database: The Power of Driving Participatory Society”**. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering.
 
 <img src="/images/2023-10-community-database-showcase-08_02.png" width="90%" style="display: block; margin: auto;" />
 <p style="text-align: center;"><em>Watch the recorded live stream on Facebook <a href="https://www.facebook.com/aroundtheroomstudio/videos/254277920502955">here</a></em></p>
