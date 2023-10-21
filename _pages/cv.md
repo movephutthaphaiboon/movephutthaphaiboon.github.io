@@ -15,12 +15,12 @@ redirect_from:
   * Completed with 1st Class Honors
 
 ## Skills
-* Languages: Thai (Native), English (Proficient; IELTS Academic - 7.5/9.0)
-* Programming Languages: C, Python, MATLAB
-* Data Science: Data Preparation, Data Visualization, Statistical Analysis, Time-series Analysis, Data Modeling, Optimization, Machine Learning
-* Robotics and Automation: Image Processing, Object Detection
-* Tools: MS Office, Power BI, Tableau, Google Colaboratory, Jupyter, Rapid Miner, MATLAB, V-REP, Solidworks, Fusion 360, Adobe Xd
-* Other skills: Self-learning, Project Management, Collaboration, Service Design, Participatory Design, Digital Prototyping, Usability Testing, Experimental Design
+* **Languages**: Thai (Native), English (Proficient; IELTS Academic - 7.5/9.0)
+* **Programming** Languages: C, Python, MATLAB
+* **Data Science**: Data Preparation, Data Visualization, Statistical Analysis, Time-series Analysis, Data Modeling, Optimization, Machine Learning
+* **Robotics and Automation**: Image Processing, Object Detection
+* **Tools**: MS Office, Power BI, Tableau, Google Colaboratory, Jupyter, Rapid Miner, MATLAB, V-REP, Solidworks, Fusion 360, Adobe Xd, Notion
+* **Other Skills**: Self-learning, Project Management, Collaboration, Training, Service Design, Participatory Design, Digital Prototyping, Usability Testing, Experimental Design
 
 ## Publications
   <ul>{% for post in site.publications %}
