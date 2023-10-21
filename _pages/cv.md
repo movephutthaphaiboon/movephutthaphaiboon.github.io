@@ -16,10 +16,11 @@ redirect_from:
 
 ## Skills
 * Languages: Thai (Native), English (Proficient; IELTS Academic - 7.5/9.0)
-* Programming: C, Python
-* Data science: Data preparation, data visualization, statistical analysis, data modeling, optimization, time series analysis, machine learning, pattern recognition, image processing, object detection
+* Programming Languages: C, Python, MATLAB
+* Data Science: Data Preparation, Data Visualization, Statistical Analysis, Time-series Analysis, Data Modeling, Optimization, Machine Learning
+* Robotics and Automation: Image Processing, Object Detection
 * Tools: MS Office, Power BI, Tableau, Google Colaboratory, Jupyter, Rapid Miner, MATLAB, V-REP, Solidworks, Fusion 360, Adobe Xd
-* Other skills: Self-learning, project management, collaboration, service design, participatory design, digital prototyping, usability testing
+* Other skills: Self-learning, Project Management, Collaboration, Service Design, Participatory Design, Digital Prototyping, Usability Testing, Experimental Design
 
 ## Publications
   <ul>{% for post in site.publications %}
@@ -84,6 +85,9 @@ redirect_from:
   * Partner: Songkhla National Museum, Thailand
 
 ## Certifications
+* Aug 2023: <span style="color: #8b2130;">SDGi001: Measuring Sustainable Development</span>
+  * Issuing organization: SDG Academy
+  * [Credential URL](https://courses.edx.org/certificates/3322101828ea4f9b998c557dec74218c?_gl=1*cgbp6s*_ga*MTc5NjAxMTY1Mi4xNjkxMzQxOTIx*_ga_D3KS4KMDT0*MTY5MTY4MTk3NC4xNi4xLjE2OTE2ODU3OTUuNjAuMC4w)
 * Jul 2022: <span style="color: #8b2130;">Idea Pools for YESGI</span>
   * Issuing organization: School of Changemakers
   * [Credential URL](https://drive.google.com/file/d/1prkl4GLqplenIQgOAbf8UfVbBMLJ6vru/view?usp=sharing)
