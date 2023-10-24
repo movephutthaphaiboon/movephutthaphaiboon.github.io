@@ -11,9 +11,9 @@ redirect_from:
 
 ## Education
 * M.Eng. in <span style="color: #8b2130;">Computer Engineering</span>, King Mongkut’s University of Technology Thonburi, Thailand, 2023
-  * **Master’s thesis:** Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks
+  * Thesis Project: Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks
 * B.Eng. in <span style="color: #8b2130;">Robotics and Automation Engineering</span>, Institute of Field Robotics, King Mongkut’s University of Technology Thonburi, Thailand, 2020
-  * **Bachelor’s thesis:** The Development of Digital Interactive Wall Game for Yunlin County Magistrate Children’s Club
+  * Thesis Project: The Development of Digital Interactive Wall Game for Yunlin County Magistrate Children’s Club
   * Completed with 1st Class Honors
 
 ## Skills
