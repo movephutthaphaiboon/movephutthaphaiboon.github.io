@@ -2,7 +2,7 @@
 title: "Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks"
 collection: publications
 permalink: /publication/2023-06-27-forecasting-arctic-sea-ice-concentration-icmlt2023
-excerpt: 
+excerpt: 'Due to global warming, Arctic sea ice is now declining, and this loss is a self-accelerating process that speeds up sea ice melting and the severity of climate change. Accurate and timely sea ice information is critically important for better monitoring of global climate. ...'
 date: 2023-06-27
 venue: 'Proceedings of the 2023 8th International Conference on Machine Learning Technologies (ICMLT 2023)'
 paperurl: 'https://doi.org/10.1145/3589883.3589901'
