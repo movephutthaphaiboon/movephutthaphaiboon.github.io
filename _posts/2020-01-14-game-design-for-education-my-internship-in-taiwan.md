@@ -49,6 +49,8 @@ The initial test at YLCMCC’s Annual Festival in September 2019 gave us a lot o
 
 Taking this into consideration, we went back to the drawing board and redesigned the game as well as the testing process. We chose to selectively test our revised prototype with a group of 50 children with a specific age range and a fair gender distribution. The refined testing process included both pre-test and post-test evaluations to effectively measure the improvement in their English vocabulary. [Watch the game testing recording here](https://youtu.be/guOUznh62qU).
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/guOUznh62qU/0.jpg)](https://www.youtube.com/watch?v=guOUznh62qU)
+
 <img src="/images/1920x1080 in_post - shapes&colors 9.jpg" width="90%" style="display: block; margin: auto;" />
 <p style="text-align: center;"><em>Shapes & Colors Prototype Testing II at NFU Maker Space on November 20, 2019</em></p>
 
