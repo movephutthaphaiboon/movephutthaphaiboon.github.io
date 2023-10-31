@@ -12,10 +12,10 @@ tags:
 
 On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— **“Community Database: The Power of Driving Participatory Society”**. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering.
 
+<center><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Faroundtheroomstudio%2Fvideos%2F254277920502955%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></center>
+
 <img src="/images/2023-10-community-database-showcase-08_02.png" width="90%" style="display: block; margin: auto;" />
 <p style="text-align: center;"><em>Watch the recorded live stream on Facebook <a href="https://www.facebook.com/aroundtheroomstudio/videos/254277920502955">here</a></em></p>
-
-<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Faroundtheroomstudio%2Fvideos%2F254277920502955%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
 As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled “Participatory Mapping & Community Database Design”, a journey that involved 11 communities in southern Thailand and seamlessly blended three generations of workshop participants across training sessions held on July 15th, August 20th, and September 29th-30th.
 
