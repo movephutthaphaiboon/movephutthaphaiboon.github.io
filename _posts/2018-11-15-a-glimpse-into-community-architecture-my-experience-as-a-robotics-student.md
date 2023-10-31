@@ -13,7 +13,7 @@ Before diving into my experience, it’s essential to understand the context. As
 In our third year at KMUTT, robotics and automation engineering students were mandated to take a class named LNG 103 English for Workplace. One of the tasks was to produce an English-language interview video discussing a specific profession in Thai society. Entrusted with the leadership of a team of four, I guided my group to the doors of Arsom Silp Institute of the Arts. Here, we had the honor of interviewing two seasoned community architects: Ms.Jantrarat Jantaratippaluk (Nuke) and Ms.Kitiporn Promted (Pang). This unique institute is a place for talented architects and designers who are expert at community development projects.
 
 <img src="/images/1920x1080 in_post - community architect LNG 103 - 01.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Atmosphere during the interview: Pang (left), Nuke (center), amd myself (right)</em></p>
+<p style="text-align: center;"><em>Atmosphere during the interview: Pang (left), Nuke (center), and myself (right)</em></p>
 
 I had personal reasons for selecting this profession. Before my journey into robotics engineering, my dream was to be a community architect. I’d attended open house sessions at Arsom Silp twice during high school and had been deeply moved by their commitment and collaboration with local communities in Thailand. Four years had passed since my last visit, and my longing for the institute and its mission had only grown. My primary aim was to introduce my friends to a world where jobs extend beyond machines to embrace life, community involvement, and social concerns.
 
