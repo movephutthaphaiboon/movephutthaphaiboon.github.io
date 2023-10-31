@@ -1,42 +1,31 @@
 ---
-title: 'A Year with Around the Room Studio: Empowering Communities, Building Bridges'
-date: 2023-07-22
-permalink: /posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/
-excerpt: "<img src='/images/500x400 thumbnail - around the room team.jpg' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
+title: 'A Glimpse into Community Architecture: My Experience as a Robotics Student'
+date: 2018-11-15
+permalink: /posts/2018/11/a-glimpse-into-community-architecture-my-experience-as-a-robotics-student/
+excerpt: "<img src='/images/500x400 thumbnail community architect LNG 103.jpg' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
 tags:
-  - Social Enterprise
-  - Community
+  - Networking
 ---
-<img src="/images/1920x1080 in_post - around the room team.jpg" width="90%" style="display: block; margin: auto;" />
+Before diving into my experience, it’s essential to understand the context. As a robotics engineering student at King Mongkut’s University of Technology Thonburi (KMUTT), it’s easy to become engulfed in the world of machines, codes, and automation. However, an assignment in my third year introduced me to an entirely different realm of work, one that resonates deeply with me.
 
-A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called **Around the Room Studio**. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-eb8GS5DKhw?si=HjiddFnjidiZq14K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-I still remember the day when a funding organizer approached us, encouraging us to propose an idea to empower this community. He assured us that if our proposal could promote good governance at the local level, he would be more than willing to support us financially.
+In our third year at KMUTT, robotics and automation engineering students were mandated to take a class named LNG 103 English for Workplace. One of the tasks was to produce an English-language interview video discussing a specific profession in Thai society. Entrusted with the leadership of a team of four, I guided my group to the doors of Arsom Silp Institute of the Arts. Here, we had the honor of interviewing two seasoned community architects: Ms.Jantrarat Jantaratippaluk (Nuke) and Ms.Kitiporn Promted (Pang). This unique institute is a place for talented architects and designers who are expert at community development projects.
 
-We had our apprehensions at first because I was working on my master's thesis and a part-time job at a tech startup company, and my friends were also employed. Yet, we couldn't shake the feeling that we had an opportunity to make a meaningful difference. Empowering local communities might seem like a small idea, but the potential impact was massive. So, we took the leap, setting up our team and committing to a 600-mile commute from Bangkok to Songkhla to meet the community every month.
+<img src="/images/1920x1080 in_post - community architect LNG 103 - 01.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Atmosphere during the interview: Pang (left), Nuke (center), amd myself (right)</em></p>
 
-In our journey so far, we've held one talk, one event, and three workshops, and we're gearing up for a community festival soon. With the support of our funders, Hand Social Enterprise and CG Fund, we've empowered the community through training programs and global awareness campaigns, demonstrating that this community is the front guard protecting our shared natural resources. Our works and collaborations have broadened our network, fueling our drive to create more impact in the future.
+I had personal reasons for selecting this profession. Before my journey into robotics engineering, my dream was to be a community architect. I’d attended open house sessions at Arsom Silp twice during high school and had been deeply moved by their commitment and collaboration with local communities in Thailand. Four years had passed since my last visit, and my longing for the institute and its mission had only grown. My primary aim was to introduce my friends to a world where jobs extend beyond machines to embrace life, community involvement, and social concerns.
 
-Here are some of our works with the communities.
+To no one’s surprise, my peers were taken aback. Most are familiar with architects as those who design houses or skyscrapers, yet here were professionals actively partnering with communities to create designs tailored to their way of life. I felt a sense of achievement in showing my engineering colleagues the significance of community participation in fostering innovation and addressing real-world challenges.
 
-<img src="/images/1920x1080 in_post - songkhla talk collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Public discussion 'How will Songkhla’s people cope with the coming heavy industrial district?' on October 23, 2022</em></p>
+Reflecting on this experience, I realized how much it meant to me. While I’ve enjoyed and excelled in my three years in engineering, I’ve always felt a void, a sense that something was missing. Revisiting Arsom Silp and meeting Nuke and Pang have rekindled my interest in blending engineering skills with community-driven initiatives.
 
-<img src="/images/1920x1080 in_post - gyotaku group photo.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Chana Gyotaku Workshop on February 5, 2023</em></p>
 
-<img src="/images/1920x1080 in_post - chana art street collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Chana Art Street on June 10, 2023</em></p>
 
-<img src="/images/1920x1080 in_post - community database collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Participatory Mapping & Community Database Design Workshop on July 15, 2023</em></p>
 
-<img src="/images/1920x1080 in_post - product development collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Product Development Workshop on July 16, 2023</em></p>
 
-The first year of this journey, though full of challenges, has reaffirmed my desire to work in this field. I've seen firsthand how my skills can improve the quality of life for local communities, bridging the gap between funders and those who benefit from their support. It's rewarding to help people enhance their skills and better their villages.
 
-I've learned a lot over the past year, but there's still more to know. I want to delve deeper into sustainable development, sustainable management, and impact assessment methodologies. This knowledge will help us evaluate the work we're doing more effectively. As I reflect on our first year, I'm even more motivated to pursue this profession and contribute meaningfully to society.
 
-Follow our team on [Facebook](https://www.facebook.com/aroundtheroomstudio)
+
 
