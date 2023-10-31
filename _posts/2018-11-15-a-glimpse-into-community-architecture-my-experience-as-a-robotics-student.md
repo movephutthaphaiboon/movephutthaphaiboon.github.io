@@ -8,8 +8,6 @@ tags:
 ---
 Before diving into my experience, it’s essential to understand the context. As a robotics engineering student at King Mongkut’s University of Technology Thonburi (KMUTT), it’s easy to become engulfed in the world of machines, codes, and automation. However, an assignment in my third year introduced me to an entirely different realm of work, one that resonates deeply with me.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-eb8GS5DKhw?si=HjiddFnjidiZq14K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/>
-
 In our third year at KMUTT, robotics and automation engineering students were mandated to take a class named LNG 103 English for Workplace. One of the tasks was to produce an English-language interview video discussing a specific profession in Thai society. Entrusted with the leadership of a team of four, I guided my group to the doors of Arsom Silp Institute of the Arts. Here, we had the honor of interviewing two seasoned community architects: Ms.Jantrarat Jantaratippaluk (Nuke) and Ms.Kitiporn Promted (Pang). This unique institute is a place for talented architects and designers who are expert at community development projects.
 
 <img src="/images/1920x1080 in_post - community architect LNG 103 - 01.jpg" width="90%" style="display: block; margin: auto;" />
@@ -20,6 +18,10 @@ I had personal reasons for selecting this profession. Before my journey into rob
 To no one’s surprise, my peers were taken aback. Most are familiar with architects as those who design houses or skyscrapers, yet here were professionals actively partnering with communities to create designs tailored to their way of life. I felt a sense of achievement in showing my engineering colleagues the significance of community participation in fostering innovation and addressing real-world challenges.
 
 Reflecting on this experience, I realized how much it meant to me. While I’ve enjoyed and excelled in my three years in engineering, I’ve always felt a void, a sense that something was missing. Revisiting Arsom Silp and meeting Nuke and Pang have rekindled my interest in blending engineering skills with community-driven initiatives.
+
+Watch the interview here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-eb8GS5DKhw?si=HjiddFnjidiZq14K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/>
 
 Behind the scenes 📸😃
 
