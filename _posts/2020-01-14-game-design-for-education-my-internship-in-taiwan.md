@@ -51,7 +51,7 @@ Taking this into consideration, we went back to the drawing board and redesigned
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/guOUznh62qU?si=5v7euyPNv6xyLGcP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
 
-
+<br/>
 
 The focus on user experiences was paramount. Every design decision, every iteration was grounded in how it would affect the children’s learning experience. It was this user-centric design approach that enabled us to perfect our game, making Shapes & Colors not just educational, but truly engaging for the children.
 
