@@ -2,7 +2,7 @@
 title: 'A Glimpse into Community Architecture: My Experience as a Robotics Student'
 date: 2018-11-15
 permalink: /posts/2018/11/a-glimpse-into-community-architecture-my-experience-as-a-robotics-student/
-excerpt: "<img src='/images/500x400 thumbnail community architect LNG 103.jpg' width='200' height='160' align='right' hspace='20'>Before diving into my experience, it’s essential to understand the context. As a robotics engineering student at King Mongkut’s University of Technology Thonburi (KMUTT), it’s easy to become engulfed in the world of machines, codes, and automation. However, an assignment in my third year introduced me to an entirely different realm of work, one that resonates deeply with me. ..."
+excerpt: "<img src='/images/500x400 thumbnail community architect LNG 103.jpg' width='200' height='160' align='right' hspace='20'>In our third year at KMUTT, robotics and automation engineering students were mandated to take a class named LNG 103 English for Workplace. One of the tasks was to produce an English-language interview video discussing a specific profession in Thai society. Entrusted with the leadership of a team of four, I guided my group to the doors of Arsom Silp Institute of the Arts. Here, we had the honor of interviewing two seasoned community architects: ..."
 tags:
   - Networking
 ---
