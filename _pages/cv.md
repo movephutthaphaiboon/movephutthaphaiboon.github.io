@@ -22,7 +22,8 @@ redirect_from:
 * **Data Science:** Data Preparation, Data Visualization, Statistical Analysis, Time-series Analysis, Data Modeling, Optimization, Machine Learning
 * **Robotics and Automation:** Image Processing, Object Detection
 * **Tools:** MS Office, Power BI, Tableau, Google Colaboratory, Jupyter, Rapid Miner, MATLAB, V-REP, Solidworks, Fusion 360, Adobe Xd, Notion
-* **Other Skills:** Self-learning, Project Management, Collaboration, Training, Service Design, Participatory Design, Digital Prototyping, Usability Testing, Experimental Design
+* **Participatory Design:** Design Thinking, Digital Prototyping, Usability Testing, Experimental Design
+* **Other Skills:** Self-learning, Project Management, Collaboration, Teaching
 
 ## Publications
   <ul>{% for post in site.publications %}
