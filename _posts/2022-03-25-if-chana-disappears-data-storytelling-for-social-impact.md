@@ -1,42 +1,34 @@
 ---
-title: 'A Year with Around the Room Studio: Empowering Communities, Building Bridges'
+title: 'If Chana Disappears: Data Storytelling for Social Impact'
 date: 2023-07-22
-permalink: /posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/
-excerpt: "<img src='/images/500x400 thumbnail - around the room team.jpg' width='200' height='160' align='right' hspace='20'>A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called Around the Room Studio. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate. I still remember the day when a funding organizer approached us, ..."
+permalink: /posts/2023/07/if-chana-disappears-data-storytelling-for-social-impact/
+excerpt: "<img src='/images/500x400 thumbnail - data communication lab.jpg' width='200' height='160' align='right' hspace='20'>After a prolonged period of lockdown and remote working, I eagerly sought opportunities for networking and skill enhancement. My search led me to a workshop perfectly aligned with my interests: leveraging technology to foster a better society. About a month ago, alongside a friend who is a community architect, I participated in the Data Communication Lab. This data-driven storytelling workshop, facilitated by Punch Up, ..."
 tags:
-  - Social Enterprise
+  - Networking
   - Community
+  - Tech for Good
 ---
-<img src="/images/1920x1080 in_post - around the room team.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1920x1080 in_post - data communication lab 1.jpg" width="90%" style="display: block; margin: auto;" />
 
-A year ago, two architect friends and I embarked on an exciting journey, starting a social enterprise startup called **Around the Room Studio**. The inception of our team came about after presenting a story at a workshop about a community in southern Thailand. This community had been fighting relentlessly to protect their land from being overtaken by factories under a heavy industrial district scheme called Chana Industrial Estate.
+After a prolonged period of lockdown and remote working, I eagerly sought opportunities for networking and skill enhancement. My search led me to a workshop perfectly aligned with my interests: leveraging technology to foster a better society.
 
-I still remember the day when a funding organizer approached us, encouraging us to propose an idea to empower this community. He assured us that if our proposal could promote good governance at the local level, he would be more than willing to support us financially.
+About a month ago, alongside a friend who is a community architect, I participated in the Data Communication Lab. This data-driven storytelling workshop, facilitated by Punch Up, spanned five weekends from February 26th to March 19th, 2022. The workshop’s curriculum included:
+      * Week 1: The role of data communication in societal change
+      * Week 2: Techniques in data acquisition and analysis
+      * Week 3: Transforming data into civic technology through storytelling and data visualization
+      * Week 4: Crafting dara narratives and storyboards
+      * Week 5: Pitching day
 
-We had our apprehensions at first because I was working on my master's thesis and a part-time job at a tech startup company, and my friends were also employed. Yet, we couldn't shake the feeling that we had an opportunity to make a meaningful difference. Empowering local communities might seem like a small idea, but the potential impact was massive. So, we took the leap, setting up our team and committing to a 600-mile commute from Bangkok to Songkhla to meet the community every month.
+<img src="/images/1920x1080 in_post - data communication lab 2.jpg" width="90%" style="display: block; margin: auto;" />
 
-In our journey so far, we've held one talk, one event, and three workshops, and we're gearing up for a community festival soon. With the support of our funders, Hand Social Enterprise and CG Fund, we've empowered the community through training programs and global awareness campaigns, demonstrating that this community is the front guard protecting our shared natural resources. Our works and collaborations have broadened our network, fueling our drive to create more impact in the future.
+Our project, a web-based scrollytelling titled ‘[If Chana Disappears](https://ifchanadisappears.my.canva.site/)’, was among 24 team submissions. We aimed to highlight the risk facing the Chana district in southern Thailand, threatened by industrial expansion. Using data on local fish and sea life populations, and survey results on the popularity of seafood products, we illustrated the rich marine biodiversity of Chana’s seas and their crucial role in sustaining local life. Our narrative began with the story of shrimp paste, a staple in Thai cuisine, derived from krill found in pristine waters. We posited that industrial pollution in Chana could decimate the krill population, leading to the disappearance of this beloved condiment. The story concluded with local efforts to resist industrialization and a call to action for readers to support the community through various means.
 
-Here are some of our works with the communities.
+<img src="/images/1920x1080 in_post - data communication lab 3.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/1920x1080 in_post - songkhla talk collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Public discussion 'How will Songkhla’s people cope with the coming heavy industrial district?' on October 23, 2022</em></p>
+<img src="/images/1920x1080 in_post - data communication lab 4.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/1920x1080 in_post - gyotaku group photo.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Chana Gyotaku Workshop on February 5, 2023</em></p>
+<img src="/images/1920x1080 in_post - data communication lab 5.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/1920x1080 in_post - chana art street collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Chana Art Street on June 10, 2023</em></p>
+Our aim was to raise awareness about natural resource conservation, advocate for equitable policies and governance, and encourage transparency in Thailand. We were honored to receive an Honorable Mention for our work, which was a testament to its potential to empower local communities. The experience was enriching, connecting me with like-minded individuals passionate about societal improvement. I invite you to listen to our presentation and explore other captivating stories from the workshop via [Punch Up FB Live](https://www.facebook.com/watch/live/?ref=watch_permalink&v=443286247463951).
 
-<img src="/images/1920x1080 in_post - community database collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Participatory Mapping & Community Database Design Workshop on July 15, 2023</em></p>
-
-<img src="/images/1920x1080 in_post - product development collage.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Product Development Workshop on July 16, 2023</em></p>
-
-The first year of this journey, though full of challenges, has reaffirmed my desire to work in this field. I've seen firsthand how my skills can improve the quality of life for local communities, bridging the gap between funders and those who benefit from their support. It's rewarding to help people enhance their skills and better their villages.
-
-I've learned a lot over the past year, but there's still more to know. I want to delve deeper into sustainable development, sustainable management, and impact assessment methodologies. This knowledge will help us evaluate the work we're doing more effectively. As I reflect on our first year, I'm even more motivated to pursue this profession and contribute meaningfully to society.
-
-Follow our team on [Facebook](https://www.facebook.com/aroundtheroomstudio)
-
+<img src="/images/1920x1080 in_post - data communication lab 6.jpg" width="90%" style="display: block; margin: auto;" />
