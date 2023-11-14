@@ -1,6 +1,6 @@
 ---
 title: 'If Chana Disappears: Data Storytelling for Social Impact'
-date: 2023-07-22
+date: 2022-03-25
 permalink: /posts/2023/07/if-chana-disappears-data-storytelling-for-social-impact/
 excerpt: "<img src='/images/500x400 thumbnail - data communication lab.jpg' width='200' height='160' align='right' hspace='20'>After a prolonged period of lockdown and remote working, I eagerly sought opportunities for networking and skill enhancement. My search led me to a workshop perfectly aligned with my interests: leveraging technology to foster a better society. About a month ago, alongside a friend who is a community architect, I participated in the Data Communication Lab. This data-driven storytelling workshop, facilitated by Punch Up, ..."
 tags:
