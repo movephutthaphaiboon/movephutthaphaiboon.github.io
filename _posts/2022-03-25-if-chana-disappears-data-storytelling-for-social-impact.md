@@ -13,11 +13,11 @@ tags:
 After a prolonged period of lockdown and remote working, I eagerly sought opportunities for networking and skill enhancement. My search led me to a workshop perfectly aligned with my interests: leveraging technology to foster a better society.
 
 About a month ago, alongside a friend who is a community architect, I participated in the Data Communication Lab. This data-driven storytelling workshop, facilitated by Punch Up, spanned five weekends from February 26th to March 19th, 2022. The workshop’s curriculum included:
-      * Week 1: The role of data communication in societal change
-      * Week 2: Techniques in data acquisition and analysis
-      * Week 3: Transforming data into civic technology through storytelling and data visualization
-      * Week 4: Crafting dara narratives and storyboards
-      * Week 5: Pitching day
+ * Week 1: The role of data communication in societal change
+ * Week 2: Techniques in data acquisition and analysis
+ * Week 3: Transforming data into civic technology through storytelling and data visualization
+ * Week 4: Crafting dara narratives and storyboards
+ * Week 5: Pitching day
 
 <img src="/images/1920x1080 in_post - data communication lab 2.jpg" width="90%" style="display: block; margin: auto;" />
 
