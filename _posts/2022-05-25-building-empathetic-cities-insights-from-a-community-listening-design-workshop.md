@@ -8,6 +8,7 @@ tags:
   - Networking
 ---
 <img src="/images/1440x1080 in_post -  Community Listening WS 1.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post -  Community Listening WS 1.jpg" width="90%" style="display: block; margin: auto;" />
 
 Have you ever wondered how listening can reshape our cities? During May 20-22, 2022, I embarked on a journey that transformed my understanding of urban design, not through sketches and models, but through the powerful tool of empathy.
 
