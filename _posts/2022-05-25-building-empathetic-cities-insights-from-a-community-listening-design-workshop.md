@@ -8,7 +8,7 @@ tags:
   - Networking
 ---
 <img src="/images/2023-10-community-database-showcase-08_01.png" width="90%" style="display: block; margin: auto;" />
-<img src="/images/1440x1080 in_post -  Community Listening WS 1.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post - Community Listening WS 1.jpg" width="90%" style="display: block; margin: auto;" />
 
 Have you ever wondered how listening can reshape our cities? During May 20-22, 2022, I embarked on a journey that transformed my understanding of urban design, not through sketches and models, but through the powerful tool of empathy.
 
@@ -17,11 +17,11 @@ The Thailand Creative & Design Center (TCDC) hosted the “Community Listening i
 ## Day 1: A Journey of Discovery
 The workshop began with an ice-breaking session, finding common ground in our shared interest in urban and societal issues. Our guides, Asst. Prof. Dr. Thip Srisakulchairak and Jantrarat Jantaratippaluk, both experts in community architecture, introduced us to the concept of deep listening. 
 
-<img src="/images/1440x1080 in_post -  Community Listening WS 2.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post - Community Listening WS 2.jpg" width="90%" style="display: block; margin: auto;" />
 
 We went on a preliminary field trip to a nearby muslim community, where our task was simple yet profound: observe, engage, but most important, listen. Returning to the TCDC, we delved into a brainstorming session. The challenge was to unearth the latent issues within the community and envisage sustainable solutions. This exercise was not just about identifying problems, but about understanding the intricate web of social dynamics that often goes unnoticed.
 
-<img src="/images/1440x1080 in_post -  Community Listening WS 3.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post - Community Listening WS 3.jpg" width="90%" style="display: block; margin: auto;" />
 
 ## Day 2: Emotional Encounters and Stark Realities from Visiting Bangkok’s Slums
 The real eye-opener was our day in the slums near Hua Lampong train station, places like Wat Duang Khae and Trok Salak Hin. Before entering these neighborhoods, we had a crucial briefing with the dedicated team from the Duang Khae Child Development Center. Their insights were invaluable; they’ve been working tirelessly to address the myriad challenges within these communities.
@@ -30,18 +30,18 @@ The staff, primarily composed of three devoted women, shared their experiences a
 
 From the outside, these areas appeared as mere alleys, but inside, they were home to hundreds of families living in conditions I had never imagined. Narrow, sunlight-deprived pathways, shared bathrooms in disrepair, and the constant struggle for basic sanitation were everyday realities for these residents. The disparity between my world and theirs was stark and deeply moving. Despite the hardships, the community’s resilience and positivity were humbling. It was a poignant reminder of the privileges I often take for granted.
 
-<img src="/images/1440x1080 in_post -  Community Listening WS 4.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post - Community Listening WS 4.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/1440x1080 in_post -  Community Listening WS 5.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post - Community Listening WS 5.jpg" width="90%" style="display: block; margin: auto;" />
 
 ## Day 3: From Observation to Solutions
 On the final day, we translated our observations into actionable ideas. My group focused on education and sanitation, mapping out user journeys and considering the multifaceted issues. Our interdisciplinary backgrounds came into play as we proposed a range of solutions, later presenting them to representatives from the communities for feedback on practicality and impact of our proposals.
 
-<img src="/images/1440x1080 in_post -  Community Listening WS 6.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post - Community Listening WS 6.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/1440x1080 in_post -  Community Listening WS 7.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post - Community Listening WS 7.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/1440x1080 in_post -  Community Listening WS 8.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post - Community Listening WS 8.jpg" width="90%" style="display: block; margin: auto;" />
 
 ## A Reflection on Community Listening in Design
 I left the workshop with profound insights that extended far beyond the technicalities of conducting site surveys or crafting community projects. This experience illuminated the essence of deep listening in design – an approach that merges empathy with innovation, and understanding with action.
