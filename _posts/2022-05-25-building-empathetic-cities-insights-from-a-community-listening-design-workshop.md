@@ -1,93 +1,53 @@
 ---
-title: 'Community Database: The Power of Driving Participatory Society'
-date: 2023-10-08
-permalink: /posts/2023/10/community-database-the-power-of-driving-participatory-society/
-excerpt: "<img src='/images/500x400 thumbnail - community database showcase.png' width='200' height='160' align='right' hspace='20'>On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— “Community Database: The Power of Driving Participatory Society”. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering. ..."
+title: 'Building Empathetic Cities: Insights from a Community Listening Design Workshop'
+date: 2022-05-25
+permalink: /posts/2022/05/building-empathetic-cities-insights-from-a-community-listening-design-workshop/
+excerpt: "<img src='/images/500x400 thumbnail - Community Listening WS.jpg' width='200' height='160' align='right' hspace='20'>Have you ever wondered how listening can reshape our cities? During May 20-22, 2022, I embarked on a journey that transformed my understanding of urban design, not through sketches and models, but through the powerful tool of empathy. The Thailand Creative & Design Center (TCDC) hosted the “Community Listening in Design” workshop, an event that wasn’t just for designers but for anyone keen to delve into Bangkok’s urban challenges. As the only engineer among over 20 diverse professionals, I found myself immersed in a melting pot of perspectives ..."
 tags:
-  - Social Enterprise
   - Community
-  - Tech for Good
+  - Networking
 ---
-<img src="/images/2023-10-community-database-showcase-08_01.png" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post -  Community Listening WS 1.jpg" width="90%" style="display: block; margin: auto;" />
 
-On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— **“Community Database: The Power of Driving Participatory Society”**. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering.
+Have you ever wondered how listening can reshape our cities? During May 20-22, 2022, I embarked on a journey that transformed my understanding of urban design, not through sketches and models, but through the powerful tool of empathy.
 
-<img src="/images/2023-10-community-database-showcase-08_02.png" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Watch the recorded live stream on Facebook <a href="https://www.facebook.com/aroundtheroomstudio/videos/254277920502955">here</a></em></p>
+The Thailand Creative & Design Center (TCDC) hosted the “Community Listening in Design” workshop, an event that wasn’t just for designers but for anyone keen to delve into Bangkok’s urban challenges. As the only engineer among over 20 diverse professionals, I found myself immersed in a melting pot of perspectives.
 
-As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled “Participatory Mapping & Community Database Design”, a journey that involved 11 communities in southern Thailand and seamlessly blended three generations of workshop participants across training sessions held on July 15th, August 20th, and September 29th-30th.
+## Day 1: A Journey of Discovery
+The workshop began with an ice-breaking session, finding common ground in our shared interest in urban and societal issues. Our guides, Asst. Prof. Dr. Thip Srisakulchairak and Jantrarat Jantaratippaluk, both experts in community architecture, introduced us to the concept of deep listening. 
 
-## Diverse Databases, Unified Purpose
+<img src="/images/1440x1080 in_post -  Community Listening WS 2.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/2023-10-community-database-showcase-08_03.png" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>11 community databases from our trained participants | Explore the databases via <a href="https://openlink.co/aroundtheroomstudio">this link</a></em></p>
+We went on a preliminary field trip to a nearby muslim community, where our task was simple yet profound: observe, engage, but most important, listen. Returning to the TCDC, we delved into a brainstorming session. The challenge was to unearth the latent issues within the community and envisage sustainable solutions. This exercise was not just about identifying problems, but about understanding the intricate web of social dynamics that often goes unnoticed.
 
-The databases, although diverse, were united in purpose—to empower each community by harnessing the power of data. The 11 databases presented in the first session of the event were as varied as the communities themselves, from providing in-depth information on the environmental and societal impacts of megaprojects to preserving vital community-related data, falling into four distinct categories:
+<img src="/images/1440x1080 in_post -  Community Listening WS 3.jpg" width="90%" style="display: block; margin: auto;" />
 
-  1. Databases of Investigative Studies into Governmental Megaprojects
-      * Thepha Coal-Fired Power Plant Project
-      * Pak Bara Deep Seaport Project
-      * Chumphon-Ranong Land Bridge Project
+## Day 2: Emotional Encounters and Stark Realities from Visiting Bangkok’s Slums
+The real eye-opener was our day in the slums near Hua Lampong train station, places like Wat Duang Khae and Trok Salak Hin. Before entering these neighborhoods, we had a crucial briefing with the dedicated team from the Duang Khae Child Development Center. Their insights were invaluable; they’ve been working tirelessly to address the myriad challenges within these communities.
 
-  2. Databases of Pattani Local Intellect
-      * Pattani Salt Farming
-      * Rice Farming Field Restoration
+The staff, primarily composed of three devoted women, shared their experiences and advised us on how to navigate the slums respectfully. They emphasized the importance of observing without intruding – a reminder that our role was to listen and understand, not to disrupt. Their guidance was a reminder of the sensitivity required when entering someone else’s world, especially one as complex as these communities.
 
-  3. Databases of Environmental Conservation Networks
-      * PSU Pattani’s Natural Resource Conservation Club
-      * The Patani Resource
-      * Green South Foundation
+From the outside, these areas appeared as mere alleys, but inside, they were home to hundreds of families living in conditions I had never imagined. Narrow, sunlight-deprived pathways, shared bathrooms in disrepair, and the constant struggle for basic sanitation were everyday realities for these residents. The disparity between my world and theirs was stark and deeply moving. Despite the hardships, the community’s resilience and positivity were humbling. It was a poignant reminder of the privileges I often take for granted.
 
-  4. Databases of Local Communities
-      * Troping Village
-      * Nam Bo Village
-      * Chana District
+<img src="/images/1440x1080 in_post -  Community Listening WS 4.jpg" width="90%" style="display: block; margin: auto;" />
 
-## Inspiring Presentations & Forward-looking Discussions
+<img src="/images/1440x1080 in_post -  Community Listening WS 5.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/2023-10-community-database-showcase-08_04.png" width="90%" style="display: block; margin: auto;" />
+## Day 3: From Observation to Solutions
+On the final day, we translated our observations into actionable ideas. My group focused on education and sanitation, mapping out user journeys and considering the multifaceted issues. Our interdisciplinary backgrounds came into play as we proposed a range of solutions, later presenting them to representatives from the communities for feedback on practicality and impact of our proposals.
 
-<img src="/images/2023-10-community-database-showcase-08_05.png" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post -  Community Listening WS 6.jpg" width="90%" style="display: block; margin: auto;" />
 
-11 Communities, each allotted a 5-minute slot, articulated their community narratives and database utility with heartfelt sincerity and commendable preparation, reflecting their empowered selves.
+<img src="/images/1440x1080 in_post -  Community Listening WS 7.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/2023-10-community-database-showcase-08_06.png" width="90%" style="display: block; margin: auto;" />
+<img src="/images/1440x1080 in_post -  Community Listening WS 8.jpg" width="90%" style="display: block; margin: auto;" />
 
-In addition to the community database presentations, the event was further enriched by the insight of six esteemed guests—spanning a politician, an artist, a media expert, scientists, and community leaders renowned for leveraging data against injustice. Their inspirational dialogue offered our 11 teams a lens into the myriad possibilities of using their data to benefit their communities.
+## A Reflection on Community Listening in Design
+I left the workshop with profound insights that extended far beyond the technicalities of conducting site surveys or crafting community projects. This experience illuminated the essence of deep listening in design – an approach that merges empathy with innovation, and understanding with action.
 
-## A Tangible Showcase
+Deep listening is more than a skill. It’s a lens through which we view the world, especially in the context of urban development. It’s about hearing the unspoken needs and dreams of communities, particularly those tucked away in overlooked corners of our cities. This workshop was not just an educational journey; it was an exploration into the heart of human experiences and connections.
 
-<img src="/images/2023-10-community-database-showcase-08_07.png" width="90%" style="display: block; margin: auto;" />
-
-<img src="/images/2023-10-community-database-showcase-08_08.png" width="90%" style="display: block; margin: auto;" />
-
-Beyond the presentations and insightful discussions, we wanted attendees to immerse themselves further into the essence of each community. To achieve this, a mini exhibition was curated, allowing each team to profoundly showcase local products or notable achievements. The display was tactile, interactive, and deeply personal. For instance, the group that delved into sea salt farming didn’t just narrate their findings – they let the visitors taste it. With four distinct types of salt on display, attendees could savor the nuanced differences, providing  flavor-filled insight into the meticulousness of salt farming. Such tangible experiences enhanced the event, offering a deeper, sensory connection to each community’s pride and efforts.
-
-## Reflections and Forward Momentum
-
-As an event organizer and community database instructor in these 2-3 months, I could see the improvement in terms of skills and data literacy of my students. Many of them started thinking of ways to further develop their databases by collaborating with other communities. Moreover, listening to stories from locals about their past based on real data made me understand the connections between their way of life, natural resources they’ve been protected, and potential of the area that can create many new possibilities. It was the power of data to reveal facts and strengthen these communities from inside. In other words, the power of data is to drive just society and allow people to define the future of their communities.
-
-<img src="/images/2023-10-community-database-showcase-08_11.png" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Participatory Mapping & Community Database Design #1 on July 15th, 2023</em></p>
-
-<img src="/images/2023-10-community-database-showcase-08_10.png" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Participatory Mapping & Community Database Design #2 on August 20th, 2023</em></p>
-
-<img src="/images/2023-10-community-database-showcase-08_09.png" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Participatory Mapping & Community Database Design #3 on September 29th-30th, 2023</em></p>
-
-Last but not least, I am so proud of myself and my team hosting this event. All databases presented that day were made with the motivation of the locals and our dedication to design all the class’s materials and teaching. Before all this happened, I thought it’d be good if I could teach 2-3 communities to equip them with database tools and data literacy. However, right now, my team and I could create a community database learning network that connects more than 10 local communities in southern Thailand. This makes me want to improve my teaching. I wish I could have more time to advise them. And more importantly, I hope people in power see the impact of data literacy at the grassroot level and support us, allowing us to create more classes that give people new skills and knowledge.
-
-<img src="/images/2023-10-community-database-showcase-08_12.png" width="50%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Around the Room Studio’s Crew: Nuke (left), Poy (center), and Move (right)</em></p>
-
-Lastly, I just want to say that, during my 1-year journey working with communities, I could realize the potential of people there. I believe they can improve. I’m so glad I had chances to share what I’ve learned with people of all ages. They’re the driver of today’s society. Thank you everyone for letting me be part of your learning and growing. I’ve learned a lot as well.
-
-
-
-
-
-
+As an engineer, this workshop has instilled in me a renewed commitment to infuse empathy into every aspect of my work. I’ve come to realize that the true essence of impactful design lies in its ability to connect with people on a deeper level, to create environments that are not only functional but also nurturing and inclusive.
 
 
 
