@@ -2,7 +2,7 @@
 title: 'Building Empathetic Cities: Insights from a Community Listening Design Workshop'
 date: 2022-05-25
 permalink: /posts/2022/05/building-empathetic-cities-insights-from-a-community-listening-design-workshop/
-excerpt: "<img src='/images/500x400 thumbnail - Community Listening WS.jpg' width='200' height='160' align='right' hspace='20'>Have you ever wondered how listening can reshape our cities? During May 20-22, 2022, I embarked on a journey that transformed my understanding of urban design, not through sketches and models, but through the powerful tool of empathy. The Thailand Creative & Design Center (TCDC) hosted the “Community Listening in Design” workshop, an event that wasn’t just for designers but for anyone keen to delve into Bangkok’s urban challenges. As the only engineer among over 20 diverse professionals, I found myself immersed in a melting pot of perspectives ..."
+excerpt: "<img src='/images/500x400 thumbnail - Community Listening WS.jpg' width='200' height='160' align='right' hspace='20'>Have you ever wondered how listening can reshape our cities? During May 20-22, 2022, I embarked on a journey that transformed my understanding of urban design, not through sketches and models, but through the powerful tool of empathy. The Thailand Creative & Design Center (TCDC) hosted the “Community Listening in Design” workshop, an event that wasn’t just for designers but for anyone keen to delve into Bangkok’s urban challenges ..."
 tags:
   - Community
   - Networking
