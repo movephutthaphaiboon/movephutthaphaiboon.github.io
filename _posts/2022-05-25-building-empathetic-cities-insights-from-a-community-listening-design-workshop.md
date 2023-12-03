@@ -48,11 +48,3 @@ I left the workshop with profound insights that extended far beyond the technica
 Deep listening is more than a skill. It’s a lens through which we view the world, especially in the context of urban development. It’s about hearing the unspoken needs and dreams of communities, particularly those tucked away in overlooked corners of our cities. This workshop was not just an educational journey; it was an exploration into the heart of human experiences and connections.
 
 As an engineer, this workshop has instilled in me a renewed commitment to infuse empathy into every aspect of my work. I’ve come to realize that the true essence of impactful design lies in its ability to connect with people on a deeper level, to create environments that are not only functional but also nurturing and inclusive.
-
-
-
-
-
-
-Follow our team on [Facebook](https://www.facebook.com/aroundtheroomstudio)
-
