@@ -17,6 +17,8 @@ On Sunday, October 8th, 2023, I had an honor of being part of something truly sp
 
 As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled “Participatory Mapping & Community Database Design”, a journey that involved 11 communities in southern Thailand and seamlessly blended three generations of workshop participants across training sessions held on July 15th, August 20th, and September 29th-30th.
 
+{% include toc %}
+
 ## Diverse Databases, Unified Purpose
 
 <img src="/images/2023-10-community-database-showcase-08_03.png" width="90%" style="display: block; margin: auto;" />
