@@ -13,6 +13,8 @@ Have you ever wondered how listening can reshape our cities? During May 20-22, 2
 
 The Thailand Creative & Design Center (TCDC) hosted the “Community Listening in Design” workshop, an event that wasn’t just for designers but for anyone keen to delve into Bangkok’s urban challenges. As the only engineer among over 20 diverse professionals, I found myself immersed in a melting pot of perspectives.
 
+{% include toc %}
+
 ## Day 1: A Journey of Discovery
 The workshop began with an ice-breaking session, finding common ground in our shared interest in urban and societal issues. Our guides, Asst. Prof. Dr. Thip Srisakulchairak and Jantrarat Jantaratippaluk, both experts in community architecture, introduced us to the concept of deep listening.
 
