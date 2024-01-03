@@ -11,7 +11,7 @@ tags:
 
 In the heart of Yunlin County, Taiwan, lies a bustling hub of innovation and learning: NFU Cross-disciplinary Innovation Maker Space at National Formosa University (NFU). It was there, from June to December 2019, where I had an opportunity to develop an interactive game for the Yunlin County Magistrate’s Children Club (YLCMCC). My adventure was filled with its own set of trials, triumphs, and learning curves, all contributing to a profound experience.
 
-{% include toc %}
+{:toc}
 
 ## Project Overview
 
