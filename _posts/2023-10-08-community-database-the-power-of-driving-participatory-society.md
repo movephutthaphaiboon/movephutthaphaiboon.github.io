@@ -3,7 +3,6 @@ title: 'Community Database: The Power of Driving Participatory Society'
 date: 2023-10-08
 permalink: /posts/2023/10/community-database-the-power-of-driving-participatory-society/
 excerpt: "<img src='/images/500x400 thumbnail - community database showcase.png' width='200' height='160' align='right' hspace='20'>On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— “Community Database: The Power of Driving Participatory Society”. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering. ..."
-toc: true
 tags:
   - Social Enterprise
   - Community
