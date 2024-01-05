@@ -8,14 +8,13 @@ tags:
   - Community
   - Tech for Good
 ---
-<img src="/images/2023-10-community-database-showcase-08_01.png" width="90%" style="display: block; margin: auto;" />
+<img src="/images/2023-10-community-database-showcase-08_01.png" width="100%" style="display: block; margin: auto;" />
 
 On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— **“Community Database: The Power of Driving Participatory Society”**. While the event took place on-site, we ensured inclusivity and extended our reach by providing a live stream on Facebook for our global audience, allowing online audiences to be part of this pivotal gathering.
 
-<img src="/images/2023-10-community-database-showcase-08_02.png" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Watch the recorded live stream on Facebook <a href="https://www.facebook.com/aroundtheroomstudio/videos/254277920502955">here</a></em></p>
-
 As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled “Participatory Mapping & Community Database Design”, a journey that involved 11 communities in southern Thailand and seamlessly blended three generations of workshop participants across training sessions held on July 15th, August 20th, and September 29th-30th.
+
+In this blog post, I aim to guide you through the highlights and impactful moments of the memorable and community-engeged event, sharing insights and experiences that defined our journey towards fostering a more participatory society.
 
 {% include toc %}
 
@@ -79,6 +78,9 @@ As an event organizer and community database instructor in these 2-3 months, I c
 <p style="text-align: center;"><em>Participatory Mapping & Community Database Design #3 on September 29th-30th, 2023</em></p>
 
 Last but not least, I am so proud of myself and my team hosting this event. All databases presented that day were made with the motivation of the locals and our dedication to design all the class’s materials and teaching. Before all this happened, I thought it’d be good if I could teach 2-3 communities to equip them with database tools and data literacy. However, right now, my team and I could create a community database learning network that connects more than 10 local communities in southern Thailand. This makes me want to improve my teaching. I wish I could have more time to advise them. And more importantly, I hope people in power see the impact of data literacy at the grassroot level and support us, allowing us to create more classes that give people new skills and knowledge.
+
+<img src="/images/2023-10-community-database-showcase-08_02.png" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Watch the recorded live stream on Facebook <a href="https://www.facebook.com/aroundtheroomstudio/videos/254277920502955">here</a></em></p>
 
 <img src="/images/2023-10-community-database-showcase-08_12.png" width="50%" style="display: block; margin: auto;" />
 <p style="text-align: center;"><em>Around the Room Studio’s Crew: Nuke (left), Poy (center), and Move (right)</em></p>
