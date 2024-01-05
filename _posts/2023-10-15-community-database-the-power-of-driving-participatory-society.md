@@ -12,7 +12,7 @@ tags:
 
 On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— **“Community Database: The Power of Driving Participatory Society”**.
 
-As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled “Participatory Mapping & Community Database Design”, a journey that involved 11 communities in southern Thailand and seamlessly blended three generations of workshop participants across training sessions held on July 15th, August 20th, and September 29th-30th.
+As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled **“Participatory Mapping & Community Database Design”**, a journey that involved 11 communities in southern Thailand and seamlessly blended three generations of workshop participants across training sessions held on July 15th, August 20th, and September 29th-30th.
 
 In this blog post, I aim to guide you through the highlights and impactful moments of the memorable and community-engeged event, sharing insights and experiences that defined our journey towards fostering a more participatory society.
 
