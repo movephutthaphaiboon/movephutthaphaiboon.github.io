@@ -1,12 +1,11 @@
 ---
-title: 'Community Database: The Power of Driving Participatory Society'
-date: 2023-10-15
-permalink: /posts/2023/10/community-database-the-power-of-driving-participatory-society/
-excerpt: "<img src='/images/500x400 thumbnail - community database showcase.png' width='200' height='160' align='right' hspace='20'>On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— “Community Database: The Power of Driving Participatory Society”. As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled “Participatory Mapping & Community Database Design”, ..."
+title: 'Rivers of Justice: Insights from the Cleveringa Lecture 2023'
+date: 2023-12-15
+permalink: /posts/2023/12/rivers-of-justice-insights-from-the-cleveringa-lecture-2023/
+excerpt: "<img src='/images/500x400 thumbnail cleveringa lecture 2023.jpg' width='200' height='160' align='right' hspace='20'>On Sunday, October 8th, 2023, I had an honor of being part of something truly special. Together with my incredible team at Around the Room Studio and the chief of the Natural History Museum and Local Learning Network, we hosted an event— “Community Database: The Power of Driving Participatory Society”. As a moderator of the event, I witnessed the fruition of a journey that started with our workshop series titled “Participatory Mapping & Community Database Design”, ..."
 tags:
-  - Social Enterprise
-  - Community
-  - Tech for Good
+  - Water Management
+  - Networking
 ---
 <img src="/images/cleveringa lecture 2023.jpg" width="90%" style="display: block; margin: auto;" />
 
