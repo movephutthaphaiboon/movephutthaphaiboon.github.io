@@ -93,17 +93,3 @@ The Cleveringa Lecture 2023 was more than an academic endeavor; it was a pivotal
 A particularly enriching moment came at the end of the lecture when I had the opportunity to ask about the role of data scientists in addressing these complex water management problems. The responses I received from Dr. Rabe and other attendees during the networking session were enlightening. It was an engaging exchange that opened my eyes to the various ways my expertise in data science can contribute to this field. I also had the pleasure of connecting with professionals who possess access to critical data on water management, disaster indices, and more. It was a moment of profound connection and joy, finding myself amidst people who share a common vision and dedication to solving these pressing global challenges.
 
 This lecture has thus not only expanded my understanding of water management but has also reinforced my commitment to this field. It has connected me with a network of experts and resources, enhancing my readiness to contribute effectively to this vital area of environmental stewardship.
-
-
-
-
-
-
-
-
-
-
-
-
-Follow our team on [Facebook](https://www.facebook.com/aroundtheroomstudio)
-
