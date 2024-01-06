@@ -2,7 +2,7 @@
 title: 'Rivers of Justice: Insights from the Cleveringa Lecture 2023'
 date: 2023-12-15
 permalink: /posts/2023/12/rivers-of-justice-insights-from-the-cleveringa-lecture-2023/
-excerpt: "<img src='/images/500x400 thumbnail cleveringa lecture 2023.jpg' width='200' height='160' align='right' hspace='20'>On November 22nd, 2023, I had the opportunity to attend the Cleveringa Lecture 2023 on the topic Notion of Social and Ecological Justice for River and Canalside Communities and for Nature at the Royal Netherlands Embassy in Thailand. This event, a collaboration between the embassy and the Urban Futures & Policy Research Unit of Thammasat University's Faculty of Architecture and Planning, was more than just an academic gathering for me. ..."
+excerpt: "<img src='/images/500x400 thumbnail cleveringa lecture 2023.jpg' width='200' height='160' align='right' hspace='20'>On November 22nd, 2023, I had the opportunity to attend the Cleveringa Lecture 2023 on the topic Notion of Social and Ecological Justice for River and Canalside Communities and for Nature at the Royal Netherlands Embassy in Thailand. This event, a collaboration between the embassy and the Urban Futures & Policy Research Unit of Thammasat University's Faculty of Architecture and Planning, was more than just an academic gathering for me. It represented a fusion of my personal passion ..."
 tags:
   - Water Management
   - Networking
