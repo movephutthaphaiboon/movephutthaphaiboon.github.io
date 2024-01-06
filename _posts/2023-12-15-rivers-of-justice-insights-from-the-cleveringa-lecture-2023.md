@@ -7,7 +7,7 @@ tags:
   - Water Management
   - Networking
 ---
-<img src="/images/cleveringa lecture 2023.jpg" width="50%" style="display: block; margin: auto;" />
+<img src="/images/cleveringa lecture 2023.jpg" width="70%" style="display: block; margin: auto;" />
 
 On November 22nd, 2023, I had the opportunity to attend the Cleveringa Lecture 2023 on the topic <em>“Notion of Social and Ecological Justice for River and Canalside Communities and for Nature"</em> at the Royal Netherlands Embassy in Thailand. This event, a collaboration between the embassy and the Urban Futures & Policy Research Unit of Thammasat University's Faculty of Architecture and Planning, was more than just an academic gathering for me. It represented a fusion of my personal passion and professional pursuits in environmental and water management amidst the climate crisis. With a background in Arctic sea ice modeling, working with local communities in southern Thailand to protect their seas, and my experiences living in Thailand, a country grappling with frequent flooding, the relevance and urgency of this lecture resonate deeply with me.
 
