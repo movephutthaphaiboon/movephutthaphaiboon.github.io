@@ -57,7 +57,7 @@ The RCN is distinguished by its collaborative and interdisciplinary nature, unit
 
 The network’s focus  extends to ensuring equitable access to water resources and addressing socio-economic impacts on local communities. In terms of biodiversity, the RCN is committed to preserving and enhancing the ecological health of urban waterways, recognizing their crucial role in sustainable city life.
 
-For more insights into the RCN’s work and their global initiatives, including their projects in Thailand and the Netherlands, visit [www.rivercities.world](www.rivercities.world)
+For more insights into the RCN’s work and their global initiatives, including their projects in Thailand and the Netherlands, visit [www.rivercities.world](https://www.rivercities.world/)
 
 ## Dimensions of Justice
 The lecture culminated in a profound discussion on the multifaceted concept of justice in the context of water management. This exploration was pivotal in understanding how decisions about water and its management can have far-reaching implications across different spheres of society.
