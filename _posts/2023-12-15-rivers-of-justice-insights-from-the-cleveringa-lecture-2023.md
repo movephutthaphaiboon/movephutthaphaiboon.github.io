@@ -98,7 +98,7 @@ The lecture culminated in a profound discussion on the multifaceted concept of j
 
 Dr. Rabe concluded this section by highlighting the often challenging choices and dilemmas that arise when considering these different forms of justice. For instance, the conservation of natural resources might conflict with human usage, or traditional knowledge might contrast with scientific expertise. These conflicts necessitate a careful and balanced approach, requiring an interdisciplinary perspective to navigate through these complex issues.
 
-In essence, the exploration of justice in water management, as presented by Dr. Rabe, invites us to think deeply about the ethical and equitable dimensions of how we interact with our most vital resource - water. It calls for a holistic approach that considers a variety of perspectives and needs, ensuring that our water management practices are fair, inclusive, and sustainable.
+In essence, the exploration of justice in water management, as presented by Dr. Rabe, invites us to think deeply about the ethical and equitable dimensions of how we interact with our most vital resource—water. It calls for a holistic approach that considers a variety of perspectives and needs, ensuring that our water management practices are fair, inclusive, and sustainable.
 
 ## Conclusion
 The Cleveringa Lecture 2023, delivered by Dr. Paul Rabe, brought to the intricate and multidimensional challenges surrounding rivers and waterways. Key takeaways from the lecture include:
