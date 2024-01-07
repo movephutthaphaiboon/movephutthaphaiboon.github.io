@@ -56,7 +56,6 @@ Dr. Rabe’s lecture transitioned into a crucial segment, addressing the innovat
 1. **Transitioning to Public Well-being:** Dr. Rabe introduced the concept of transitioning from an economy focused on private wealth to one centered on public well-being. This paradigm shift places the well-being of people and their relationship with the environment at the forefront. The quality of our living environments becomes a key economic factor, necessitating a balance between development and ecological preservation. This approach calls for reimagining our urban space and policies to prioritize communal health, sustainability, and equitable access to natural resources.
 
 2. **Nature-guided Development:** Reversing the traditional order of urban development, a nature-guided approach was proposed. Instead of seeing occupation and urbanization as forces that shape and often dominate the natural landscape, he suggested a model where natural ecosystems guide development decisions. This approach would involve more than just environmental conservation; it would mean integrating nature’s pattern and resilience into the very fabric of urban planning and design, ensuring that development works in tandem with, rather than against, ecological systems.
-
 <img src="/images/cleveringa lecture 2023 05 - nature-guided development.jpg" width="90%" style="display: block; margin: auto;" />
 <p style="text-align: center;"><em>Nature-guided Development: Reversing the layers / Source: College van Rijksadviseurs</em></p>
 
