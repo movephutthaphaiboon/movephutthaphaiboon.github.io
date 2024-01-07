@@ -57,8 +57,8 @@ Dr. Rabe’s lecture transitioned into a crucial segment, addressing the innovat
 
 2. **Nature-guided Development:** Reversing the traditional order of urban development, a nature-guided approach was proposed. Instead of seeing occupation and urbanization as forces that shape and often dominate the natural landscape, he suggested a model where natural ecosystems guide development decisions. This approach would involve more than just environmental conservation; it would mean integrating nature’s pattern and resilience into the very fabric of urban planning and design, ensuring that development works in tandem with, rather than against, ecological systems.
 
-  <img src="/images/cleveringa lecture 2023 05 - nature-guided development.jpg" width="90%" style="display: block; margin: auto;" />
-  <p style="text-align: center;"><em>Nature-guided Development: Reversing the layers / Source: College van Rijksadviseurs</em></p>
+    <img src="/images/cleveringa lecture 2023 05 - nature-guided development.jpg" width="90%" style="display: block; margin: auto;" />
+    <p style="text-align: center;"><em>Nature-guided Development: Reversing the layers / Source: College van Rijksadviseurs</em></p>
 
 3. **The Room for the River program:** An exemplary model that Dr. Rabe highlighted was the Netherlands’ “Room for the River” program. This innovative initiative, operational between 1997 and 2017, aimed to create more space for rivers, allowing them to flow more freely and manage high water levels more effectively. The program didn’t just focus on flood prevention; it also sought to enhance the aesthetic and recreational value of river landscapes, proving that environmental projects can yield multifaceted benefits.
 
