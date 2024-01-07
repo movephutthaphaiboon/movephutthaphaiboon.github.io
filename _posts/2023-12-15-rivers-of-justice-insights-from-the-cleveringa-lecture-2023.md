@@ -32,14 +32,17 @@ Dr. Rabe  addressed the overarching issue of global warming in our current Anthr
 A highlight of Dr. Rabe’s lecture was his detailed exploration of water management strategies in Thailand compared to the Netherlands, offering a stark illustration of how different societies respond to similar environmental challenges.
 
 <img src="/images/cleveringa lecture 2023 02 - Thailand in the past.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Bangkok in the early 20th century: an example of traditional resilience / Source: Unseen Siam</em></p>
 
 In Thailand, Dr. Rabe traced the evolution of water-centric living. Historically, Thai communities were intricately linked to their waterways. Canals were not just physical entities but lifelines that shaped culture, transportation, and trade. He described how, in the early 20th century, Bangkok’s landscape was dominated by canals, and boats were the primary mode of transportation. Homes and communities were built with an intimate connection to water, embodying a lifestyle that respected and adapted to the natural ebb and flow of riverine and canal systems. This relationship represented a form of traditional resilience, harmonizing human existence with the aquatic environment.
 
 <img src="/images/cleveringa lecture 2023 03 - Thailand flood problems.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Bangkok's urbanization / Source: Bangkok Metropolitan Administration</em></p>
 
 However, Dr. Rabe pointed out that modern Thailand has undergone a significant shift. Rapid urbanization, driven by economic growth and population increase, has transformed the landscape. This change, while bringing development, has also led to critical environmental challenges. Paddy fields and natural drainage areas have been converted for urban use, leading to reduced water absorption and poor drainage. These changes, coupled with an increase in impermeable urban surfaces, have exacerbated flooding problems. The lecture emphasized that while these developments supported a modern society’s needs, they also distanced communities from their traditional, water-centric way of life, creating a disconnect with the natural water systems.
 
 <img src="/images/cleveringa lecture 2023 04 - layer approach.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Layer Approach / Source: College van Rijksadviseurs</em></p>
 
 Contrastingly, Dr. Rabe presented the Netherlands as a nation that has embraced a more systematic and holistic approach to water management. Recognizing the multifaceted nature of water-related challenges, the Dutch strategy encompasses a wide array of considerations, including climate change, energy, mobility, economy, agriculture, social justice, and water itself. He detailed how the Netherlands, a country with a significant portion of its land below the sea level, has historically battled with water. Instead of fighting against it, the Dutch have developed an integrated approach that respects and works with their aquatic landscape.
 
@@ -55,20 +58,24 @@ Dr. Rabe’s lecture transitioned into a crucial segment, addressing the innovat
 2. **Nature-guided Development:** Reversing the traditional order of urban development, a nature-guided approach was proposed. Instead of seeing occupation and urbanization as forces that shape and often dominate the natural landscape, he suggested a model where natural ecosystems guide development decisions. This approach would involve more than just environmental conservation; it would mean integrating nature’s pattern and resilience into the very fabric of urban planning and design, ensuring that development works in tandem with, rather than against, ecological systems.
 
 <img src="/images/cleveringa lecture 2023 05 - nature-guided development.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Nature-guided Development: Reversing the layers / Source: College van Rijksadviseurs</em></p>
 
 3. **The Room for the River program:** An exemplary model that Dr. Rabe highlighted was the Netherlands’ “Room for the River” program. This innovative initiative, operational between 1997 and 2017, aimed to create more space for rivers, allowing them to flow more freely and manage high water levels more effectively. The program didn’t just focus on flood prevention; it also sought to enhance the aesthetic and recreational value of river landscapes, proving that environmental projects can yield multifaceted benefits.
 
 <img src="/images/cleveringa lecture 2023 06 - room for the river.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Room for the River approaches to create more space for water</em></p>
 
 4. **Doughnut Economics Model:** The concept of Doughnut Economics was developed by an economist Kate Raworth. This model presents an economic framework that balances essential human needs with the planet’s ecological limits. It’s portrayed as a doughnut-shaped diagram where the inner ring represents the ecological ceiling. The space in between - the doughnut - is the safe and just space for humanity. This model challenges the traditional focus on GDP growth and advocates for a holistic approach to economic development, taking into account social and planetary boundaries.
 
 <img src="/images/cleveringa lecture 2023 07 - Doughnut Economics.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Doughnut Economics written by Kate Raworth (left) and the proposed model (right)</em></p>
 
 Dr. Rabe’s discussion of these strategies and models underscored the need for a transformative approach to water management and urban development. By integrating concepts like public well-being, nature-guided development, innovative flood management, and sustainable economic models, he provided a comprehensive blueprint for addressing the multifaceted challenges posed by climate change and urbanization.
 
 ## River Cities Network (RCN)
 
 <img src="/images/cleveringa lecture 2023 08 - River Cities Network.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>River Cities Network's website</em></p>
 
 In his lecture, Dr. Rabe emphasized the significant role of the River Cities Network (RCN) in advancing sustainable relationships between urban areas and their waterways. The main objectives of RCN are promoting justice and enhancing biodiversity, aiming to establish equitable and ecologically mindful urban water management practices.
 
@@ -114,3 +121,4 @@ A particularly enriching moment came at the end of the lecture when I had the op
 This lecture has thus not only expanded my understanding of water management but has also reinforced my commitment to this field. It has connected me with a network of experts and resources, enhancing my readiness to contribute effectively to this vital area of environmental stewardship.
 
 <img src="/images/cleveringa lecture 2023 09 - in Bangkok.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Cleveringa Lecture 2023 at the Royal Netherlands Embassy in Thailand</em></p>
