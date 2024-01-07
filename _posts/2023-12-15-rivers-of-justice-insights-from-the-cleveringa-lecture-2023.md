@@ -62,13 +62,13 @@ Dr. Rabe’s lecture transitioned into a crucial segment, addressing the innovat
 
 3. **The Room for the River program:** An exemplary model that Dr. Rabe highlighted was the Netherlands’ “Room for the River” program. This innovative initiative, operational between 1997 and 2017, aimed to create more space for rivers, allowing them to flow more freely and manage high water levels more effectively. The program didn’t just focus on flood prevention; it also sought to enhance the aesthetic and recreational value of river landscapes, proving that environmental projects can yield multifaceted benefits.
 
-<img src="/images/cleveringa lecture 2023 06 - room for the river.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Room for the River approaches to create more space for water</em></p>
+    <img src="/images/cleveringa lecture 2023 06 - room for the river.jpg" width="90%" style="display: block; margin: auto;" />
+    <p style="text-align: center;"><em>Room for the River approaches to create more space for water</em></p>
 
 4. **Doughnut Economics Model:** The concept of Doughnut Economics was developed by an economist Kate Raworth. This model presents an economic framework that balances essential human needs with the planet’s ecological limits. It’s portrayed as a doughnut-shaped diagram where the inner ring represents the ecological ceiling. The space in between - the doughnut - is the safe and just space for humanity. This model challenges the traditional focus on GDP growth and advocates for a holistic approach to economic development, taking into account social and planetary boundaries.
 
-<img src="/images/cleveringa lecture 2023 07 - Doughnut Economics.jpg" width="90%" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Doughnut Economics written by Kate Raworth (left) and the proposed model (right)</em></p>
+    <img src="/images/cleveringa lecture 2023 07 - Doughnut Economics.jpg" width="90%" style="display: block; margin: auto;" />
+    <p style="text-align: center;"><em>Doughnut Economics written by Kate Raworth (left) and the proposed model (right)</em></p>
 
 Dr. Rabe’s discussion of these strategies and models underscored the need for a transformative approach to water management and urban development. By integrating concepts like public well-being, nature-guided development, innovative flood management, and sustainable economic models, he provided a comprehensive blueprint for addressing the multifaceted challenges posed by climate change and urbanization.
 
