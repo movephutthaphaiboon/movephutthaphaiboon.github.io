@@ -18,6 +18,7 @@ In this post, I intend to share the key takeaways from this enlightening lecture
 ## The Historical Significance of Cleveringa
 
 <img src="/images/cleveringa lecture 2023 01 - Rudolph Cleveringa.jpg" width="90%" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Professor Rudolph Cleveringa (left) and gathering of students in front of the Academy building after the lecture of Professor Cleveringa (right) / Source: Leiden University's website</em></p>
 
 The Cleveringa Lecture serves as a potent reminder of Professor Rudolph Cleveringa’s stand during one of the darkest chapters in history. His defiance against Nazi oppression by speaking out against the dismissal of Jewish colleagues at Leiden University became a beacon of resistance. These lectures, now held globally, delve into themes of law, freedom, and responsibility, symbolizing the perpetual struggle against injustice. Cleveringa’s act of courage, leading to the temporary closure of Leiden University, is commemorated through these lectures, which today resonate with the urgency to confront our environmental challenges and injustices.
 
