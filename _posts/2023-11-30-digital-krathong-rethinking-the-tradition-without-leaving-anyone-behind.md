@@ -39,7 +39,8 @@ In conclusion, I am immensely proud of what Digital Picnic achieved. Our work de
 
 <br/>
 
-Follow Digital Picnic on [Facebook](https://www.facebook.com/digitalpicnic.th) | [Website](https://digitalpicnic.co.th/)
+Follow Digital Picnic on [Facebook](https://www.facebook.com/digitalpicnic.th)
+Visit our [Website](https://digitalpicnic.co.th/)
 
 
 
