@@ -30,7 +30,7 @@ Striking a balance and carving out a middle ground are crucial for fostering soc
 
 <img src="/images/Loy Krathong 5.jpg" width="90%" style="display: block; margin: auto;" />
 
-In conclusion, I am immensely proud of what Digital Picnic achieved. Our work demonstrated that technology can play a crucial role in evolving traditions, making them more sustainable and inclusive. The success of digital krathong is a testament to the potential of innovative solutions to bridge the gap between cultural heritage and environmental stewardship. As we look forward to next year’s festival, I am filled with optimism about the possibilities of using technology for social good, bringing us closer to a future where we no longer have to choose between our traditions and our planet.
+In conclusion, I am immensely proud of what Digital Picnic achieved. Our work demonstrated that technology can play a crucial role in evolving traditions, making them more sustainable and inclusive. The success of digital krathong is a testament to the potential of innovative solutions to bridge the gap between cultural heritage and environmental stewardship. As we look forward to next year’s festival, I am filled with optimism about the possibilities of using technology for social good, bringing us closer to a future where we no longer have to choose between our traditions and our planet. 
 
 <img src="/images/Loy Krathong 6.jpg" width="90%" style="display: block; margin: auto;" />
 
