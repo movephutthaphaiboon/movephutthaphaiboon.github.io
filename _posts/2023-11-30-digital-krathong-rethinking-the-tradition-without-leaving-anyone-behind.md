@@ -35,9 +35,7 @@ In conclusion, I am immensely proud of what Digital Picnic achieved. Our work de
 
 <img src="/images/Loy Krathong 6.jpg" width="90%" style="display: block; margin: auto;" />
 
-<img src="/images/Loy Krathong 7.jpg" width="90%" style="display: block; margin: auto;" />
-
-<img src="/images/Loy Krathong 8.jpg" width="90%" style="display: block; margin: auto;" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D5OlO41GX4E?si=z0lH3F-MLffPIsBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Follow Digital Picnic on [Facebook](https://www.facebook.com/digitalpicnic.th)
 
