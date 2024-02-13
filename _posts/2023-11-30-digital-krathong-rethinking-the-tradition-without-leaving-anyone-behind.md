@@ -7,7 +7,7 @@ tags:
   - Tech for Good
 ---
 
-<img src="/images/Loy Krathong banner.jpg" width="100%" style="display: block; margin: auto;" />
+<img src="/images/Loy Krathong banner.jpg" width="90%" style="display: block; margin: auto;" />
 
 In recent years, it’s become clear that some of our most cherished traditions have unintended consequences on the environment. The Loy Krathong Festival in Thailand is a prime example. In 2022 alone, 572,603 krathongs were set afloat in the rivers of Bangkok. While 95.7% were made from biodegradable materials, the remaining 4.3% consisted of foam blocks that could be in our waterways for up to 400 years if not properly managed. Even materials like bread and banana stems, despite being biodegradable, contribute to pollution and can harm aquatic life. This reality prompts us to ask: Isn’t it time to rethink how we celebrate this tradition, balancing our cultural practices with environmental sustainability?
 
@@ -34,6 +34,10 @@ Striking a balance and carving out a middle ground are crucial for fostering soc
 In conclusion, I am immensely proud of what Digital Picnic achieved. Our work demonstrated that technology can play a crucial role in evolving traditions, making them more sustainable and inclusive. The success of digital krathong is a testament to the potential of innovative solutions to bridge the gap between cultural heritage and environmental stewardship. As we look forward to next year’s festival, I am filled with optimism about the possibilities of using technology for social good, bringing us closer to a future where we no longer have to choose between our traditions and our planet. 
 
 <img src="/images/Loy Krathong 6.jpg" width="90%" style="display: block; margin: auto;" />
+
+<img src="/images/Loy Krathong 7.jpg" width="90%" style="display: block; margin: auto;" />
+
+<img src="/images/Loy Krathong 8.jpg" width="90%" style="display: block; margin: auto;" />
 
 Follow Digital Picnic on [Facebook](https://www.facebook.com/digitalpicnic.th)
 
