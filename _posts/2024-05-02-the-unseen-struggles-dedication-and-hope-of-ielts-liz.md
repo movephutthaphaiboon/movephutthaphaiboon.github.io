@@ -2,14 +2,14 @@
 title: 'The Unseen Struggles, Dedication, and Hope of IELTS Liz'
 date: 2024-05-02
 permalink: /posts/2024/05/the-unseen-struggles-dedication-and-hope-of-ielts-liz/
-excerpt: "<img src='/images/IELTS Liz thumbnail.jpg' width='200' height='160' align='right' hspace='20'>Have you ever heard of or used IELTS Liz ? This post is about Liz, the owner of IELTS Liz. It’s an #IELTS guide platform that has helped me develop my academic English skills. Even though I learned English through many platforms and teachers, her website was actually helpful, especially for writing—the skill I spent most of my time improving. ..."
+excerpt: "<img src='/images/IELTS Liz thumbnail.jpg' width='200' height='160' align='right' hspace='20'>Have you ever heard of or used IELTS Liz ? This post is about Liz, the owner of IELTS Liz. It’s an #IELTS guide platform that has helped me develop my academic English skills. Even though I learned English through many platforms and teachers, her website was actually helpful, especially for writing—the skill I spent most of my time improving. I read almost every tip, trick, and free example given on her site. ..."
 tags:
   - Inspiration
 ---
 
-Have you ever heard of or used IELTS Liz ?
+💭 Have you ever heard of or used IELTS Liz ?
 
-https://ieltsliz.com
+[https://ieltsliz.com](https://ieltsliz.com)
 
 This post is about Liz, the owner of IELTS Liz. It’s an #IELTS guide platform that has helped me develop my academic English skills. Even though I learned English through many platforms and teachers, her website was actually helpful, especially for writing—the skill I spent most of my time improving. I read almost every tip, trick, and free example given on her site.
 
