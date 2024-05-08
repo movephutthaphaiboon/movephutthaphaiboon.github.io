@@ -7,7 +7,7 @@ tags:
   - Inspiration
 ---
 
-<img src="/images/IELTS Liz thumbnail.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/IELTS Liz thumbnail.jpg" width="50%" style="display: block; margin: auto;" />
 
 💭 Have you ever heard of or used **IELTS Liz** ?
 
