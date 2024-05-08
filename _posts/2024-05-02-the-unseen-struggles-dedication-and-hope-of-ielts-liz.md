@@ -23,7 +23,7 @@ I think what she has done is not only due to her passion for languages but also 
 
 Sometimes we just need these kinds of people who passionately do something they’re good at to contribute to the community. Look at what you have, what you’re good at, and channel it to create a positive impact on this world. This message is for those of you who have **privilege** in this society.
 
-Watch **IELTS Liz - My Personal Story**.
+Listen to **IELTS Liz - My Personal Story**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hN9FBn0PBXw?si=P_IR8_l0jwlaPYH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
