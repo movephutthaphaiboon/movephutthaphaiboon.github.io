@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Education
+* M.Sc. in <span style="color: #8b2130;">Engineering and Policy Analysis</span>, Delft University of Technology, Netherlands, 2024-present
 * M.Eng. in <span style="color: #8b2130;">Computer Engineering</span>, King Mongkut’s University of Technology Thonburi, Thailand, 2023
   * Thesis Project: Forecasting Arctic Sea Ice Concentration using Long Short-term Memory Networks
 * B.Eng. in <span style="color: #8b2130;">Robotics and Automation Engineering</span>, Institute of Field Robotics, King Mongkut’s University of Technology Thonburi, Thailand, 2020
