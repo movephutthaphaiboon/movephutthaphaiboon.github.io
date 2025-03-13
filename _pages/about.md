@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Thunchanok Phutthaphaiboon. You can call me Move. I'm a tech enthusiast with a deep interest in sustainability and community empowerment.
+Hello! I’m Thunchanok Phutthaphaiboon, but you can call me Move. I’m currently a master’s student in Engineering and Policy Analysis (EPA) at TU Delft, where I explore the intersection of technology, policy, and societal impact.
 
-I started my academic journey with a bachelor's degree in Robotics and Automation Engineering, and I was lucky enough to graduate with 1st-class honors. From there, I dove into the world of Computer Engineering for my master's degree, focusing on data analytics and data science.
+My journey started with a bachelor’s degree in Robotics and Automation Engineering, where I graduated with first-class honors. From there, I pursued a master’s in Computer Engineering, diving into data analytics and data science. But rather than following a conventional tech career path, I’ve always been drawn to something bigger—using technology to drive meaningful change.
 
-Now, you might think I'd head straight into a typical tech career, but that's not quite my style. I'm passionate about using my tech skills to make a difference. I care a lot about environmental conservation, community development, and issues related to governance.
+This passion led me to co-found Around the Room Studio, a social enterprise that blends design, technology, and community engagement to help local communities tackle challenges. Our work spans environmental conservation, natural resource management, and skill development, always keeping people at the heart of every solution.
 
-That's why I co-founded [Around the Room Studio](https://movephutthaphaiboon.github.io/posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/) with a couple of brilliant architect friends. We use our combined knowledge to help local communities overcome challenges with the help of technology. Our approach involves working closely with these communities, and our work has taken us to projects related to the environment, natural resource conservation, and skill development.
+I also have a strong interest in education and knowledge-sharing. I love creating workshops and training programs to help individuals and communities develop technical skills, empowering them to stand against injustice and shape a more sustainable future.
 
-Another thing I'm particularly fond of is education. I love helping people develop their skills and knowledge through workshops and training sessions. I believe that with the right technical skills, we can strengthen our local communities in Thailand, helping them stand against injustice.
+With all these experiences—from robotics and data science to community development and sustainability—I’ve come to realize that technology alone isn’t enough. That’s why I’m here at TU Delft, studying policy and decision-making, to bridge the gap between engineering, governance, and societal change.
 
 Thanks for dropping by my site. I hope you enjoy exploring my work, my passions, and my journey [here](https://movephutthaphaiboon.github.io/year-archive/)!
 
