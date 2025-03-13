@@ -13,4 +13,4 @@ The time has finally come! I’ve arrived at TU Delft as a master’s student in
 
 Here are some pictures from the IP program—I’m already loving this journey! I can’t wait to learn, grow, and contribute. I’ll be sharing more about my experiences at EPA once things settle down. Stay tuned! 😊
 
-<img src="/images/tud_ip_02.jpg" width="90%" style="display: block; margin: auto;" />
+<img src="/images/tud_ip_02.JPG" width="90%" style="display: block; margin: auto;" />
