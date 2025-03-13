@@ -20,10 +20,11 @@ redirect_from:
 ## Skills
 * **Languages:** Thai (Native), English (Proficient; IELTS Academic - 7.5/9.0)
 * **Programming Languages:** C, Python, MATLAB
-* **Data Science:** Data Preparation, Data Visualization, Statistical Analysis, Time-series Analysis, Data Modeling, Optimization, Machine Learning
-* **Robotics and Automation:** Image Processing, Object Detection
-* **Tools:** MS Office, Power BI, Tableau, Google Colaboratory, Jupyter, Rapid Miner, MATLAB, V-REP, Solidworks, Fusion 360, Adobe Xd, Notion
+* **Data Science:** Spatial Data Science, Data Cleaning, Data Visualization, Statistical Analysis, Time-series Analysis, Optimization, Machine Learning, Image Processing
+* **Modeling:** Agent-based Modeling, System Dynamics
+* **Policy Analysis:** Policy Brief, System Thinking, Actor and Strategy Modeling
 * **Participatory Design:** Design Thinking, Digital Prototyping, Usability Testing, Experimental Design
+* **Tools:** MS Office, Vensim, Power BI, Tableau, Google Colaboratory, Jupyter Lab, Rapid Miner, MATLAB, Notion
 * **Other Skills:** Self-learning, Project Management, Collaboration, Teaching
 
 ## Publications
