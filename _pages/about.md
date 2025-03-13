@@ -12,7 +12,7 @@ Hello! I’m Thunchanok Phutthaphaiboon, but you can call me Move. I’m current
 
 My journey started with a bachelor’s degree in Robotics and Automation Engineering. From there, I pursued a master’s in Computer Engineering, diving into data analytics and data science. But rather than following a conventional tech career path, I’ve always been drawn to something bigger—using technology to drive meaningful change.
 
-This passion led me to co-found Around the Room Studio, a social enterprise that blends design, technology, and community engagement to help local communities tackle challenges. Our work spans environmental conservation, natural resource management, and skill development, always keeping people at the heart of every solution.
+This passion led me to co-found [Around the Room Studio](https://movephutthaphaiboon.github.io/posts/2023/07/a-year-with-around-the-room-studio-empowering-communities-building-bridges/), a social enterprise that blends design, technology, and community engagement to help local communities tackle challenges. Our work spans environmental conservation, natural resource management, and skill development, always keeping people at the heart of every solution.
 
 I also have a strong interest in education and knowledge-sharing. I love creating workshops and training programs to help individuals and communities develop technical skills, empowering them to stand against injustice and shape a more sustainable future.
 
