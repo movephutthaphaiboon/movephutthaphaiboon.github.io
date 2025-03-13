@@ -10,7 +10,7 @@ redirect_from:
 
 Hello! I’m Thunchanok Phutthaphaiboon, but you can call me Move. I’m currently a master’s student in Engineering and Policy Analysis (EPA) at TU Delft, where I explore the intersection of technology, policy, and societal impact.
 
-My journey started with a bachelor’s degree in Robotics and Automation Engineering, where I graduated with first-class honors. From there, I pursued a master’s in Computer Engineering, diving into data analytics and data science. But rather than following a conventional tech career path, I’ve always been drawn to something bigger—using technology to drive meaningful change.
+My journey started with a bachelor’s degree in Robotics and Automation Engineering. From there, I pursued a master’s in Computer Engineering, diving into data analytics and data science. But rather than following a conventional tech career path, I’ve always been drawn to something bigger—using technology to drive meaningful change.
 
 This passion led me to co-found Around the Room Studio, a social enterprise that blends design, technology, and community engagement to help local communities tackle challenges. Our work spans environmental conservation, natural resource management, and skill development, always keeping people at the heart of every solution.
 
