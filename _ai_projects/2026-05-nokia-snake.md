@@ -1,6 +1,6 @@
 ---
 title: "Nokia Snake"
-excerpt: "Classic Snake with Nokia 3310 LCD aesthetics — monotone green display, on-screen D-pad for mobile, and auto-detected arrow-key controls for desktop."
+excerpt: "Classic Snake with Nokia 3310 LCD for mobile, and auto-detected arrow-key controls for desktop."
 type: "Game"
 tools: ["Claude", "JavaScript", "HTML", "CSS"]
 status: "complete"
