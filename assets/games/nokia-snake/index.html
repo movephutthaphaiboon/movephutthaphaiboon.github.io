@@ -336,6 +336,9 @@ function draw() {
   else                   { ctx.fillRect(h.x*CELL+1, h.y*CELL+5, 2, 2); ctx.fillRect(h.x*CELL+5, h.y*CELL+5, 2, 2); }
 }
 
+// ── Haptic helper ─────────────────────────────────────────────
+const vibrate = pattern => navigator.vibrate && navigator.vibrate(pattern);
+
 // ── Game logic tick ───────────────────────────────────────────
 function tick() {
   if (!running || paused || dead) return;
@@ -351,6 +354,7 @@ function tick() {
   snake.unshift(head);
 
   if (head.x === food.x && head.y === food.y) {
+    vibrate(40);
     score += 10;
     const newLevel = Math.min(10, Math.floor(score / 50) + 1);
     if (newLevel > level) {
@@ -385,6 +389,7 @@ function endGame() {
   dead    = true;
   running = false;
   clearInterval(logicInterval);
+  vibrate([80, 60, 80]);
   showOverlay('GAME OVER', 'Press START\nto play again', score);
 }
 
