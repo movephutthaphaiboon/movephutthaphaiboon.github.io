@@ -300,6 +300,11 @@ function draw() {
     ctx.beginPath(); ctx.moveTo(0, y * CELL); ctx.lineTo(canvas.width, y * CELL); ctx.stroke();
   }
 
+  // Top boundary line
+  ctx.strokeStyle = P.dark;
+  ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(0, 1); ctx.lineTo(canvas.width, 1); ctx.stroke();
+
   // Food — always visible; highlight dot pulses for blink effect
   if (food) {
     ctx.fillStyle = P.dark;
