@@ -308,6 +308,7 @@
       <button class="opt-btn selected" data-value="60">1 min</button>
       <button class="opt-btn" data-value="120">2 min</button>
       <button class="opt-btn" data-value="300">5 min</button>
+      <button class="opt-btn" data-value="Infinity">∞</button>
     </div>
   </div>
 
@@ -354,8 +355,8 @@
   </div>
 
   <div class="action-row">
-    <button class="submit-btn" id="submit-btn">Submit</button>
     <button class="skip-btn" id="skip-btn">Skip (<span id="skips-left">3</span>)</button>
+    <button class="submit-btn" id="submit-btn">Submit</button>
   </div>
 
 </div>
@@ -387,7 +388,7 @@
     btn.addEventListener('click', () => {
       document.querySelectorAll('#time-options .opt-btn').forEach(b => b.classList.remove('selected'));
       btn.classList.add('selected');
-      timeLimit = parseFloat(btn.dataset.value);
+      timeLimit = btn.dataset.value === 'Infinity' ? Infinity : parseFloat(btn.dataset.value);
     });
   });
 
@@ -416,6 +417,10 @@
   // ── Timer ──
   function startTimer() {
     clearInterval(timerInterval);
+    if (timeLimit === Infinity) {
+      document.getElementById('time-left').textContent = '∞';
+      return;
+    }
     updateTimerDisplay();
     timerInterval = setInterval(() => {
       timeLeft--;
