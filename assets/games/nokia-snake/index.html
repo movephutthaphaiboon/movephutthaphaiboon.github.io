@@ -300,17 +300,13 @@ function draw() {
     ctx.beginPath(); ctx.moveTo(0, y * CELL); ctx.lineTo(canvas.width, y * CELL); ctx.stroke();
   }
 
-  // Food (blinks every ~20 frames)
+  // Food — always visible; highlight dot pulses for blink effect
   if (food) {
-    const blink = Math.floor(frameCount / 20) % 2 === 0;
-    if (blink) {
-      ctx.fillStyle = P.dark;
-      ctx.fillRect(food.x * CELL + 1, food.y * CELL + 1, CELL - 2, CELL - 2);
+    ctx.fillStyle = P.dark;
+    ctx.fillRect(food.x * CELL + 1, food.y * CELL + 1, CELL - 2, CELL - 2);
+    if (Math.floor(frameCount / 20) % 2 === 0) {
       ctx.fillStyle = P.light;
       ctx.fillRect(food.x * CELL + 3, food.y * CELL + 3, 2, 2);
-    } else {
-      ctx.fillStyle = P.mid;
-      ctx.fillRect(food.x * CELL + 2, food.y * CELL + 2, CELL - 4, CELL - 4);
     }
   }
 
