@@ -1,6 +1,6 @@
 ---
 title: "Twenty-Four"
-excerpt: "A timed math puzzle game — combine four numbers using +−×÷ to make 24."
+excerpt: "A timed math puzzle game — combine four numbers using +−×÷√% to make 24."
 type: "Game"
 tools: ["Claude", "JavaScript", "HTML", "CSS"]
 status: "complete"
