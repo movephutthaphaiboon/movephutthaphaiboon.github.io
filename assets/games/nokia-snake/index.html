@@ -444,17 +444,25 @@ document.addEventListener('keydown', e => {
 });
 
 // ── D-pad button bindings ─────────────────────────────────────
-document.getElementById('btnUp').addEventListener('click',    () => setDir(0, -1));
-document.getElementById('btnDown').addEventListener('click',  () => setDir(0,  1));
-document.getElementById('btnLeft').addEventListener('click',  () => setDir(-1, 0));
-document.getElementById('btnRight').addEventListener('click', () => setDir( 1, 0));
-document.getElementById('btnStart').addEventListener('click', startGame);
-document.getElementById('btnPause').addEventListener('click', togglePause);
-
-// Prevent default touch scroll on D-pad
-['btnUp','btnDown','btnLeft','btnRight'].forEach(id => {
-  document.getElementById(id).addEventListener('touchstart', e => e.preventDefault(), { passive: false });
+// touchstart fires instantly on mobile (no 300ms click delay).
+// preventDefault suppresses the synthetic click so there's no double-fire.
+// The click listener still handles mouse input on desktop.
+const dpadMap = [
+  ['btnUp',    0, -1],
+  ['btnDown',  0,  1],
+  ['btnLeft',  -1, 0],
+  ['btnRight',  1, 0],
+];
+dpadMap.forEach(([id, dx, dy]) => {
+  const btn = document.getElementById(id);
+  btn.addEventListener('touchstart', e => { e.preventDefault(); setDir(dx, dy); }, { passive: false });
+  btn.addEventListener('click', () => setDir(dx, dy));
 });
+
+document.getElementById('btnStart').addEventListener('touchstart', e => { e.preventDefault(); startGame(); }, { passive: false });
+document.getElementById('btnStart').addEventListener('click', startGame);
+document.getElementById('btnPause').addEventListener('touchstart', e => { e.preventDefault(); togglePause(); }, { passive: false });
+document.getElementById('btnPause').addEventListener('click', togglePause);
 
 // ── Swipe on canvas ───────────────────────────────────────────
 let swipeX, swipeY;
