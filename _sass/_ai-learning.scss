@@ -1,0 +1,117 @@
+/* ==========================================================================
+   AI-ENABLED LEARNING — Project Gallery
+   ========================================================================== */
+
+.ai-project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.ai-card {
+  background: #fff;
+  border: 1px solid #e6e9ec;
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+
+  &.ai-card--in-progress {
+    border-left: 3px solid #f5a623;
+  }
+
+  &.ai-card--idea {
+    border-left: 3px dashed #c0c5cb;
+    opacity: 0.85;
+  }
+}
+
+.ai-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Type badges — color-coded by category */
+.ai-card__type-badge {
+  display: inline-block;
+  padding: 0.2em 0.65em;
+  border-radius: 20px;
+  font-size: 0.7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #7a8288; // fallback gray
+
+  &.ai-card__type-badge--game              { background: #e05c2e; }
+  &.ai-card__type-badge--data-storytelling { background: #2e8b79; }
+  &.ai-card__type-badge--interactive       { background: #6a4db8; }
+  &.ai-card__type-badge--generative-art    { background: #c8931a; }
+}
+
+.ai-card__status-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 20px;
+  font-size: 0.68em;
+  color: #666;
+  background: #f0f2f4;
+}
+
+.ai-card__img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.ai-card__title {
+  margin: 0 0 0.4rem;
+  font-size: 1.05em;
+  line-height: 1.3;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.ai-card__excerpt {
+  font-size: 0.88em;
+  color: #555;
+  line-height: 1.5;
+  flex-grow: 1;
+  margin: 0 0 0.9rem;
+}
+
+.ai-card__tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: auto;
+}
+
+.ai-card__tool-tag {
+  display: inline-block;
+  padding: 0.15em 0.55em;
+  border-radius: 4px;
+  font-size: 0.68em;
+  background: #f0f2f4;
+  color: #444;
+  border: 1px solid #dde0e4;
+}
