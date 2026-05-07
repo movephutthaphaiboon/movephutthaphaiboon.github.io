@@ -9,6 +9,8 @@ date: 2026-05-07
 
 ## Play the game
 
+<a href="/assets/games/twenty-four/index.html" target="_blank" style="display:inline-block; margin-bottom:1rem; padding:0.6rem 1.2rem; background:#52adc8; color:#fff; border-radius:6px; font-weight:600; text-decoration:none;">&#x26F6; Play in fullscreen</a>
+
 <iframe
   src="/assets/games/twenty-four/index.html"
   width="100%"
@@ -33,6 +35,6 @@ The CSS layout and colour choices were built together — I wanted it minimal an
 
 Expression parsing is trickier than it looks. The tricky part was not just evaluating the expression, but tracking *which* digits had been used (so you can't reuse a number). I ended up tracking used digit indices rather than values, which handles duplicate digits correctly (e.g. if you have two 3s, using one 3 shouldn't block the other).
 
-## Reflections
+<!-- ## Reflections
 
-*To be filled in after playing for a while — what strategies work? Which number combinations are hardest? Does the time pressure actually feel fun or just stressful?*
+*To be filled in after playing for a while — what strategies work? Which number combinations are hardest? Does the time pressure actually feel fun or just stressful?* -->
