@@ -113,15 +113,22 @@
 
   .restart-link {
     background: none;
-    border: none;
+    border: 2px solid #d0d4d8;
+    border-radius: 50%;
     color: #bdc4c9;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     cursor: pointer;
-    text-decoration: underline;
     padding: 0;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: border-color 0.15s, color 0.15s;
   }
 
-  .restart-link:hover { color: #7a8288; }
+  .restart-link:hover { border-color: #7a8288; color: #7a8288; }
 
   .digits-row {
     display: flex;
@@ -242,10 +249,6 @@
   .skip-btn:hover:not(:disabled) { border-color: #7a8288; }
   .skip-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-  .restart-row {
-    text-align: center;
-    margin-top: 1rem;
-  }
 
   /* ── End screen ── */
   .end { text-align: center; }
@@ -326,6 +329,7 @@
   <div class="game-header">
     <div class="timer" id="timer-display">Time <span id="time-left">1:00</span></div>
     <div class="score-display">Score <span id="score">0</span></div>
+    <button class="restart-link" id="restart-btn-game" title="Restart">↺</button>
   </div>
 
   <div class="digits-row" id="digits-row"></div>
@@ -354,9 +358,6 @@
     <button class="skip-btn" id="skip-btn">Skip (<span id="skips-left">3</span>)</button>
   </div>
 
-  <div class="restart-row">
-    <button class="restart-link" id="restart-btn-game">restart</button>
-  </div>
 </div>
 
 <!-- ── End screen ── -->
