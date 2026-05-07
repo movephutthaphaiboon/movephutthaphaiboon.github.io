@@ -5,11 +5,9 @@ permalink: /ai-learning/
 author_profile: true
 ---
 
-I've spent years working with data, engineering systems, and studying how technology shapes society. But there's always been a gap between the things I *wanted* to build and the things I actually knew how to build — games, interactive visualisations, generative art, little tools that make people stop and think.
+I think it is time to make something concrete. I have been using AI in both my work and personal life for a couple of years, and right now, in May 2026, I cannot think of anything more exciting than exploring what AI can really do. Not just for reaching random goals, but for helping me understand the world better. I would also like to record this journey and share it with my peers.
 
-AI closed that gap for me. Not by doing the work *for* me, but by being a collaborator I can actually talk to. I use it excitedly — it genuinely unlocks creativity I didn't have access to before — and critically, because I know it gets things wrong, and understanding *why* is half the learning.
-
-This page is my journal for that journey. Every project here started with curiosity and a "what if". Some are polished, some are experiments, some are gloriously unfinished. All of them taught me something. I hope they inspire you to build something too.
+My plan is to learn by creating, and to create by learning. Let us see how far AI can take me.
 
 ---
 
