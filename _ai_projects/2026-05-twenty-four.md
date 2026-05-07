@@ -21,7 +21,7 @@ date: 2026-05-07
 
 ---
 
-## What I built
+<!-- ## What I built
 
 A browser-based version of the classic 24 card game. You get four random numbers (1–9) and must combine them with addition, subtraction, multiplication, and division to reach exactly 24. You choose how long you want to play and how many skips you get — then go until the timer runs out. Your score is how many puzzles you solved correctly.
 
@@ -33,7 +33,7 @@ The CSS layout and colour choices were built together — I wanted it minimal an
 
 ## What I learned
 
-Expression parsing is trickier than it looks. The tricky part was not just evaluating the expression, but tracking *which* digits had been used (so you can't reuse a number). I ended up tracking used digit indices rather than values, which handles duplicate digits correctly (e.g. if you have two 3s, using one 3 shouldn't block the other).
+Expression parsing is trickier than it looks. The tricky part was not just evaluating the expression, but tracking *which* digits had been used (so you can't reuse a number). I ended up tracking used digit indices rather than values, which handles duplicate digits correctly (e.g. if you have two 3s, using one 3 shouldn't block the other). -->
 
 <!-- ## Reflections
 
