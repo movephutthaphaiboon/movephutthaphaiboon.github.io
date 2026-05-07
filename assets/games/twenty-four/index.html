@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Twenty-Four</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #fff;
+    color: #7a8288;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .screen { display: none; width: 100%; max-width: 420px; }
+  .screen.active { display: block; }
+
+  /* ── Setup screen ── */
+  .setup { text-align: center; }
+
+  .setup h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #52adc8;
+    letter-spacing: -1px;
+    margin-bottom: 0.25rem;
+  }
+
+  .setup .tagline {
+    font-size: 0.9rem;
+    color: #7a8288;
+    margin-bottom: 2rem;
+  }
+
+  .option-group { margin-bottom: 1.75rem; }
+
+  .option-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.6rem;
+    color: #7a8288;
+  }
+
+  .option-row {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .opt-btn {
+    flex: 1;
+    padding: 0.6rem 0;
+    border: 2px solid #d0d4d8;
+    border-radius: 6px;
+    background: #fff;
+    color: #7a8288;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+  }
+
+  .opt-btn:hover { border-color: #52adc8; color: #52adc8; }
+
+  .opt-btn.selected {
+    border-color: #52adc8;
+    background: #52adc8;
+    color: #fff;
+  }
+
+  .start-btn {
+    width: 100%;
+    padding: 0.85rem;
+    background: #52adc8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-top: 0.5rem;
+  }
+
+  .start-btn:hover { opacity: 0.88; }
+
+  /* ── Game screen ── */
+  .game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .timer, .score-display {
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+
+  .timer span { color: #52adc8; font-size: 1.4rem; }
+  .score-display span { color: #52adc8; font-size: 1.4rem; }
+
+  .timer.urgent span { color: #ee5f5b; }
+
+  .restart-link {
+    background: none;
+    border: none;
+    color: #bdc4c9;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+  }
+
+  .restart-link:hover { color: #7a8288; }
+
+  .digits-row {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .digit-card {
+    width: 72px;
+    height: 72px;
+    border: 2px solid #d0d4d8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #535659;
+    background: #fff;
+    transition: opacity 0.2s;
+  }
+
+  .digit-card.used {
+    opacity: 0.25;
+  }
+
+  .expr-box {
+    border: 2px solid #d0d4d8;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #535659;
+    min-height: 52px;
+    margin-bottom: 0.4rem;
+    word-break: break-all;
+    background: #fafafa;
+  }
+
+  .expr-box.empty { color: #bdc4c9; font-weight: 400; font-size: 1rem; }
+
+  .error-msg {
+    font-size: 0.82rem;
+    color: #ee5f5b;
+    min-height: 1.2em;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .operators-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .operators-row {
+    display: grid;
+    gap: 0.4rem;
+  }
+
+  .operators-row--4 { grid-template-columns: repeat(4, 1fr); }
+  .operators-row--5 { grid-template-columns: repeat(5, 1fr); }
+
+  .op-btn {
+    width: 100%;
+    height: 48px;
+    border: 2px solid #d0d4d8;
+    border-radius: 6px;
+    background: #fff;
+    color: #535659;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.12s, background 0.12s;
+  }
+
+  .op-btn:hover { border-color: #52adc8; color: #52adc8; }
+
+  .op-btn.back { color: #7a8288; font-size: 1rem; }
+
+  .action-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.25rem;
+  }
+
+  .submit-btn {
+    flex: 2;
+    padding: 0.75rem;
+    background: #52adc8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .submit-btn:hover { opacity: 0.88; }
+
+  .skip-btn {
+    flex: 1;
+    padding: 0.75rem;
+    background: #fff;
+    color: #7a8288;
+    border: 2px solid #d0d4d8;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.12s;
+  }
+
+  .skip-btn:hover:not(:disabled) { border-color: #7a8288; }
+  .skip-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .restart-row {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  /* ── End screen ── */
+  .end { text-align: center; }
+
+  .end h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #52adc8;
+    margin-bottom: 0.5rem;
+  }
+
+  .end .final-score {
+    font-size: 1.1rem;
+    color: #535659;
+    margin-bottom: 0.5rem;
+  }
+
+  .end .final-score strong {
+    font-size: 2.5rem;
+    color: #52adc8;
+    display: block;
+    line-height: 1.2;
+  }
+
+  .end .subtitle {
+    font-size: 0.85rem;
+    color: #bdc4c9;
+    margin-bottom: 2rem;
+  }
+
+  .play-again-btn {
+    width: 100%;
+    padding: 0.85rem;
+    background: #52adc8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .play-again-btn:hover { opacity: 0.88; }
+</style>
+</head>
+<body>
+
+<!-- ── Setup screen ── -->
+<div id="setup-screen" class="screen active setup">
+  <h1>Twenty-Four</h1>
+  <p class="tagline">Make the four numbers equal 24 using + − × ÷ √ %</p>
+
+  <div class="option-group">
+    <label>How long do you want to play?</label>
+    <div class="option-row" id="time-options">
+      <button class="opt-btn selected" data-value="60">1 min</button>
+      <button class="opt-btn" data-value="120">2 min</button>
+      <button class="opt-btn" data-value="300">5 min</button>
+    </div>
+  </div>
+
+  <div class="option-group">
+    <label>How many skips?</label>
+    <div class="option-row" id="skip-options">
+      <button class="opt-btn selected" data-value="3">3</button>
+      <button class="opt-btn" data-value="5">5</button>
+      <button class="opt-btn" data-value="10">10</button>
+      <button class="opt-btn" data-value="Infinity">∞</button>
+    </div>
+  </div>
+
+  <button class="start-btn" id="start-btn">Start</button>
+</div>
+
+<!-- ── Game screen ── -->
+<div id="game-screen" class="screen">
+  <div class="game-header">
+    <div class="timer" id="timer-display">Time <span id="time-left">1:00</span></div>
+    <div class="score-display">Score <span id="score">0</span></div>
+  </div>
+
+  <div class="digits-row" id="digits-row"></div>
+
+  <div class="expr-box empty" id="expr-display">tap digits and operators...</div>
+  <div class="error-msg" id="error-msg"></div>
+
+  <div class="operators-section">
+    <div class="operators-row operators-row--4">
+      <button class="op-btn" data-op="+">+</button>
+      <button class="op-btn" data-op="-">−</button>
+      <button class="op-btn" data-op="*">×</button>
+      <button class="op-btn" data-op="/">÷</button>
+    </div>
+    <div class="operators-row operators-row--5">
+      <button class="op-btn" data-op="(">(</button>
+      <button class="op-btn" data-op=")">)</button>
+      <button class="op-btn" id="sqrt-btn">√</button>
+      <button class="op-btn" data-op="%">%</button>
+      <button class="op-btn back" id="backspace-btn">⌫</button>
+    </div>
+  </div>
+
+  <div class="action-row">
+    <button class="submit-btn" id="submit-btn">Submit</button>
+    <button class="skip-btn" id="skip-btn">Skip (<span id="skips-left">3</span>)</button>
+  </div>
+
+  <div class="restart-row">
+    <button class="restart-link" id="restart-btn-game">restart</button>
+  </div>
+</div>
+
+<!-- ── End screen ── -->
+<div id="end-screen" class="screen end">
+  <h2>Time's up!</h2>
+  <div class="final-score">
+    You solved<strong id="final-score">0</strong>puzzles
+  </div>
+  <p class="subtitle" id="end-subtitle"></p>
+  <button class="play-again-btn" id="play-again-btn">Play again</button>
+</div>
+
+<script>
+  // ── State ──
+  let timeLimit = 60;
+  let skipBudget = 3;
+  let timeLeft = 60;
+  let skipsLeft = 3;
+  let score = 0;
+  let digits = [];
+  let exprTokens = [];   // internal tokens (uses * and / symbols)
+  let displayTokens = []; // display tokens (uses × and ÷)
+  let timerInterval = null;
+
+  // ── Option selectors ──
+  document.querySelectorAll('#time-options .opt-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#time-options .opt-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      timeLimit = parseFloat(btn.dataset.value);
+    });
+  });
+
+  document.querySelectorAll('#skip-options .opt-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#skip-options .opt-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      skipBudget = btn.dataset.value === 'Infinity' ? Infinity : parseInt(btn.dataset.value);
+    });
+  });
+
+  // ── Start ──
+  document.getElementById('start-btn').addEventListener('click', startGame);
+
+  function startGame() {
+    timeLeft = timeLimit;
+    skipsLeft = skipBudget;
+    score = 0;
+    showScreen('game-screen');
+    updateScoreDisplay();
+    updateSkipDisplay();
+    generatePuzzle();
+    startTimer();
+  }
+
+  // ── Timer ──
+  function startTimer() {
+    clearInterval(timerInterval);
+    updateTimerDisplay();
+    timerInterval = setInterval(() => {
+      timeLeft--;
+      updateTimerDisplay();
+      if (timeLeft <= 0) endGame();
+    }, 1000);
+  }
+
+  function updateTimerDisplay() {
+    const mins = Math.floor(timeLeft / 60);
+    const secs = timeLeft % 60;
+    document.getElementById('time-left').textContent =
+      mins + ':' + String(secs).padStart(2, '0');
+    const timerEl = document.getElementById('timer-display');
+    timerEl.classList.toggle('urgent', timeLeft <= 10);
+  }
+
+  // ── Puzzle ──
+  function generatePuzzle() {
+    digits = Array.from({length: 4}, () => Math.floor(Math.random() * 9) + 1);
+    exprTokens = [];
+    displayTokens = [];
+    usedIndices = [];
+    renderDigits();
+    renderExpr();
+    clearError();
+  }
+
+  function renderDigits() {
+    const row = document.getElementById('digits-row');
+    row.innerHTML = '';
+    const usedNums = getUsedNums();
+    const remaining = [...digits];
+    usedNums.forEach(n => {
+      const idx = remaining.indexOf(n);
+      if (idx !== -1) remaining.splice(idx, 1);
+    });
+
+    digits.forEach((d, i) => {
+      const card = document.createElement('div');
+      card.className = 'digit-card';
+      card.textContent = d;
+      card.dataset.index = i;
+
+      const isUsed = !remaining.includes(d) || (() => {
+        // mark used by tracking per-index
+        return false;
+      })();
+
+      card.addEventListener('click', () => onDigitClick(d, i));
+      row.appendChild(card);
+    });
+
+    // dim used indices
+    updateDigitUsed();
+  }
+
+  // Track which digit indices have been used
+  let usedIndices = [];
+
+  function onDigitClick(d, idx) {
+    if (usedIndices.includes(idx)) return;
+    usedIndices.push(idx);
+    exprTokens.push(String(d));
+    displayTokens.push(String(d));
+    updateDigitUsed();
+    renderExpr();
+    clearError();
+  }
+
+  function updateDigitUsed() {
+    const cards = document.querySelectorAll('.digit-card');
+    cards.forEach((card, i) => {
+      card.classList.toggle('used', usedIndices.includes(i));
+    });
+  }
+
+  function getUsedNums() {
+    return exprTokens.filter(t => /^\d+$/.test(t)).map(Number);
+  }
+
+  // ── Operators ──
+  document.querySelectorAll('.op-btn[data-op]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const op = btn.dataset.op;
+      const displayOp = op === '*' ? '×' : op === '/' ? '÷' : op;
+      exprTokens.push(op);
+      displayTokens.push(displayOp);
+      renderExpr();
+      clearError();
+    });
+  });
+
+  document.getElementById('sqrt-btn').addEventListener('click', () => {
+    exprTokens.push('Math.sqrt(');
+    displayTokens.push('√(');
+    renderExpr();
+    clearError();
+  });
+
+  document.getElementById('backspace-btn').addEventListener('click', () => {
+    if (exprTokens.length === 0) return;
+    const last = exprTokens[exprTokens.length - 1];
+    // if last token is a digit, free its index
+    if (/^\d+$/.test(last)) {
+      const num = parseInt(last);
+      // find last used index with that digit value
+      for (let i = usedIndices.length - 1; i >= 0; i--) {
+        if (digits[usedIndices[i]] === num) {
+          usedIndices.splice(i, 1);
+          break;
+        }
+      }
+      updateDigitUsed();
+    }
+    exprTokens.pop();
+    displayTokens.pop();
+    renderExpr();
+    clearError();
+  });
+
+  function renderExpr() {
+    const el = document.getElementById('expr-display');
+    if (displayTokens.length === 0) {
+      el.textContent = 'tap digits and operators...';
+      el.classList.add('empty');
+    } else {
+      el.textContent = displayTokens.join(' ');
+      el.classList.remove('empty');
+    }
+  }
+
+  // ── Submit ──
+  document.getElementById('submit-btn').addEventListener('click', onSubmit);
+
+  function onSubmit() {
+    const expr = exprTokens.join('');
+    if (!expr) { showError('Build an expression first.'); return; }
+
+    if (!validateExpr(expr)) {
+      showError('Use all 4 numbers exactly once.');
+      resetExpr();
+      return;
+    }
+
+    let result;
+    try {
+      result = Function('"use strict"; return (' + expr + ')')();
+    } catch {
+      showError('Invalid expression — check your parentheses.');
+      resetExpr();
+      return;
+    }
+
+    if (Math.abs(result - 24) < 1e-9) {
+      score++;
+      updateScoreDisplay();
+      generatePuzzle();
+    } else {
+      showError('That equals ' + formatResult(result) + ', not 24. Try again!');
+      resetExpr();
+    }
+  }
+
+  function validateExpr(expr) {
+    const cleaned = expr.replace(/Math\.sqrt\(/g, '');
+    if (!/^[\d\s\+\-\*\/\(\)\.%]+$/.test(cleaned)) return false;
+    const nums = expr.match(/\d+/g);
+    if (!nums || nums.length !== 4) return false;
+    const sorted = nums.map(Number).sort((a,b) => a-b);
+    const expected = [...digits].sort((a,b) => a-b);
+    return sorted.every((v, i) => v === expected[i]);
+  }
+
+  function formatResult(n) {
+    if (Number.isFinite(n)) return Math.round(n * 1000) / 1000;
+    return n;
+  }
+
+  function resetExpr() {
+    exprTokens = [];
+    displayTokens = [];
+    usedIndices = [];
+    updateDigitUsed();
+    renderExpr();
+  }
+
+  // ── Skip ──
+  document.getElementById('skip-btn').addEventListener('click', onSkip);
+
+  function onSkip() {
+    if (skipsLeft <= 0) return;
+    if (skipsLeft !== Infinity) skipsLeft--;
+    updateSkipDisplay();
+    generatePuzzle();
+  }
+
+  function updateSkipDisplay() {
+    const btn = document.getElementById('skip-btn');
+    const label = skipsLeft === Infinity ? '∞' : skipsLeft;
+    btn.innerHTML = 'Skip (<span id="skips-left">' + label + '</span>)';
+    btn.disabled = skipsLeft <= 0;
+  }
+
+  function updateScoreDisplay() {
+    document.getElementById('score').textContent = score;
+  }
+
+  // ── Error ──
+  function showError(msg) {
+    document.getElementById('error-msg').textContent = msg;
+  }
+
+  function clearError() {
+    document.getElementById('error-msg').textContent = '';
+  }
+
+  // ── End ──
+  function endGame() {
+    clearInterval(timerInterval);
+    document.getElementById('final-score').textContent = score;
+    const sub = score === 0 ? 'Keep practising — it gets easier!'
+      : score < 5 ? 'Nice start!'
+      : score < 10 ? 'Great run!'
+      : 'Impressive!';
+    document.getElementById('end-subtitle').textContent = sub;
+    showScreen('end-screen');
+  }
+
+  document.getElementById('play-again-btn').addEventListener('click', () => showScreen('setup-screen'));
+  document.getElementById('restart-btn-game').addEventListener('click', () => {
+    clearInterval(timerInterval);
+    showScreen('setup-screen');
+  });
+
+  // ── Screens ──
+  function showScreen(id) {
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
+</script>
+</body>
+</html>
