@@ -305,16 +305,6 @@ function draw() {
   ctx.lineWidth = 1.5;
   ctx.beginPath(); ctx.moveTo(0, 1); ctx.lineTo(canvas.width, 1); ctx.stroke();
 
-  // Food — always visible; highlight dot pulses for blink effect
-  if (food) {
-    ctx.fillStyle = P.dark;
-    ctx.fillRect(food.x * CELL + 1, food.y * CELL + 1, CELL - 2, CELL - 2);
-    if (Math.floor(frameCount / 20) % 2 === 0) {
-      ctx.fillStyle = P.light;
-      ctx.fillRect(food.x * CELL + 3, food.y * CELL + 3, 2, 2);
-    }
-  }
-
   // Snake body
   for (let i = snake.length - 1; i >= 1; i--) {
     const s = snake[i];
@@ -322,6 +312,16 @@ function draw() {
     ctx.fillRect(s.x * CELL, s.y * CELL, CELL, CELL);
     ctx.fillStyle = P.dark;
     ctx.fillRect(s.x * CELL + 1, s.y * CELL + 1, CELL - 2, CELL - 2);
+  }
+
+  // Food drawn after body so it always renders on top
+  if (food) {
+    ctx.fillStyle = P.dark;
+    ctx.fillRect(food.x * CELL + 1, food.y * CELL + 1, CELL - 2, CELL - 2);
+    if (Math.floor(frameCount / 20) % 2 === 0) {
+      ctx.fillStyle = P.light;
+      ctx.fillRect(food.x * CELL + 3, food.y * CELL + 3, 2, 2);
+    }
   }
 
   // Snake head
