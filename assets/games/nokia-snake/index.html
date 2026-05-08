@@ -314,16 +314,13 @@ function draw() {
     ctx.fillRect(s.x * CELL + 1, s.y * CELL + 1, CELL - 2, CELL - 2);
   }
 
-  // Food — hollow ring shape so it's always distinct from snake body
+  // Food — dark border + bright centre, opposite of snake body (mid border + dark centre)
   if (food) {
+    const pulse = Math.floor(frameCount / 20) % 2 === 0;
     ctx.fillStyle = P.dark;
-    ctx.fillRect(food.x * CELL, food.y * CELL, CELL, CELL);         // full dark square
-    ctx.fillStyle = P.bg;
-    ctx.fillRect(food.x * CELL + 2, food.y * CELL + 2, 4, 4);      // cut out centre with bg colour
-    if (Math.floor(frameCount / 20) % 2 === 0) {
-      ctx.fillStyle = P.dark;
-      ctx.fillRect(food.x * CELL + 3, food.y * CELL + 3, 2, 2);    // blinking centre dot
-    }
+    ctx.fillRect(food.x * CELL, food.y * CELL, CELL, CELL);
+    ctx.fillStyle = pulse ? P.light : P.mid;
+    ctx.fillRect(food.x * CELL + 2, food.y * CELL + 2, 4, 4);
   }
 
   // Snake head
