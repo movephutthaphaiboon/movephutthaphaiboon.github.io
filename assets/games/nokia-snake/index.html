@@ -250,7 +250,7 @@ const P = {
 let snake, dir, nextDir, food, score, level, speed;
 let running = false, paused = false, dead = false;
 let logicInterval, rafId;
-let frameCount = 0;
+let frameCount = 0, foodTimer = 0;
 
 function init() {
   snake   = [{ x:15, y:12 }, { x:14, y:12 }, { x:13, y:12 }];
@@ -261,6 +261,7 @@ function init() {
   level   = 1;
   speed   = 200;
   frameCount = 0;
+  foodTimer  = 0;
   placeFood();
   updateHUD();
 }
@@ -356,6 +357,7 @@ function tick() {
   if (head.x === food.x && head.y === food.y) {
     vibrate(40);
     score += 10;
+    foodTimer = 0;
     const newLevel = Math.min(10, Math.floor(score / 50) + 1);
     if (newLevel > level) {
       level = newLevel;
@@ -367,6 +369,8 @@ function tick() {
     updateHUD();
   } else {
     snake.pop();
+    foodTimer++;
+    if (foodTimer > 100) { placeFood(); foodTimer = 0; }
   }
 }
 
