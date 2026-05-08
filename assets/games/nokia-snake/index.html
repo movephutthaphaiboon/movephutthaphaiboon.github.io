@@ -287,6 +287,8 @@ function render() {
 }
 
 function draw() {
+  if (!food) placeFood();
+
   // Background
   ctx.fillStyle = P.bg;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -315,13 +317,15 @@ function draw() {
     ctx.fillRect(s.x * CELL + 1, s.y * CELL + 1, CELL - 2, CELL - 2);
   }
 
-  // Food — dark border + bright centre, opposite of snake body (mid border + dark centre)
+  // Food — fast blink: solid dark square ↔ dark border + bright centre
   if (food) {
-    const pulse = Math.floor(frameCount / 20) % 2 === 0;
+    const pulse = Math.floor(frameCount / 10) % 2 === 0;
     ctx.fillStyle = P.dark;
     ctx.fillRect(food.x * CELL, food.y * CELL, CELL, CELL);
-    ctx.fillStyle = pulse ? P.light : P.mid;
-    ctx.fillRect(food.x * CELL + 2, food.y * CELL + 2, 4, 4);
+    if (pulse) {
+      ctx.fillStyle = P.light;
+      ctx.fillRect(food.x * CELL + 2, food.y * CELL + 2, 4, 4);
+    }
   }
 
   // Snake head
@@ -338,7 +342,7 @@ function draw() {
 }
 
 // ── Haptic helper ─────────────────────────────────────────────
-const vibrate = pattern => navigator.vibrate && navigator.vibrate(pattern);
+const vibrate = pattern => { try { navigator.vibrate && navigator.vibrate(pattern); } catch(e) {} };
 
 // ── Game logic tick ───────────────────────────────────────────
 function tick() {
