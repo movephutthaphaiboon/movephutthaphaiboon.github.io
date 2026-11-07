@@ -6,7 +6,7 @@ author_profile: false
 excerpt: "Turn a monthly catch table into a circular seasonal calendar."
 ---
 
-Turn a seasonal catch or harvest table (one row per species, one column per month) into a circular calendar. Month 12 is at the top and months run clockwise. Each species gets its own ring, coloured by **catch per day**. Your data stays in your browser.
+Turn a seasonal catch or harvest table (one row per species, one column per month) into a seasonal calendar, coloured by **catch per day**. Choose **horizontal bars** (one row per species, January to December) or a **wheel** (month 12 at the top, months clockwise, one ring per species). Your data stays in your browser.
 
 <a href="/assets/tools/agro-calendar/app.html" target="_blank" style="display:inline-block; margin-bottom:1rem; padding:0.6rem 1.2rem; background:#52adc8; color:#fff; border-radius:6px; font-weight:600; text-decoration:none;">&#x26F6; Open in full window</a>
 &nbsp; <a href="/assets/tools/agro-calendar/sample.csv" download>Download sample CSV</a>

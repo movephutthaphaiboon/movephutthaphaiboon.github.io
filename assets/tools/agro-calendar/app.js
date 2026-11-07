@@ -64,7 +64,8 @@
       perAnimal: 'Per species: each ring scaled to its own peak (see each season)',
       more: 'More',
       leap: 'Leap year (February = 29 days)',
-      reverse: 'Reverse ring order (first row on the outside)',
+      reverse: 'Reverse species order (wheel: first row outermost; bars: first row at the bottom)',
+      layout: 'Layout', layoutWheel: 'Wheel', layoutBar: 'Horizontal bars',
       track: 'Show a faint track for months without catch',
       data: 'Data', tabTable: 'Edit table', tabPaste: 'Paste', tabUpload: 'Upload file',
       tableHelp: 'One row per species. Leave a cell blank, or type 0 or -, for months with no catch. Values may end with %. You can paste a block of cells copied from a spreadsheet straight into the table.',
@@ -77,7 +78,7 @@
       perDayUnit: '{u}/day', pctUnit: '%',
       legendTitleAbs: 'Catch per day ({u})', legendTitlePct: 'Relative catch (%)',
       legendGlobal: 'Shared scale: pale = low, strong = high. Bars run from 0 to {max}.',
-      legendPer: 'Each ring is scaled to its own peak: pale = low, strong = high.',
+      legendPer: 'Each species is scaled to its own peak: pale = low, strong = high.',
       peak: 'peak {x}',
       tipValue: 'Value', tipPerDay: 'Per day', tipDays: '{d} days', tipRel: 'Relative intensity (not converted to per day)',
       noData: 'Add at least one species with a name to draw the calendar.',
@@ -111,7 +112,8 @@
       perAnimal: 'แยกรายชนิด: แต่ละวงใช้ค่าสูงสุดของตัวเอง (เห็นฤดูกาลชัดขึ้น)',
       more: 'เพิ่มเติม',
       leap: 'ปีอธิกสุรทิน (กุมภาพันธ์ = 29 วัน)',
-      reverse: 'สลับลำดับวง (แถวแรกอยู่วงนอกสุด)',
+      reverse: 'สลับลำดับชนิด (วงล้อ: แถวแรกอยู่วงนอกสุด / แถบ: แถวแรกอยู่ล่างสุด)',
+      layout: 'รูปแบบ', layoutWheel: 'วงล้อ', layoutBar: 'แถบแนวนอน',
       track: 'แสดงวงสีจางในเดือนที่ไม่มีการจับ',
       data: 'ข้อมูล', tabTable: 'แก้ไขตาราง', tabPaste: 'วางข้อมูล', tabUpload: 'อัปโหลดไฟล์',
       tableHelp: 'หนึ่งแถวต่อหนึ่งชนิด เดือนที่ไม่มีการจับให้เว้นว่าง หรือใส่ 0 หรือ - ใส่ค่าที่ลงท้ายด้วย % ได้ และสามารถคัดลอกช่วงเซลล์จากสเปรดชีตมาวางในตารางได้โดยตรง',
@@ -124,7 +126,7 @@
       perDayUnit: '{u}/วัน', pctUnit: '%',
       legendTitleAbs: 'ปริมาณการจับต่อวัน ({u})', legendTitlePct: 'ปริมาณการจับสัมพัทธ์ (%)',
       legendGlobal: 'สเกลร่วม: สีอ่อน = น้อย สีเข้ม = มาก แถบสีเริ่มจาก 0 ถึง {max}',
-      legendPer: 'แต่ละวงใช้ค่าสูงสุดของตัวเอง: สีอ่อน = น้อย สีเข้ม = มาก',
+      legendPer: 'แต่ละชนิดใช้ค่าสูงสุดของตัวเอง: สีอ่อน = น้อย สีเข้ม = มาก',
       peak: 'สูงสุด {x}',
       tipValue: 'ค่า', tipPerDay: 'ต่อวัน', tipDays: '{d} วัน', tipRel: 'ค่าสัมพัทธ์ (ไม่แปลงเป็นต่อวัน)',
       noData: 'เพิ่มอย่างน้อยหนึ่งชนิดที่มีชื่อ เพื่อวาดปฏิทิน',
@@ -155,6 +157,7 @@
     scale: 'global',     // 'global' | 'per'
     reverse: false,
     track: true,
+    layout: 'bar',       // 'bar' | 'wheel'
     langSetting: 'auto', // 'auto' | 'th' | 'en'
     title: '',
     subtitle: '',
@@ -187,6 +190,9 @@
     document.querySelectorAll('[data-i18n-ph]').forEach((el) => { el.placeholder = t(el.dataset.i18nPh); });
     document.querySelectorAll('#lang-switch button').forEach((b) => {
       b.setAttribute('aria-pressed', String(b.dataset.lang === state.langSetting));
+    });
+    document.querySelectorAll('#layout-switch button').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.layout === state.layout));
     });
     const head = $('#data-table thead');
     head.innerHTML = '<tr><th class="name-col">' + esc(t('animal')) + '</th>' +
@@ -366,6 +372,7 @@
       subtitle: state.subtitle.trim(),
       scale: state.scale,
       reverse: state.reverse,
+      layout: state.layout,
       track: state.track,
     };
   }
@@ -428,39 +435,10 @@
 
   // ---------- Drawing ----------
 
-  function drawChart(svgNode, m, W, idp) {
-    const svg = d3.select(svgNode);
-    svg.selectAll('*').remove();
-    const compact = W < 600;
+  // Wheel layout: month 12 at the top, months clockwise, first species innermost. Returns the bottom y.
+  function drawWheel(svg, defs, m, W, y, idp, compact) {
     const pad = 16;
     const n = m.series.length;
-
-    svg.attr('xmlns', 'http://www.w3.org/2000/svg')
-      .attr('xmlns:xlink', 'http://www.w3.org/1999/xlink')
-      .attr('font-family', FONT)
-      .attr('role', 'img');
-    const bg = svg.append('rect').attr('fill', '#fff');
-    const defs = svg.append('defs');
-
-    // Title block
-    let y = pad;
-    if (m.title) {
-      const fs = compact ? 19 : 23;
-      svg.append('text').attr('x', W / 2).attr('y', y + fs).attr('text-anchor', 'middle')
-        .attr('font-size', fs).attr('font-weight', 600).attr('fill', '#222831')
-        .text(fitText(m.title, fs, 600, W - 2 * pad));
-      y += fs + 10;
-    }
-    if (m.subtitle) {
-      const fs = compact ? 13 : 15;
-      svg.append('text').attr('x', W / 2).attr('y', y + fs).attr('text-anchor', 'middle')
-        .attr('font-size', fs).attr('fill', '#5f6b76')
-        .text(fitText(m.subtitle, fs, 400, W - 2 * pad));
-      y += fs + 8;
-    }
-    if (m.title || m.subtitle) y += 4;
-
-    // Wheel
     const labelSpace = compact ? 28 : 38;
     const R = (W - 2 * pad) / 2 - labelSpace;
     const cx = W / 2, cy = y + labelSpace + R;
@@ -558,9 +536,113 @@
         .append('textPath').attr('href', '#' + pid).attr('xlink:href', '#' + pid)
         .attr('startOffset', 4).text(label);
     });
+    return cy + R + labelSpace;
+  }
+
+  // Bar layout: one row per species, months Jan–Dec left to right, first species at the top. Returns the bottom y.
+  function drawBars(svg, m, W, y, compact) {
+    const pad = 16;
+    const ordered = m.reverse ? m.series.slice().reverse() : m.series;
+    const nameFs = compact ? 12 : 14;
+    const longest = d3.max(ordered, (s) => textWidth(s.name, nameFs, 600)) || 0;
+    const labelW = Math.min(W * (compact ? 0.3 : 0.26), Math.max(60, longest));
+    const x0 = pad + labelW + 10;
+    const colW = (W - pad - x0) / 12;
+    const rowH = compact ? 26 : 32;
+    const barH = Math.round(rowH * 0.66);
+    const headH = compact ? 22 : 26;
+    const top = y + headH;
+    const bottom = top + ordered.length * rowH;
+    const g = svg.append('g');
+
+    // Month headers and gridlines at month boundaries
+    let mfs = compact ? 11 : 13;
+    while (mfs > 8 && d3.max(MONTHS[m.L], (s) => textWidth(s, mfs, 600)) > colW - 3) mfs -= 0.5;
+    for (let mi = 0; mi <= 12; mi++) {
+      const x = x0 + mi * colW;
+      g.append('line').attr('x1', x).attr('x2', x).attr('y1', top - 4).attr('y2', bottom)
+        .attr('stroke', '#e3e7eb').attr('stroke-width', 1);
+      if (mi === 12) break;
+      g.append('text').attr('x', x + colW / 2).attr('y', top - 9).attr('text-anchor', 'middle')
+        .attr('font-size', mfs).attr('font-weight', 600).attr('fill', '#3a434c').text(MONTHS[m.L][mi]);
+    }
+
+    ordered.forEach((s, k) => {
+      const sIndex = m.series.indexOf(s);
+      const max = m.scale === 'global' ? m.globalMax : s.max;
+      const col = ramp(s.color);
+      const yb = top + k * rowH + (rowH - barH) / 2;
+      const row = g.append('g');
+
+      if (m.track) {
+        row.append('rect').attr('x', x0).attr('y', yb).attr('width', 12 * colW).attr('height', barH)
+          .attr('fill', '#f1f3f5');
+      }
+
+      const active = s.perDay.map((v) => v > 0);
+      s.perDay.forEach((v, mi) => {
+        if (!(v > 0)) return;
+        row.append('rect').attr('x', x0 + mi * colW).attr('y', yb).attr('width', colW).attr('height', barH)
+          .attr('fill', col(max ? v / max : 1))
+          .attr('stroke', '#fff').attr('stroke-width', 1)
+          .attr('data-k', sIndex).attr('data-m', mi);
+      });
+
+      // Outline each run of consecutive months so it reads as one bar (runs do not wrap from Dec to Jan here).
+      const edge = d3.color(s.color).darker(0.8).formatHex();
+      for (let a = 0; a < 12;) {
+        if (!active[a]) { a++; continue; }
+        let b = a;
+        while (b < 12 && active[b]) b++;
+        row.append('rect').attr('x', x0 + a * colW).attr('y', yb).attr('width', (b - a) * colW).attr('height', barH)
+          .attr('fill', 'none').attr('stroke', edge).attr('stroke-width', 1.2).attr('pointer-events', 'none');
+        a = b;
+      }
+
+      row.append('text').attr('x', x0 - 10).attr('y', yb + barH / 2).attr('dy', '0.35em')
+        .attr('text-anchor', 'end').attr('font-size', nameFs).attr('font-weight', 600)
+        .attr('fill', labelColor(s.color)).text(fitText(s.name, nameFs, 600, labelW));
+    });
+    return bottom;
+  }
+
+  function drawChart(svgNode, m, W, idp) {
+    const svg = d3.select(svgNode);
+    svg.selectAll('*').remove();
+    const compact = W < 600;
+    const pad = 16;
+    const n = m.series.length;
+
+    svg.attr('xmlns', 'http://www.w3.org/2000/svg')
+      .attr('xmlns:xlink', 'http://www.w3.org/1999/xlink')
+      .attr('font-family', FONT)
+      .attr('role', 'img');
+    const bg = svg.append('rect').attr('fill', '#fff');
+    const defs = svg.append('defs');
+
+    // Title block
+    let y = pad;
+    if (m.title) {
+      const fs = compact ? 19 : 23;
+      svg.append('text').attr('x', W / 2).attr('y', y + fs).attr('text-anchor', 'middle')
+        .attr('font-size', fs).attr('font-weight', 600).attr('fill', '#222831')
+        .text(fitText(m.title, fs, 600, W - 2 * pad));
+      y += fs + 10;
+    }
+    if (m.subtitle) {
+      const fs = compact ? 13 : 15;
+      svg.append('text').attr('x', W / 2).attr('y', y + fs).attr('text-anchor', 'middle')
+        .attr('font-size', fs).attr('fill', '#5f6b76')
+        .text(fitText(m.subtitle, fs, 400, W - 2 * pad));
+      y += fs + 8;
+    }
+    if (m.title || m.subtitle) y += 4;
+
+    y = m.layout === 'bar' ? drawBars(svg, m, W, y, compact) : drawWheel(svg, defs, m, W, y, idp, compact);
+
 
     // Legend
-    y = cy + R + labelSpace + 14;
+    y += 14;
     const unitText = m.rateUnit;
     svg.append('text').attr('x', pad).attr('y', y + 14).attr('font-size', 14).attr('font-weight', 600)
       .attr('fill', '#222831')
@@ -976,6 +1058,12 @@
   document.querySelectorAll('#lang-switch button').forEach((b) => b.addEventListener('click', () => {
     state.langSetting = b.dataset.lang;
     lastLang = null;
+    update();
+  }));
+
+  document.querySelectorAll('#layout-switch button').forEach((b) => b.addEventListener('click', () => {
+    state.layout = b.dataset.layout;
+    lastLang = null; // re-run applyI18n so the pressed state updates
     update();
   }));
 

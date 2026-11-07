@@ -97,6 +97,15 @@ body {
 .panel h2 { font-size: 1rem; margin: 0 0 10px; }
 
 /* Chart */
+.layout-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 .titles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
 .chart-wrap { position: relative; }
 #chart svg { display: block; width: 100%; height: auto; }
