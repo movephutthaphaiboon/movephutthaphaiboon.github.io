@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Agro Calendar Visualization"
+title: "Agro/Fishing Calendar"
 permalink: /tools/agro-calendar/
 author_profile: false
-excerpt: "Turn a monthly catch table into a circular seasonal calendar."
+excerpt: "Turn a monthly catch table into a seasonal calendar."
 ---
 
 Turn a seasonal catch or harvest table (one row per species, one column per month) into a seasonal calendar, coloured by the **monthly catch**. Choose **horizontal bars** (one row per species, January to December) or a **wheel** (month 12 at the top, months clockwise, one ring per species). Your data stays in your browser.
@@ -15,7 +15,7 @@ Turn a seasonal catch or harvest table (one row per species, one column per mont
 <iframe
   id="agro-calendar-frame"
   src="/assets/tools/agro-calendar/app.html?v={{ site.time | date: '%s' }}"
-  title="Agro Calendar Visualization"
+  title="Agro/Fishing Calendar"
   width="100%"
   height="1500"
   frameborder="0"
