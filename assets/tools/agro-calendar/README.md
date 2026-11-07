@@ -2,9 +2,13 @@
 
 Live tool: <https://movephutthaphaiboon.github.io/tools/agro-calendar/>
 
-Turns a monthly catch (or harvest) table into a circular seasonal calendar. Month 12 is at the top
-and months run clockwise. Each species gets its own ring, which is only drawn in the months when it is
-caught, and the colour shows **catch per day** (pale = low, strong = high).
+Turns a monthly catch (or harvest) table into a seasonal calendar. Each species is only drawn in the
+months when it is caught, and the colour shows **catch per day** (pale = low, strong = high).
+Choose the layout with the *Layout* switch above the chart:
+
+- **Wheel:** month 12 at the top, months clockwise, one ring per species (first row innermost).
+- **Horizontal bars:** one row per species (first row at the top), months January to December from left
+  to right. This layout is easier to read on a phone or with many species.
 Everything runs in the browser; the data is never uploaded.
 
 **Sample file:** [sample.csv](sample.csv) (invented example data, Thai species names).
@@ -44,6 +48,8 @@ One row per species. The first column is the name, followed by one column per mo
   **Per species** scales each ring to its own peak, which shows each season's shape more clearly.
 
 ## Output
+
+- The layout you choose (wheel or bars) is the one that is exported.
 
 - Download a **PNG** (high resolution, 2460 px wide) for reports and slides, or an **SVG** for editing.
   The SVG embeds the Thai font.
