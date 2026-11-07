@@ -6,9 +6,9 @@ Turns a monthly catch (or harvest) table into a seasonal calendar. Each species 
 months when it is caught, and the colour shows **catch per day** (pale = low, strong = high).
 Choose the layout with the *Layout* switch above the chart:
 
+- **Horizontal bars** (default): one row per species (first row at the top), months January to December
+  from left to right. This layout is easier to read on a phone or with many species.
 - **Wheel:** month 12 at the top, months clockwise, one ring per species (first row innermost).
-- **Horizontal bars:** one row per species (first row at the top), months January to December from left
-  to right. This layout is easier to read on a phone or with many species.
 Everything runs in the browser; the data is never uploaded.
 
 **Sample file:** [sample.csv](sample.csv) (invented example data, Thai species names).

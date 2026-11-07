@@ -157,7 +157,7 @@
     scale: 'global',     // 'global' | 'per'
     reverse: false,
     track: true,
-    layout: 'wheel',     // 'wheel' | 'bar'
+    layout: 'bar',       // 'bar' | 'wheel'
     langSetting: 'auto', // 'auto' | 'th' | 'en'
     title: '',
     subtitle: '',
