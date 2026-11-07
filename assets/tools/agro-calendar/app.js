@@ -66,7 +66,8 @@
       data: 'Data', tabTable: 'Edit table', tabPaste: 'Paste', tabUpload: 'Upload file',
       tableHelp: 'One row per species. Leave a cell blank, or type 0 or -, for months with no catch. Values may end with %. Drag ⋮⋮ to reorder rows. You can paste a block of cells copied from a spreadsheet straight into the table.',
       dragRow: 'Drag to reorder (or use the arrow keys)',
-      animal: 'Animal', addRow: '+ Add row', loadSample: 'Load sample data', clear: 'Clear table',
+      animal: 'Animal', addRow: '+ Add row', loadSample: 'Reset table (start again with sample data)', clear: 'Clear table',
+      resetConfirm: 'Reset the table to the sample data? Your edits will be lost. (Download the table first to keep them.)',
       pasteHelp: 'Paste a table copied from Excel / Google Sheets, or CSV text. The first row must be headers: the animal column, then the months as 1–12, Jan–Dec or ม.ค.–ธ.ค.',
       pasteBtn: 'Use pasted data',
       uploadHelp: 'Choose or drop a CSV or Excel file (.csv, .xlsx, .xls). The first sheet is used, with the same layout as the table.',
@@ -113,7 +114,8 @@
       data: 'ข้อมูล', tabTable: 'แก้ไขตาราง', tabPaste: 'วางข้อมูล', tabUpload: 'อัปโหลดไฟล์',
       tableHelp: 'หนึ่งแถวต่อหนึ่งชนิด เดือนที่ไม่มีการจับให้เว้นว่าง หรือใส่ 0 หรือ - ใส่ค่าที่ลงท้ายด้วย % ได้ ลาก ⋮⋮ เพื่อจัดลำดับแถว และสามารถคัดลอกช่วงเซลล์จากสเปรดชีตมาวางในตารางได้โดยตรง',
       dragRow: 'ลากเพื่อจัดลำดับ (หรือใช้ปุ่มลูกศร)',
-      animal: 'ชนิดสัตว์', addRow: '+ เพิ่มแถว', loadSample: 'โหลดข้อมูลตัวอย่าง', clear: 'ล้างตาราง',
+      animal: 'ชนิดสัตว์', addRow: '+ เพิ่มแถว', loadSample: 'รีเซ็ตตาราง (เริ่มต้นใหม่ด้วยข้อมูลตัวอย่าง)', clear: 'ล้างตาราง',
+      resetConfirm: 'รีเซ็ตตารางเป็นข้อมูลตัวอย่าง? ข้อมูลที่แก้ไขไว้จะหายไป (ดาวน์โหลดตารางก่อนหากต้องการเก็บไว้)',
       pasteHelp: 'วางตารางที่คัดลอกจาก Excel / Google Sheets หรือข้อความ CSV แถวแรกต้องเป็นหัวตาราง: คอลัมน์ชื่อสัตว์ ตามด้วยเดือน 1–12, Jan–Dec หรือ ม.ค.–ธ.ค.',
       pasteBtn: 'ใช้ข้อมูลที่วาง',
       uploadHelp: 'เลือกหรือลากไฟล์ CSV หรือ Excel (.csv, .xlsx, .xls) มาวาง ระบบใช้ชีตแรก รูปแบบเดียวกับตาราง',
@@ -1141,7 +1143,13 @@
     buildTable();
     update();
   });
-  $('#load-sample').addEventListener('click', loadSample);
+  // Resetting throws away edits, so ask first unless the table already holds the untouched sample.
+  $('#load-sample').addEventListener('click', () => {
+    const sampleRows = SAMPLE.rows.map((r) => [r[0], ...r.slice(1).map((v) => (v ? String(v) : '0'))]);
+    const current = state.rows.map((r) => [r.name, ...r.cells]);
+    if (JSON.stringify(current) !== JSON.stringify(sampleRows) && !window.confirm(t('resetConfirm'))) return;
+    loadSample();
+  });
 
   $('#paste-apply').addEventListener('click', () => {
     const text = $('#paste-area').value;

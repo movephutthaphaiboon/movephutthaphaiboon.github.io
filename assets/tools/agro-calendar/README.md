@@ -57,7 +57,9 @@ One row per species. The first column is the name, followed by one column per mo
 
 - Download a **PNG** (high resolution, 2460 px wide) for reports and slides, or an **SVG** for editing.
   The SVG embeds the Thai font.
-- Download the current table as **CSV** (UTF-8 with a byte-order mark, so Excel shows Thai correctly).
+- Download the current table, including your edits and row order, as **CSV** with the button under the
+  table (UTF-8 with a byte-order mark, so Excel shows Thai correctly). The CSV can be uploaded again later.
+- *Reset table* restores the sample data; it asks first if you have edited the table.
 - The language follows the species names (Thai if any name contains Thai characters). You can switch
   it with the *ภาษา / Language* buttons.
 
