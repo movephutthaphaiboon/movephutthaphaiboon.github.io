@@ -1,6 +1,6 @@
-# Agro Calendar Visualization
+# Fishing Calendar
 
-Live tool: <https://movephutthaphaiboon.github.io/tools/agro-calendar/>
+Live tool: <https://movephutthaphaiboon.github.io/tools/fishing-calendar/>
 
 Turns a monthly catch (or harvest) table into a seasonal calendar. Each species is only drawn in the
 months when it is caught, and the colour shows the **monthly catch** (pale = low, strong = high).
@@ -67,7 +67,7 @@ One row per species. The first column is the name, followed by one column per mo
 
 | File | Purpose |
 |---|---|
-| `app.html`, `app.css`, `app.js` | The standalone tool (embedded in `/tools/agro-calendar/` with an iframe) |
+| `app.html`, `app.css`, `app.js` | The standalone tool (embedded in `/tools/fishing-calendar/` with an iframe) |
 | `sample.csv` | Example input |
 | `thumbnail.png` | Card image on `/tools/` |
 

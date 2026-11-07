@@ -1,4 +1,4 @@
-/* Agro Calendar Visualization
+/* Fishing Calendar
    Turns a 12-month catch table (one row per species) into a circular seasonal calendar:
    month 12 at the top, months clockwise, one ring per species, colour = catch per day.
    Everything runs in the browser; the data never leaves the page. */
@@ -49,8 +49,8 @@
 
   const I18N = {
     en: {
-      appTitle: 'Agro Calendar Visualization',
-      appIntro: 'Turn a monthly catch table into a circular seasonal calendar. Your data stays in your browser.',
+      appTitle: 'Fishing Calendar',
+      appIntro: 'Turn a monthly catch table into a seasonal fishing calendar. Your data stays in your browser.',
       language: 'Language', auto: 'Auto',
       titlePh: 'Title (e.g. village name)', subtitlePh: 'Subtitle (e.g. data year)',
       downloadPng: 'Download PNG', downloadSvg: 'Download SVG', downloadCsv: 'Download table (CSV)',
@@ -92,11 +92,11 @@
       errFileType: 'Unsupported file type. Use .csv, .xlsx or .xls.',
       errSheetJs: 'Could not load the Excel reader. Check your internet connection, or save the file as CSV.',
       moreErrors: '…and {n} more.',
-      credit: 'Agro Calendar · movephutthaphaiboon.github.io/tools',
+      credit: 'Fishing Calendar · movephutthaphaiboon.github.io/tools',
     },
     th: {
-      appTitle: 'แผนภาพปฏิทินฤดูกาล (Agro Calendar)',
-      appIntro: 'แปลงตารางปริมาณการจับรายเดือนให้เป็นปฏิทินฤดูกาลแบบวงกลม ข้อมูลของคุณอยู่ในเบราว์เซอร์เท่านั้น',
+      appTitle: 'ปฏิทินการจับสัตว์น้ำ',
+      appIntro: 'แปลงตารางปริมาณการจับรายเดือนให้เป็นปฏิทินการจับสัตว์น้ำตามฤดูกาล ข้อมูลของคุณอยู่ในเบราว์เซอร์เท่านั้น',
       language: 'ภาษา', auto: 'อัตโนมัติ',
       titlePh: 'ชื่อแผนภาพ (เช่น ชื่อหมู่บ้าน)', subtitlePh: 'คำอธิบายรอง (เช่น ปีของข้อมูล)',
       downloadPng: 'ดาวน์โหลด PNG', downloadSvg: 'ดาวน์โหลด SVG', downloadCsv: 'ดาวน์โหลดตาราง (CSV)',
@@ -138,7 +138,7 @@
       errFileType: 'ไม่รองรับไฟล์ประเภทนี้ ใช้ .csv, .xlsx หรือ .xls',
       errSheetJs: 'โหลดตัวอ่านไฟล์ Excel ไม่ได้ ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต หรือบันทึกไฟล์เป็น CSV',
       moreErrors: '…และอีก {n} รายการ',
-      credit: 'Agro Calendar · movephutthaphaiboon.github.io/tools',
+      credit: 'Fishing Calendar · movephutthaphaiboon.github.io/tools',
     },
   };
 
@@ -1031,8 +1031,8 @@
   }
 
   function fileBase() {
-    const s = (state.title || 'agro-calendar').trim().replace(/[\\/:*?"<>|#%]+/g, '').replace(/\s+/g, '-').slice(0, 60);
-    return s || 'agro-calendar';
+    const s = (state.title || 'fishing-calendar').trim().replace(/[\\/:*?"<>|#%]+/g, '').replace(/\s+/g, '-').slice(0, 60);
+    return s || 'fishing-calendar';
   }
 
   function download(blob, name) {
@@ -1162,14 +1162,14 @@
     const appEl = $('.app');
     new ResizeObserver(() => {
       const pad = parseFloat(getComputedStyle(document.body).paddingTop) * 2;
-      window.parent.postMessage({ type: 'agro-calendar-height', height: Math.ceil(appEl.offsetHeight + pad) }, '*');
+      window.parent.postMessage({ type: 'fishing-calendar-height', height: Math.ceil(appEl.offsetHeight + pad) }, '*');
     }).observe(appEl);
   } else {
     $('#app-header').hidden = false;
   }
 
   // Test hook (used by the automated checks; harmless otherwise).
-  window.agroCalendar = { state, loadRows, gridToTable, parseDelimited, analyse, renderPngBlob, exportSvgString, update, tableCsv };
+  window.fishingCalendar = { state, loadRows, gridToTable, parseDelimited, analyse, renderPngBlob, exportSvgString, update, tableCsv };
 
   // ---------- Init ----------
 

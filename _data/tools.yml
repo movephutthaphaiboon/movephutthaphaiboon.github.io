@@ -1,7 +1,7 @@
 # Tools listed on /tools/. Add a new entry here to add a card.
-- title: "Agro Calendar Visualization"
-  url: /tools/agro-calendar/
-  image: /assets/tools/agro-calendar/thumbnail.png
+- title: "Fishing Calendar"
+  url: /tools/fishing-calendar/
+  image: /assets/tools/fishing-calendar/thumbnail.png
   type: "Data visualization"
-  excerpt: "Turn a monthly catch or harvest table into a seasonal calendar (a circular wheel or horizontal bars), coloured by the monthly catch. Upload CSV/Excel, paste from a spreadsheet, or edit in the browser. Thai and English."
+  excerpt: "Turn a monthly fishing catch table into a seasonal calendar (a circular wheel or horizontal bars), coloured by the monthly catch. Upload CSV/Excel, paste from a spreadsheet, or edit in the browser. Thai and English."
   tags: ["CSV / Excel", "SVG / PNG export", "ไทย / English"]
