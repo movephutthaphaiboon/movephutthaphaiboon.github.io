@@ -47,6 +47,9 @@ One row per species. The first column is the name, followed by one column per mo
 - **Percentages** are used as relative intensity.
 - **Global scale** (the default) uses one scale for every species, so you can compare species.
   **Per species** scales each species to its own maximum, which shows each season's shape more clearly.
+- **Catch / no catch (0/1)** colours every month with a catch in the species' solid colour, ignoring the
+  amount. Use it for presence data such as `1` = caught, `0` / blank = not caught; it is selected
+  automatically when every value in a loaded table is 0 or 1.
 
 ## Output
 

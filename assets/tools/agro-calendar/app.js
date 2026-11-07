@@ -61,6 +61,7 @@
       scale: 'Colour scale',
       global: 'Global: one scale for all species (compare species)',
       perAnimal: 'Per species: each species scaled to its own maximum (see each season)',
+      binary: 'Catch / no catch: one colour for every month with a catch (for 0/1 data)',
       layout: 'Layout', layoutWheel: 'Wheel', layoutBar: 'Horizontal bars',
       data: 'Data', tabTable: 'Edit table', tabPaste: 'Paste', tabUpload: 'Upload file',
       tableHelp: 'One row per species. Leave a cell blank, or type 0 or -, for months with no catch. Values may end with %. Drag ⋮⋮ to reorder rows. You can paste a block of cells copied from a spreadsheet straight into the table.',
@@ -75,8 +76,9 @@
       legendTitleAbs: 'Catch per month ({u})', legendTitlePct: 'Relative catch (%)',
       legendGlobal: 'Shared scale: pale = low, strong = high. Bars run from 0 to {max}.',
       legendPer: 'Each species is scaled to its own maximum: pale = low, strong = high.',
+      legendTitleBin: 'Months with catch', legendBin: 'Coloured = catch, empty = no catch.', monthsCount: '{n} months with catch',
       peak: 'max {x}',
-      tipValue: 'Catch', tipRel: 'Relative value',
+      tipValue: 'Catch', tipRel: 'Relative value', tipCatch: 'Catch this month',
       noData: 'Add at least one species with a name to draw the calendar.',
       loaded: 'Loaded {n} species.',
       errorsTitle: 'Please check these cells (they are drawn as no catch until fixed):',
@@ -106,6 +108,7 @@
       scale: 'สเกลสี',
       global: 'รวม: ใช้สเกลเดียวกันทุกชนิด (เปรียบเทียบระหว่างชนิด)',
       perAnimal: 'แยกรายชนิด: แต่ละชนิดใช้ค่าสูงสุดของตัวเอง (เห็นฤดูกาลชัดขึ้น)',
+      binary: 'มี/ไม่มีการจับ: ใช้สีเดียวทุกเดือนที่มีการจับ (สำหรับข้อมูล 0/1)',
       layout: 'รูปแบบ', layoutWheel: 'วงล้อ', layoutBar: 'แถบแนวนอน',
       data: 'ข้อมูล', tabTable: 'แก้ไขตาราง', tabPaste: 'วางข้อมูล', tabUpload: 'อัปโหลดไฟล์',
       tableHelp: 'หนึ่งแถวต่อหนึ่งชนิด เดือนที่ไม่มีการจับให้เว้นว่าง หรือใส่ 0 หรือ - ใส่ค่าที่ลงท้ายด้วย % ได้ ลาก ⋮⋮ เพื่อจัดลำดับแถว และสามารถคัดลอกช่วงเซลล์จากสเปรดชีตมาวางในตารางได้โดยตรง',
@@ -120,8 +123,9 @@
       legendTitleAbs: 'ปริมาณการจับต่อเดือน ({u})', legendTitlePct: 'ปริมาณการจับสัมพัทธ์ (%)',
       legendGlobal: 'สเกลร่วม: สีอ่อน = น้อย สีเข้ม = มาก แถบสีเริ่มจาก 0 ถึง {max}',
       legendPer: 'แต่ละชนิดใช้ค่าสูงสุดของตัวเอง: สีอ่อน = น้อย สีเข้ม = มาก',
+      legendTitleBin: 'เดือนที่มีการจับ', legendBin: 'มีสี = มีการจับ, ว่าง = ไม่มีการจับ', monthsCount: 'จับได้ {n} เดือน',
       peak: 'สูงสุด {x}',
-      tipValue: 'ปริมาณการจับ', tipRel: 'ค่าสัมพัทธ์',
+      tipValue: 'ปริมาณการจับ', tipRel: 'ค่าสัมพัทธ์', tipCatch: 'มีการจับในเดือนนี้',
       noData: 'เพิ่มอย่างน้อยหนึ่งชนิดที่มีชื่อ เพื่อวาดปฏิทิน',
       loaded: 'โหลดข้อมูล {n} ชนิดแล้ว',
       errorsTitle: 'กรุณาตรวจสอบเซลล์ต่อไปนี้ (จะแสดงเป็นไม่มีการจับจนกว่าจะแก้ไข):',
@@ -146,7 +150,7 @@
     rows: [],            // [{ name: string, cells: string[12] }] — raw text, the table is the source of truth
     mode: 'auto',        // 'auto' | 'absolute' | 'percent'
     unit: 'kg',
-    scale: 'global',     // 'global' | 'per'
+    scale: 'global',     // 'global' | 'per' | 'binary' (catch / no catch)
     layout: 'bar',       // 'bar' | 'wheel'
     langSetting: 'auto', // 'auto' | 'th' | 'en'
     title: '',
@@ -155,6 +159,7 @@
   let analysis = { values: [], errors: [], detected: 'absolute' };
   let model = null;      // what the chart currently shows (used by tooltips and exports)
   let loadMsg = null;    // { type: 'info' | 'error', key, vars }
+  let autoBinary = false; // true while the 0/1 scale was picked automatically for 0/1 data
   let renderedWidth = 0;
 
   const $ = (sel) => document.querySelector(sel);
@@ -422,6 +427,13 @@
 
   // ---------- Drawing ----------
 
+  // Fill for a month with a catch: by amount on the global or per-species scale, or one solid colour in 0/1 mode.
+  function fillFor(m, s, v, col) {
+    if (m.scale === 'binary') return col(0.7);
+    const max = m.scale === 'global' ? m.globalMax : s.max;
+    return col(max ? v / max : 1);
+  }
+
   // Wheel layout: month 12 at the top, months clockwise, first species innermost. Returns the bottom y.
   function drawWheel(svg, defs, m, W, y, idp, compact) {
     const pad = 16;
@@ -460,7 +472,6 @@
       const ro = R - (n - 1 - k) * step;
       const ri = ro - band;
       const sIndex = k;
-      const max = m.scale === 'global' ? m.globalMax : s.max;
       const col = ramp(s.color);
       const ring = wheel.append('g');
 
@@ -472,7 +483,7 @@
         if (!(v > 0)) continue;
         ring.append('path')
           .attr('d', arc({ innerRadius: ri, outerRadius: ro, startAngle: segStart(p), endAngle: segStart(p) + SEG }))
-          .attr('fill', col(max ? v / max : 1))
+          .attr('fill', fillFor(m, s, v, col))
           .attr('stroke', '#fff').attr('stroke-width', 1)
           .attr('data-k', sIndex).attr('data-m', mi);
       }
@@ -550,7 +561,6 @@
 
     ordered.forEach((s, k) => {
       const sIndex = k;
-      const max = m.scale === 'global' ? m.globalMax : s.max;
       const col = ramp(s.color);
       const yb = top + k * rowH + (rowH - barH) / 2;
       const row = g.append('g');
@@ -559,7 +569,7 @@
       s.values.forEach((v, mi) => {
         if (!(v > 0)) return;
         row.append('rect').attr('x', x0 + mi * colW).attr('y', yb).attr('width', colW).attr('height', barH)
-          .attr('fill', col(max ? v / max : 1))
+          .attr('fill', fillFor(m, s, v, col))
           .attr('stroke', '#fff').attr('stroke-width', 1)
           .attr('data-k', sIndex).attr('data-m', mi);
       });
@@ -622,10 +632,11 @@
     const unitText = m.rateUnit;
     svg.append('text').attr('x', pad).attr('y', y + 14).attr('font-size', 14).attr('font-weight', 600)
       .attr('fill', '#222831')
-      .text(m.mode === 'percent' ? t('legendTitlePct') : t('legendTitleAbs', { u: m.unit }));
+      .text(m.scale === 'binary' ? t('legendTitleBin')
+        : m.mode === 'percent' ? t('legendTitlePct') : t('legendTitleAbs', { u: m.unit }));
     y += 22;
-    const note = m.scale === 'global'
-      ? t('legendGlobal', { max: fmtNum(m.globalMax) + (m.mode === 'percent' ? '%' : ' ' + unitText) })
+    const note = m.scale === 'binary' ? t('legendBin')
+      : m.scale === 'global' ? t('legendGlobal', { max: fmtNum(m.globalMax) + (m.mode === 'percent' ? '%' : ' ' + unitText) })
       : t('legendPer');
     svg.append('text').attr('x', pad).attr('y', y + 12).attr('font-size', 12).attr('fill', '#5f6b76')
       .text(fitText(note, 12, 400, W - 2 * pad));
@@ -647,15 +658,18 @@
       svg.append('rect').attr('x', x).attr('y', yy + 6).attr('width', barW).attr('height', 12).attr('rx', 2)
         .attr('fill', '#f1f3f5');
       svg.append('rect').attr('x', x).attr('y', yy + 6).attr('width', Math.max(0, barW * frac)).attr('height', 12).attr('rx', 2)
-        .attr('fill', `url(#${gid})`);
+        .attr('fill', m.scale === 'binary' ? col(0.7) : `url(#${gid})`);
       svg.append('rect').attr('x', x).attr('y', yy + 6).attr('width', barW).attr('height', 12).attr('rx', 2)
         .attr('fill', 'none').attr('stroke', d3.color(s.color).darker(0.8).formatHex()).attr('stroke-width', 0.8);
       const tx = x + barW + 8, tw = colW - barW - 14;
       svg.append('text').attr('x', tx).attr('y', yy + 13).attr('font-size', 13).attr('font-weight', 600)
         .attr('fill', labelColor(s.color)).text(fitText(s.name, 13, 600, tw));
       const peak = fmtNum(s.max) + (m.mode === 'percent' ? '%' : ' ' + unitText);
+      const sub = m.scale === 'binary'
+        ? t('monthsCount', { n: s.values.filter((v) => v > 0).length })
+        : t('peak', { x: peak });
       svg.append('text').attr('x', tx).attr('y', yy + 29).attr('font-size', 11).attr('fill', '#5f6b76')
-        .text(fitText(t('peak', { x: peak }), 11, 400, tw));
+        .text(fitText(sub, 11, 400, tw));
     });
     y += Math.ceil(n / cols) * itemH + 6;
 
@@ -706,7 +720,9 @@
     const raw = state.rows[s.rowIndex].cells[mi];
     const v = s.values[mi];
     let html = `<strong>${esc(s.name)}</strong>${esc(MONTHS_FULL[model.L][mi])}<br>`;
-    if (model.mode === 'percent') {
+    if (model.scale === 'binary') {
+      html += `<b>${esc(t('tipCatch'))}</b>`;
+    } else if (model.mode === 'percent') {
       html += `${esc(t('tipValue'))}: ${esc(fmtNum(v))}%<br><em>${esc(t('tipRel'))}</em>`;
     } else {
       html += `${esc(t('tipValue'))}: <b>${esc(String(raw).trim() || fmtNum(v))} ${esc(model.rateUnit)}</b>`;
@@ -871,6 +887,12 @@
       $('#title').value = $('#subtitle').value = '';
     }
     state.rows = rows;
+    // 0/1 data (catch or not) only makes sense on the catch / no-catch colour scale.
+    const cells = rows.flatMap((r) => r.cells.map(parseCell)).filter((p) => !p.error && !p.empty);
+    // Switching back only undoes our own automatic choice, never one the user made.
+    const binary = cells.some((p) => p.v === 1) && cells.every((p) => p.v === 0 || p.v === 1);
+    if (binary && state.scale !== 'binary') { setScale('binary'); autoBinary = true; }
+    else if (!binary && autoBinary) { setScale('global'); autoBinary = false; }
     loadMsg = { type: 'info', key: 'loaded', vars: { n: rows.filter((r) => r.name.trim()).length } };
     buildTable();
     update();
@@ -1094,8 +1116,15 @@
   $('#subtitle').addEventListener('input', (e) => { state.subtitle = e.target.value; scheduleUpdate(); });
   $('#unit').addEventListener('input', (e) => { state.unit = e.target.value; scheduleUpdate(); });
   $('#mode').addEventListener('change', (e) => { state.mode = e.target.value; update(); });
+  function setScale(v) {
+    state.scale = v;
+    const radio = document.querySelector(`input[name="scale"][value="${v}"]`);
+    if (radio) radio.checked = true;
+  }
+
   document.querySelectorAll('input[name="scale"]').forEach((el) => el.addEventListener('change', () => {
     state.scale = document.querySelector('input[name="scale"]:checked').value;
+    autoBinary = false;
     update();
   }));
 
