@@ -3,10 +3,10 @@
 Live tool: <https://movephutthaphaiboon.github.io/tools/agro-calendar/>
 
 Turns a monthly catch (or harvest) table into a seasonal calendar. Each species is only drawn in the
-months when it is caught, and the colour shows **catch per day** (pale = low, strong = high).
+months when it is caught, and the colour shows the **monthly catch** (pale = low, strong = high).
 Choose the layout with the *Layout* switch above the chart:
 
-- **Horizontal bars** (default): one row per species (first row at the top), months January to December
+- **Horizontal bars** (default): one row per species, in table order (first row at the top), months January to December
   from left to right. This layout is easier to read on a phone or with many species.
 - **Wheel:** month 12 at the top, months clockwise, one ring per species (first row innermost).
 Everything runs in the browser; the data is never uploaded.
@@ -37,15 +37,19 @@ One row per species. The first column is the name, followed by one column per mo
    Thai Windows encoding (TIS-620 / Windows-874), and comma-, semicolon- or tab-separated.
 2. **Paste** a table copied from Excel or Google Sheets, or CSV text, into the *Paste* tab.
 3. **Edit** the on-page table directly. Pasting a block of cells into a table cell fills the table from that cell.
+   Drag the ⋮⋮ handle to reorder rows (or focus it and press ↑ / ↓); the chart follows the table order.
 
 ## How the colours are calculated
 
-- **Absolute values** are divided by the number of days in the month (February = 28 days,
-  or 29 with *Leap year* ticked), so the colours show *catch per day*. Set the unit, such as kg, tonnes
+- **Absolute values** are used as entered: the colour shows the catch in that month, and the legend
+  shows each species' maximum month. There is no per-day conversion. Set the unit, such as kg, tonnes
   or individuals, under *Unit*.
-- **Percentages** are used as relative intensity, without converting them to per-day values.
+- **Percentages** are used as relative intensity.
 - **Global scale** (the default) uses one scale for every species, so you can compare species.
-  **Per species** scales each ring to its own peak, which shows each season's shape more clearly.
+  **Per species** scales each species to its own maximum, which shows each season's shape more clearly.
+- **Catch / no catch (0/1)** colours every month with a catch in the species' solid colour, ignoring the
+  amount. Use it for presence data such as `1` = caught, `0` / blank = not caught; it is selected
+  automatically when every value in a loaded table is 0 or 1.
 
 ## Output
 

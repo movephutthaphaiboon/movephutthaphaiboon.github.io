@@ -7,7 +7,6 @@
 
   // ---------- Constants ----------
 
-  const MONTH_DAYS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
   const MONTHS = {
     en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     th: ['ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'],
@@ -61,26 +60,25 @@
       unit: 'Unit of the values', unitHint: 'e.g. kg, tonnes, individuals. Used for absolute values.',
       scale: 'Colour scale',
       global: 'Global: one scale for all species (compare species)',
-      perAnimal: 'Per species: each ring scaled to its own peak (see each season)',
-      more: 'More',
-      leap: 'Leap year (February = 29 days)',
-      reverse: 'Reverse species order (wheel: first row outermost; bars: first row at the bottom)',
+      perAnimal: 'Per species: each species scaled to its own maximum (see each season)',
+      binary: 'Catch / no catch: one colour for every month with a catch (for 0/1 data)',
       layout: 'Layout', layoutWheel: 'Wheel', layoutBar: 'Horizontal bars',
-      track: 'Show a faint track for months without catch',
       data: 'Data', tabTable: 'Edit table', tabPaste: 'Paste', tabUpload: 'Upload file',
-      tableHelp: 'One row per species. Leave a cell blank, or type 0 or -, for months with no catch. Values may end with %. You can paste a block of cells copied from a spreadsheet straight into the table.',
+      tableHelp: 'One row per species. Leave a cell blank, or type 0 or -, for months with no catch. Values may end with %. Drag ⋮⋮ to reorder rows. You can paste a block of cells copied from a spreadsheet straight into the table.',
+      dragRow: 'Drag to reorder (or use the arrow keys)',
       animal: 'Animal', addRow: '+ Add row', loadSample: 'Load sample data', clear: 'Clear table',
       pasteHelp: 'Paste a table copied from Excel / Google Sheets, or CSV text. The first row must be headers: the animal column, then the months as 1–12, Jan–Dec or ม.ค.–ธ.ค.',
       pasteBtn: 'Use pasted data',
       uploadHelp: 'Choose or drop a CSV or Excel file (.csv, .xlsx, .xls). The first sheet is used, with the same layout as the table.',
       sampleLink: 'Download sample CSV',
       deleteRow: 'Delete row',
-      perDayUnit: '{u}/day', pctUnit: '%',
-      legendTitleAbs: 'Catch per day ({u})', legendTitlePct: 'Relative catch (%)',
+      perMonthUnit: '{u}/month', pctUnit: '%',
+      legendTitleAbs: 'Catch per month ({u})', legendTitlePct: 'Relative catch (%)',
       legendGlobal: 'Shared scale: pale = low, strong = high. Bars run from 0 to {max}.',
-      legendPer: 'Each species is scaled to its own peak: pale = low, strong = high.',
-      peak: 'peak {x}',
-      tipValue: 'Value', tipPerDay: 'Per day', tipDays: '{d} days', tipRel: 'Relative intensity (not converted to per day)',
+      legendPer: 'Each species is scaled to its own maximum: pale = low, strong = high.',
+      legendTitleBin: 'Months with catch', legendBin: 'Coloured = catch, empty = no catch.', monthsCount: '{n} months with catch',
+      peak: 'max {x}',
+      tipValue: 'Catch', tipRel: 'Relative value', tipCatch: 'Catch this month',
       noData: 'Add at least one species with a name to draw the calendar.',
       loaded: 'Loaded {n} species.',
       errorsTitle: 'Please check these cells (they are drawn as no catch until fixed):',
@@ -109,26 +107,25 @@
       unit: 'หน่วยของค่า', unitHint: 'เช่น kg, ตัน, ตัว ใช้กับค่าปริมาณจริง',
       scale: 'สเกลสี',
       global: 'รวม: ใช้สเกลเดียวกันทุกชนิด (เปรียบเทียบระหว่างชนิด)',
-      perAnimal: 'แยกรายชนิด: แต่ละวงใช้ค่าสูงสุดของตัวเอง (เห็นฤดูกาลชัดขึ้น)',
-      more: 'เพิ่มเติม',
-      leap: 'ปีอธิกสุรทิน (กุมภาพันธ์ = 29 วัน)',
-      reverse: 'สลับลำดับชนิด (วงล้อ: แถวแรกอยู่วงนอกสุด / แถบ: แถวแรกอยู่ล่างสุด)',
+      perAnimal: 'แยกรายชนิด: แต่ละชนิดใช้ค่าสูงสุดของตัวเอง (เห็นฤดูกาลชัดขึ้น)',
+      binary: 'มี/ไม่มีการจับ: ใช้สีเดียวทุกเดือนที่มีการจับ (สำหรับข้อมูล 0/1)',
       layout: 'รูปแบบ', layoutWheel: 'วงล้อ', layoutBar: 'แถบแนวนอน',
-      track: 'แสดงวงสีจางในเดือนที่ไม่มีการจับ',
       data: 'ข้อมูล', tabTable: 'แก้ไขตาราง', tabPaste: 'วางข้อมูล', tabUpload: 'อัปโหลดไฟล์',
-      tableHelp: 'หนึ่งแถวต่อหนึ่งชนิด เดือนที่ไม่มีการจับให้เว้นว่าง หรือใส่ 0 หรือ - ใส่ค่าที่ลงท้ายด้วย % ได้ และสามารถคัดลอกช่วงเซลล์จากสเปรดชีตมาวางในตารางได้โดยตรง',
+      tableHelp: 'หนึ่งแถวต่อหนึ่งชนิด เดือนที่ไม่มีการจับให้เว้นว่าง หรือใส่ 0 หรือ - ใส่ค่าที่ลงท้ายด้วย % ได้ ลาก ⋮⋮ เพื่อจัดลำดับแถว และสามารถคัดลอกช่วงเซลล์จากสเปรดชีตมาวางในตารางได้โดยตรง',
+      dragRow: 'ลากเพื่อจัดลำดับ (หรือใช้ปุ่มลูกศร)',
       animal: 'ชนิดสัตว์', addRow: '+ เพิ่มแถว', loadSample: 'โหลดข้อมูลตัวอย่าง', clear: 'ล้างตาราง',
       pasteHelp: 'วางตารางที่คัดลอกจาก Excel / Google Sheets หรือข้อความ CSV แถวแรกต้องเป็นหัวตาราง: คอลัมน์ชื่อสัตว์ ตามด้วยเดือน 1–12, Jan–Dec หรือ ม.ค.–ธ.ค.',
       pasteBtn: 'ใช้ข้อมูลที่วาง',
       uploadHelp: 'เลือกหรือลากไฟล์ CSV หรือ Excel (.csv, .xlsx, .xls) มาวาง ระบบใช้ชีตแรก รูปแบบเดียวกับตาราง',
       sampleLink: 'ดาวน์โหลดไฟล์ CSV ตัวอย่าง',
       deleteRow: 'ลบแถว',
-      perDayUnit: '{u}/วัน', pctUnit: '%',
-      legendTitleAbs: 'ปริมาณการจับต่อวัน ({u})', legendTitlePct: 'ปริมาณการจับสัมพัทธ์ (%)',
+      perMonthUnit: '{u}/เดือน', pctUnit: '%',
+      legendTitleAbs: 'ปริมาณการจับต่อเดือน ({u})', legendTitlePct: 'ปริมาณการจับสัมพัทธ์ (%)',
       legendGlobal: 'สเกลร่วม: สีอ่อน = น้อย สีเข้ม = มาก แถบสีเริ่มจาก 0 ถึง {max}',
       legendPer: 'แต่ละชนิดใช้ค่าสูงสุดของตัวเอง: สีอ่อน = น้อย สีเข้ม = มาก',
+      legendTitleBin: 'เดือนที่มีการจับ', legendBin: 'มีสี = มีการจับ, ว่าง = ไม่มีการจับ', monthsCount: 'จับได้ {n} เดือน',
       peak: 'สูงสุด {x}',
-      tipValue: 'ค่า', tipPerDay: 'ต่อวัน', tipDays: '{d} วัน', tipRel: 'ค่าสัมพัทธ์ (ไม่แปลงเป็นต่อวัน)',
+      tipValue: 'ปริมาณการจับ', tipRel: 'ค่าสัมพัทธ์', tipCatch: 'มีการจับในเดือนนี้',
       noData: 'เพิ่มอย่างน้อยหนึ่งชนิดที่มีชื่อ เพื่อวาดปฏิทิน',
       loaded: 'โหลดข้อมูล {n} ชนิดแล้ว',
       errorsTitle: 'กรุณาตรวจสอบเซลล์ต่อไปนี้ (จะแสดงเป็นไม่มีการจับจนกว่าจะแก้ไข):',
@@ -153,10 +150,7 @@
     rows: [],            // [{ name: string, cells: string[12] }] — raw text, the table is the source of truth
     mode: 'auto',        // 'auto' | 'absolute' | 'percent'
     unit: 'kg',
-    leap: false,
-    scale: 'global',     // 'global' | 'per'
-    reverse: false,
-    track: true,
+    scale: 'global',     // 'global' | 'per' | 'binary' (catch / no catch)
     layout: 'bar',       // 'bar' | 'wheel'
     langSetting: 'auto', // 'auto' | 'th' | 'en'
     title: '',
@@ -165,6 +159,7 @@
   let analysis = { values: [], errors: [], detected: 'absolute' };
   let model = null;      // what the chart currently shows (used by tooltips and exports)
   let loadMsg = null;    // { type: 'info' | 'error', key, vars }
+  let autoBinary = false; // true while the 0/1 scale was picked automatically for 0/1 data
   let renderedWidth = 0;
 
   const $ = (sel) => document.querySelector(sel);
@@ -195,9 +190,10 @@
       b.setAttribute('aria-pressed', String(b.dataset.layout === state.layout));
     });
     const head = $('#data-table thead');
-    head.innerHTML = '<tr><th class="name-col">' + esc(t('animal')) + '</th>' +
+    head.innerHTML = '<tr><th></th><th class="name-col">' + esc(t('animal')) + '</th>' +
       MONTHS[L].map((m) => '<th>' + esc(m) + '</th>').join('') + '<th></th></tr>';
     document.querySelectorAll('.del-btn').forEach((b) => { b.title = t('deleteRow'); b.setAttribute('aria-label', t('deleteRow')); });
+    document.querySelectorAll('.drag-handle').forEach((b) => { b.title = t('dragRow'); b.setAttribute('aria-label', t('dragRow')); });
     $('#detected').textContent = t('detected', { x: t(analysis.detected === 'percent' ? 'detPct' : 'detAbs') });
   }
 
@@ -347,33 +343,29 @@
   }
 
   function buildModel() {
+    // Colours use the monthly values as entered: no per-day conversion, which could be misread.
     const mode = effectiveMode();
-    const days = MONTH_DAYS.slice();
-    if (state.leap) days[1] = 29;
     const series = [];
     state.rows.forEach((row, i) => {
       const name = row.name.trim();
       if (!name) return;
       const values = analysis.values[i];
-      const perDay = values.map((v, m) => (mode === 'percent' ? v : v / days[m]));
       series.push({
-        name, rowIndex: i, values, perDay,
-        max: d3.max(perDay) || 0,
+        name, rowIndex: i, values,
+        max: d3.max(values) || 0,
         color: PALETTE[series.length % PALETTE.length],
       });
     });
     const unit = state.unit.trim() || (lang() === 'th' ? 'หน่วย' : 'units');
     return {
-      series, mode, days, unit,
+      series, mode, unit,
       L: lang(),
       globalMax: d3.max(series, (s) => s.max) || 0,
-      rateUnit: mode === 'percent' ? t('pctUnit') : t('perDayUnit', { u: unit }),
+      rateUnit: mode === 'percent' ? t('pctUnit') : t('perMonthUnit', { u: unit }),
       title: state.title.trim(),
       subtitle: state.subtitle.trim(),
       scale: state.scale,
-      reverse: state.reverse,
       layout: state.layout,
-      track: state.track,
     };
   }
 
@@ -435,6 +427,13 @@
 
   // ---------- Drawing ----------
 
+  // Fill for a month with a catch: by amount on the global or per-species scale, or one solid colour in 0/1 mode.
+  function fillFor(m, s, v, col) {
+    if (m.scale === 'binary') return col(0.7);
+    const max = m.scale === 'global' ? m.globalMax : s.max;
+    return col(max ? v / max : 1);
+  }
+
   // Wheel layout: month 12 at the top, months clockwise, first species innermost. Returns the bottom y.
   function drawWheel(svg, defs, m, W, y, idp, compact) {
     const pad = 16;
@@ -469,29 +468,22 @@
     }
 
     const arc = d3.arc();
-    const ordered = m.reverse ? m.series.slice().reverse() : m.series;
-    ordered.forEach((s, k) => {
+    m.series.forEach((s, k) => {
       const ro = R - (n - 1 - k) * step;
       const ri = ro - band;
-      const sIndex = m.series.indexOf(s);
-      const max = m.scale === 'global' ? m.globalMax : s.max;
+      const sIndex = k;
       const col = ramp(s.color);
       const ring = wheel.append('g');
-
-      if (m.track) {
-        ring.append('path').attr('d', arc({ innerRadius: ri, outerRadius: ro, startAngle: 0, endAngle: TAU }))
-          .attr('fill', '#f1f3f5');
-      }
 
       const active = [];
       for (let p = 0; p < 12; p++) {
         const mi = monthAt(p);
-        const v = s.perDay[mi];
+        const v = s.values[mi];
         active.push(v > 0);
         if (!(v > 0)) continue;
         ring.append('path')
           .attr('d', arc({ innerRadius: ri, outerRadius: ro, startAngle: segStart(p), endAngle: segStart(p) + SEG }))
-          .attr('fill', col(max ? v / max : 1))
+          .attr('fill', fillFor(m, s, v, col))
           .attr('stroke', '#fff').attr('stroke-width', 1)
           .attr('data-k', sIndex).attr('data-m', mi);
       }
@@ -542,7 +534,7 @@
   // Bar layout: one row per species, months Jan–Dec left to right, first species at the top. Returns the bottom y.
   function drawBars(svg, m, W, y, compact) {
     const pad = 16;
-    const ordered = m.reverse ? m.series.slice().reverse() : m.series;
+    const ordered = m.series;
     const nameFs = compact ? 12 : 14;
     const longest = d3.max(ordered, (s) => textWidth(s.name, nameFs, 600)) || 0;
     const labelW = Math.min(W * (compact ? 0.3 : 0.26), Math.max(60, longest));
@@ -568,22 +560,16 @@
     }
 
     ordered.forEach((s, k) => {
-      const sIndex = m.series.indexOf(s);
-      const max = m.scale === 'global' ? m.globalMax : s.max;
+      const sIndex = k;
       const col = ramp(s.color);
       const yb = top + k * rowH + (rowH - barH) / 2;
       const row = g.append('g');
 
-      if (m.track) {
-        row.append('rect').attr('x', x0).attr('y', yb).attr('width', 12 * colW).attr('height', barH)
-          .attr('fill', '#f1f3f5');
-      }
-
-      const active = s.perDay.map((v) => v > 0);
-      s.perDay.forEach((v, mi) => {
+      const active = s.values.map((v) => v > 0);
+      s.values.forEach((v, mi) => {
         if (!(v > 0)) return;
         row.append('rect').attr('x', x0 + mi * colW).attr('y', yb).attr('width', colW).attr('height', barH)
-          .attr('fill', col(max ? v / max : 1))
+          .attr('fill', fillFor(m, s, v, col))
           .attr('stroke', '#fff').attr('stroke-width', 1)
           .attr('data-k', sIndex).attr('data-m', mi);
       });
@@ -646,10 +632,11 @@
     const unitText = m.rateUnit;
     svg.append('text').attr('x', pad).attr('y', y + 14).attr('font-size', 14).attr('font-weight', 600)
       .attr('fill', '#222831')
-      .text(m.mode === 'percent' ? t('legendTitlePct') : t('legendTitleAbs', { u: unitText }));
+      .text(m.scale === 'binary' ? t('legendTitleBin')
+        : m.mode === 'percent' ? t('legendTitlePct') : t('legendTitleAbs', { u: m.unit }));
     y += 22;
-    const note = m.scale === 'global'
-      ? t('legendGlobal', { max: fmtNum(m.globalMax) + (m.mode === 'percent' ? '%' : ' ' + unitText) })
+    const note = m.scale === 'binary' ? t('legendBin')
+      : m.scale === 'global' ? t('legendGlobal', { max: fmtNum(m.globalMax) + (m.mode === 'percent' ? '%' : ' ' + unitText) })
       : t('legendPer');
     svg.append('text').attr('x', pad).attr('y', y + 12).attr('font-size', 12).attr('fill', '#5f6b76')
       .text(fitText(note, 12, 400, W - 2 * pad));
@@ -671,15 +658,18 @@
       svg.append('rect').attr('x', x).attr('y', yy + 6).attr('width', barW).attr('height', 12).attr('rx', 2)
         .attr('fill', '#f1f3f5');
       svg.append('rect').attr('x', x).attr('y', yy + 6).attr('width', Math.max(0, barW * frac)).attr('height', 12).attr('rx', 2)
-        .attr('fill', `url(#${gid})`);
+        .attr('fill', m.scale === 'binary' ? col(0.7) : `url(#${gid})`);
       svg.append('rect').attr('x', x).attr('y', yy + 6).attr('width', barW).attr('height', 12).attr('rx', 2)
         .attr('fill', 'none').attr('stroke', d3.color(s.color).darker(0.8).formatHex()).attr('stroke-width', 0.8);
       const tx = x + barW + 8, tw = colW - barW - 14;
       svg.append('text').attr('x', tx).attr('y', yy + 13).attr('font-size', 13).attr('font-weight', 600)
         .attr('fill', labelColor(s.color)).text(fitText(s.name, 13, 600, tw));
       const peak = fmtNum(s.max) + (m.mode === 'percent' ? '%' : ' ' + unitText);
+      const sub = m.scale === 'binary'
+        ? t('monthsCount', { n: s.values.filter((v) => v > 0).length })
+        : t('peak', { x: peak });
       svg.append('text').attr('x', tx).attr('y', yy + 29).attr('font-size', 11).attr('fill', '#5f6b76')
-        .text(fitText(t('peak', { x: peak }), 11, 400, tw));
+        .text(fitText(sub, 11, 400, tw));
     });
     y += Math.ceil(n / cols) * itemH + 6;
 
@@ -730,12 +720,12 @@
     const raw = state.rows[s.rowIndex].cells[mi];
     const v = s.values[mi];
     let html = `<strong>${esc(s.name)}</strong>${esc(MONTHS_FULL[model.L][mi])}<br>`;
-    if (model.mode === 'percent') {
+    if (model.scale === 'binary') {
+      html += `<b>${esc(t('tipCatch'))}</b>`;
+    } else if (model.mode === 'percent') {
       html += `${esc(t('tipValue'))}: ${esc(fmtNum(v))}%<br><em>${esc(t('tipRel'))}</em>`;
     } else {
-      html += `${esc(t('tipValue'))}: ${esc(String(raw).trim() || fmtNum(v))} ${esc(model.unit)}<br>` +
-        `${esc(t('tipPerDay'))}: <b>${esc(fmtNum(s.perDay[mi]))} ${esc(model.rateUnit)}</b> ` +
-        `(÷ ${esc(t('tipDays', { d: model.days[mi] }))})`;
+      html += `${esc(t('tipValue'))}: <b>${esc(String(raw).trim() || fmtNum(v))} ${esc(model.rateUnit)}</b>`;
     }
     tooltipEl.innerHTML = html;
     tooltipEl.hidden = false;
@@ -775,6 +765,7 @@
   function buildTable() {
     tbody.innerHTML = state.rows.map((row, r) =>
       '<tr>' +
+      `<td class="row-drag"><button type="button" class="drag-handle" data-drag="${r}" title="${esc(t('dragRow'))}" aria-label="${esc(t('dragRow'))}">⋮⋮</button></td>` +
       `<td class="name-cell"><input type="text" data-r="${r}" data-c="-1" value="${esc(row.name)}" aria-label="${esc(t('animal'))} ${r + 1}"></td>` +
       row.cells.map((c, m) => `<td><input type="text" inputmode="decimal" data-r="${r}" data-c="${m}" value="${esc(c)}" aria-label="${esc(row.name)} ${esc(MONTHS.en[m])}"></td>`).join('') +
       `<td class="row-del"><button type="button" class="del-btn" data-del="${r}" title="${esc(t('deleteRow'))}" aria-label="${esc(t('deleteRow'))}">×</button></td>` +
@@ -810,6 +801,54 @@
     loadMsg = null;
     buildTable();
     update();
+  });
+
+  // Reordering: drag the ⋮⋮ handle (pointer events, so mouse, touch and pen all work),
+  // or focus it and press the up/down arrow keys.
+  function moveRow(from, to) {
+    if (to < 0 || to >= state.rows.length || to === from) return;
+    const [row] = state.rows.splice(from, 1);
+    state.rows.splice(to, 0, row);
+    loadMsg = null;
+    buildTable();
+    update();
+  }
+
+  let drag = null;
+  tbody.addEventListener('pointerdown', (e) => {
+    const h = e.target.closest('[data-drag]');
+    if (!h || e.button > 0) return;
+    e.preventDefault();
+    drag = { from: +h.dataset.drag, tr: h.closest('tr'), id: e.pointerId };
+    h.setPointerCapture(e.pointerId);
+    drag.tr.classList.add('dragging');
+  });
+  tbody.addEventListener('pointermove', (e) => {
+    if (!drag || e.pointerId !== drag.id) return;
+    // Slot the dragged row in after every other row whose midpoint is above the pointer.
+    const others = [...tbody.rows].filter((r) => r !== drag.tr);
+    const idx = others.filter((r) => { const b = r.getBoundingClientRect(); return b.top + b.height / 2 < e.clientY; }).length;
+    const ref = others[idx] || null;
+    if (drag.tr.nextElementSibling !== ref) tbody.insertBefore(drag.tr, ref);
+  });
+  function endDrag(e) {
+    if (!drag || e.pointerId !== drag.id) return;
+    const { from, tr } = drag;
+    drag = null;
+    tr.classList.remove('dragging');
+    const to = [...tbody.rows].indexOf(tr);
+    if (to !== from) moveRow(from, to);
+  }
+  tbody.addEventListener('pointerup', endDrag);
+  tbody.addEventListener('pointercancel', endDrag);
+  tbody.addEventListener('keydown', (e) => {
+    const h = e.target.closest('[data-drag]');
+    if (!h || (e.key !== 'ArrowUp' && e.key !== 'ArrowDown')) return;
+    e.preventDefault();
+    const from = +h.dataset.drag, to = from + (e.key === 'ArrowUp' ? -1 : 1);
+    moveRow(from, to);
+    const moved = tbody.querySelector(`[data-drag="${Math.max(0, Math.min(state.rows.length - 1, to))}"]`);
+    if (moved) moved.focus();
   });
 
   // Pasting a block copied from a spreadsheet into a cell fills the table from that cell;
@@ -848,6 +887,12 @@
       $('#title').value = $('#subtitle').value = '';
     }
     state.rows = rows;
+    // 0/1 data (catch or not) only makes sense on the catch / no-catch colour scale.
+    const cells = rows.flatMap((r) => r.cells.map(parseCell)).filter((p) => !p.error && !p.empty);
+    // Switching back only undoes our own automatic choice, never one the user made.
+    const binary = cells.some((p) => p.v === 1) && cells.every((p) => p.v === 0 || p.v === 1);
+    if (binary && state.scale !== 'binary') { setScale('binary'); autoBinary = true; }
+    else if (!binary && autoBinary) { setScale('global'); autoBinary = false; }
     loadMsg = { type: 'info', key: 'loaded', vars: { n: rows.filter((r) => r.name.trim()).length } };
     buildTable();
     update();
@@ -1071,11 +1116,15 @@
   $('#subtitle').addEventListener('input', (e) => { state.subtitle = e.target.value; scheduleUpdate(); });
   $('#unit').addEventListener('input', (e) => { state.unit = e.target.value; scheduleUpdate(); });
   $('#mode').addEventListener('change', (e) => { state.mode = e.target.value; update(); });
-  $('#leap').addEventListener('change', (e) => { state.leap = e.target.checked; update(); });
-  $('#reverse').addEventListener('change', (e) => { state.reverse = e.target.checked; update(); });
-  $('#track').addEventListener('change', (e) => { state.track = e.target.checked; update(); });
+  function setScale(v) {
+    state.scale = v;
+    const radio = document.querySelector(`input[name="scale"][value="${v}"]`);
+    if (radio) radio.checked = true;
+  }
+
   document.querySelectorAll('input[name="scale"]').forEach((el) => el.addEventListener('change', () => {
     state.scale = document.querySelector('input[name="scale"]:checked').value;
+    autoBinary = false;
     update();
   }));
 
