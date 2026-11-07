@@ -6,7 +6,7 @@ author_profile: false
 excerpt: "Turn a monthly catch table into a circular seasonal calendar."
 ---
 
-Turn a seasonal catch or harvest table (one row per species, one column per month) into a seasonal calendar, coloured by **catch per day**. Choose **horizontal bars** (one row per species, January to December) or a **wheel** (month 12 at the top, months clockwise, one ring per species). Your data stays in your browser.
+Turn a seasonal catch or harvest table (one row per species, one column per month) into a seasonal calendar, coloured by the **monthly catch**. Choose **horizontal bars** (one row per species, January to December) or a **wheel** (month 12 at the top, months clockwise, one ring per species). Your data stays in your browser.
 
 <a href="/assets/tools/agro-calendar/app.html?v={{ site.time | date: '%s' }}" target="_blank" style="display:inline-block; margin-bottom:1rem; padding:0.6rem 1.2rem; background:#52adc8; color:#fff; border-radius:6px; font-weight:600; text-decoration:none;">&#x26F6; Open in full window</a>
 &nbsp; <a href="/assets/tools/agro-calendar/sample.csv" download>Download sample CSV</a>
@@ -39,5 +39,5 @@ Turn a seasonal catch or harvest table (one row per species, one column per mont
 | ปูดำ | 20 | 35 | 40 | … | 10 |
 
 - First column: the species name. Other columns: months, with headers `1`–`12`, `Jan`–`Dec`, or `ม.ค.`–`ธ.ค.`.
-- Values can be absolute amounts (e.g. kg per month, converted to kg/day) or percentages (used as relative intensity).
+- Values can be absolute amounts (e.g. kg per month) or percentages (used as relative intensity).
 - A blank cell, `0` or `-` means no catch that month.

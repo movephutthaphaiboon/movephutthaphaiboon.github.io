@@ -204,6 +204,22 @@ table.data td input {
 table.data td.name-cell input { text-align: left; min-width: 120px; padding-left: 8px; }
 table.data td input.invalid { background: var(--error-soft); color: var(--error); font-weight: 600; }
 table.data td.row-del { width: 32px; text-align: center; }
+table.data td.row-drag { width: 28px; text-align: center; }
+.drag-handle {
+  border: 0;
+  background: none;
+  color: var(--muted);
+  cursor: grab;
+  touch-action: none;   /* let a finger drag the row instead of scrolling the page */
+  min-width: 32px;      /* comfortable touch target */
+  padding: 6px 8px;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: -3px;
+}
+.drag-handle:hover, .drag-handle:focus-visible { color: var(--accent); }
+.drag-handle:active { cursor: grabbing; }
+table.data tr.dragging td { background: var(--accent-soft); }
 table.data .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 2px; vertical-align: middle; }
 .del-btn { border: 0; background: none; color: var(--muted); font-size: 1.1rem; cursor: pointer; padding: 4px 8px; }
 .del-btn:hover { color: var(--error); }
