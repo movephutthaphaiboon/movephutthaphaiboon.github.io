@@ -1,5 +1,5 @@
 # Tools listed on /tools/. Add a new entry here to add a card.
-- title: "Agro Calendar Visualization"
+- title: "Agro/Fishing Calendar"
   url: /tools/agro-calendar/
   image: /assets/tools/agro-calendar/thumbnail.png
   type: "Data visualization"

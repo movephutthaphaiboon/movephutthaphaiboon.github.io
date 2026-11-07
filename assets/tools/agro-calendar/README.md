@@ -1,4 +1,4 @@
-# Agro Calendar Visualization
+# Agro/Fishing Calendar
 
 Live tool: <https://movephutthaphaiboon.github.io/tools/agro-calendar/>
 
