@@ -35,8 +35,8 @@ One row per species. The first column is the name, followed by one column per mo
 
 1. **Upload** a `.csv`, `.xlsx` or `.xls` file (the first sheet is used). CSV files can be UTF-8 or
    Thai Windows encoding (TIS-620 / Windows-874), and comma-, semicolon- or tab-separated.
-2. **Paste** a table copied from Excel or Google Sheets, or CSV text, into the *Paste* tab.
-3. **Edit** the on-page table directly. Pasting a block of cells into a table cell fills the table from that cell.
+2. **Edit** the on-page table directly. Pasting a block of cells copied from Excel or Google Sheets into a
+   table cell fills the table from that cell; pasting a whole table including its header row replaces the table.
    Drag the ⋮⋮ handle to reorder rows (or focus it and press ↑ / ↓); the chart follows the table order.
 
 ## How the colours are calculated
